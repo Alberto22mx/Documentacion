@@ -253,8 +253,17 @@ O podemos usar un comando que combina fetch y merge:
 
 </rich_text>
 	</node>
-	<node custom_icon_id="0" foreground="" is_bold="False" name="Ramas o branchs" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1582992418.21" ts_lastsave="1583125107.94" unique_id="10">
-		<rich_text>Realmente solo se tiene que practicar un poco con los comandos que ya se vieron.</rich_text>
+	<node custom_icon_id="0" foreground="" is_bold="False" name="Ramas o branchs" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1582992418.21" ts_lastsave="1583137316.28" unique_id="10">
+		<rich_text>Realmente solo se tiene que practicar un poco con los comandos que ya se vieron.
+
+</rich_text>
+		<rich_text foreground="#1e1ea4a4ffff">git branch</rich_text>
+		<rich_text> muestra las ramas
+
+</rich_text>
+		<rich_text foreground="#1e1ea4a4ffff">git branch nuevaRama</rich_text>
+		<rich_text> Crea una rama
+</rich_text>
 	</node>
 	<node custom_icon_id="0" foreground="" is_bold="False" name="SSH" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1583125133.03" ts_lastsave="1583125145.45" unique_id="11">
 		<rich_text>Primer paso: Generar tus llaves SSH.
