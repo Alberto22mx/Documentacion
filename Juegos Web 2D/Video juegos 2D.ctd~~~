@@ -1,0 +1,44 @@
+<?xml version="1.0" ?>
+<cherrytree>
+	<node custom_icon_id="0" foreground="" is_bold="False" name="Phaser" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1558878106.65" ts_lastsave="1558879617.16" unique_id="1">
+		<rich_text>Es un archivo js que nos ayuda a crear video juegos 2D lo podemos descargar de
+</rich_text>
+		<rich_text link="webs https://phaser.io/">https://phaser.io/</rich_text>
+		<rich_text>
+
+La estructura basica es:
+
+
+</rich_text>
+		<rich_text foreground="#adadd8d8e6e6">type</rich_text>
+		<rich_text> tiene los siguientes valores: Phaser.CANVAS, Phaser.WEBGL y Phaser.AUTO
+</rich_text>
+		<rich_text foreground="#ffffffff0000">width (ancho) y height</rich_text>
+		<rich_text> (alto) establecen el tamaño de la pantalla que usará Phase.</rich_text>
+		<codebox char_offset="125" frame_height="400" frame_width="700" highlight_brackets="True" show_line_numbers="False" syntax_highlighting="java" width_in_pixels="True">var config = {
+    type: Phaser.AUTO,
+    width: 800,
+    height: 600,
+    scene: {
+        preload: preload,
+        create: create,
+        update: update
+    }
+};
+
+var game = new Phaser.Game(config);
+
+function preload ()
+{
+}
+
+function create ()
+{
+}
+
+function update ()
+{
+}
+</codebox>
+	</node>
+</cherrytree>
