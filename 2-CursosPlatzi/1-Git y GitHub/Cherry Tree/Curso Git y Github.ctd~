@@ -1,8 +1,35 @@
 <?xml version="1.0" ?>
 <cherrytree>
-	<node custom_icon_id="0" foreground="" is_bold="False" name="Git y GitHub" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1582825752.58" ts_lastsave="1582827974.55" unique_id="1">
+	<node custom_icon_id="0" foreground="" is_bold="False" name="Git y GitHub" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1582825752.58" ts_lastsave="1583251195.17" unique_id="1">
 		<rich_text foreground="#1e1e9090ffff">Git es un software de control de versiones diseñado por Linus Torvalds</rich_text>
 		<rich_text>, pensando en la eficiencia y la confiabilidad del mantenimiento de versiones de aplicaciones cuando estas tienen un gran número de archivos de código fuente. En su lugar GitHub es una forja para alojar proyectos utilizando el sistema de control de versiones Git. GitHub sería la red social de código para los programadores, tu propio curriculum vitae.</rich_text>
+	</node>
+	<node custom_icon_id="0" foreground="" is_bold="False" name="tags" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1583251195.17" ts_lastsave="1583251197.66" unique_id="12">
+		<rich_text>Trae toda la historia con de commits de mi proyecto
+git log --all --graph --decorate --oneline
+Dentro de linux se pueden crear alias para los comandos como el anterior
+alias arbolito=&quot;git log --all --graph --decorate --oneline&quot;
+Para agregar tags:
+• Crear un nuevo tag y asignarlo a un commit: </rich_text>
+		<rich_text family="monospace">git tag -a nombre-del-tag id-del-commit</rich_text>
+		<rich_text>.
+• Borrar un tag en el repositorio local: </rich_text>
+		<rich_text family="monospace">git tag -d nombre-del-tag</rich_text>
+		<rich_text>.
+• Listar los tags de nuestro repositorio local: </rich_text>
+		<rich_text family="monospace">git tag</rich_text>
+		<rich_text> o </rich_text>
+		<rich_text family="monospace">git show-refs --tags</rich_text>
+		<rich_text>.
+• Publicar un tag en el repositorio remoto: </rich_text>
+		<rich_text family="monospace">git push origin --tags</rich_text>
+		<rich_text>.
+• Borrar un tag del repositorio remoto: </rich_text>
+		<rich_text family="monospace">git tag -d nombre-del-tag</rich_text>
+		<rich_text> y </rich_text>
+		<rich_text family="monospace">git push origin :refs/tags/nombre-del-tag</rich_text>
+		<rich_text>
+</rich_text>
 	</node>
 	<node custom_icon_id="0" foreground="" is_bold="False" name="Basico" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1582826331.58" ts_lastsave="1582829601.98" unique_id="2">
 		<rich_text>Comandos:
@@ -253,8 +280,17 @@ O podemos usar un comando que combina fetch y merge:
 
 </rich_text>
 	</node>
-	<node custom_icon_id="0" foreground="" is_bold="False" name="Ramas o branchs" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1582992418.21" ts_lastsave="1583125107.94" unique_id="10">
-		<rich_text>Realmente solo se tiene que practicar un poco con los comandos que ya se vieron.</rich_text>
+	<node custom_icon_id="0" foreground="" is_bold="False" name="Ramas o branchs" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1582992418.21" ts_lastsave="1583137316.28" unique_id="10">
+		<rich_text>Realmente solo se tiene que practicar un poco con los comandos que ya se vieron.
+
+</rich_text>
+		<rich_text foreground="#1e1ea4a4ffff">git branch</rich_text>
+		<rich_text> muestra las ramas
+
+</rich_text>
+		<rich_text foreground="#1e1ea4a4ffff">git branch nuevaRama</rich_text>
+		<rich_text> Crea una rama
+</rich_text>
 	</node>
 	<node custom_icon_id="0" foreground="" is_bold="False" name="SSH" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1583125133.03" ts_lastsave="1583125145.45" unique_id="11">
 		<rich_text>Primer paso: Generar tus llaves SSH.

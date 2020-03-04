@@ -1,8 +1,63 @@
 <?xml version="1.0" ?>
 <cherrytree>
-	<node custom_icon_id="0" foreground="" is_bold="False" name="Git y GitHub" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1582825752.58" ts_lastsave="1582827974.55" unique_id="1">
+	<node custom_icon_id="0" foreground="" is_bold="False" name="Git y GitHub" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1582825752.58" ts_lastsave="1583251195.17" unique_id="1">
 		<rich_text foreground="#1e1e9090ffff">Git es un software de control de versiones diseñado por Linus Torvalds</rich_text>
 		<rich_text>, pensando en la eficiencia y la confiabilidad del mantenimiento de versiones de aplicaciones cuando estas tienen un gran número de archivos de código fuente. En su lugar GitHub es una forja para alojar proyectos utilizando el sistema de control de versiones Git. GitHub sería la red social de código para los programadores, tu propio curriculum vitae.</rich_text>
+	</node>
+	<node custom_icon_id="0" foreground="" is_bold="False" name="tags" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1583251195.17" ts_lastsave="1583251224.11" unique_id="12">
+		<rich_text>Trae toda la historia con de commits de mi proyecto
+git log --all --graph --decorate --oneline
+Dentro de linux se pueden crear alias para los comandos como el anterior
+alias arbolito=&quot;git log --all --graph --decorate --oneline&quot;
+Para agregar tags:
+• Crear un nuevo tag y asignarlo a un commit: </rich_text>
+		<rich_text family="monospace">git tag -a nombre-del-tag id-del-commit</rich_text>
+		<rich_text>.
+• Borrar un tag en el repositorio local: </rich_text>
+		<rich_text family="monospace">git tag -d nombre-del-tag</rich_text>
+		<rich_text>.
+• Listar los tags de nuestro repositorio local: </rich_text>
+		<rich_text family="monospace">git tag</rich_text>
+		<rich_text> o </rich_text>
+		<rich_text family="monospace">git show-refs --tags</rich_text>
+		<rich_text>.
+• Publicar un tag en el repositorio remoto: </rich_text>
+		<rich_text family="monospace">git push origin --tags</rich_text>
+		<rich_text>.
+• Borrar un tag del repositorio remoto: </rich_text>
+		<rich_text family="monospace">git tag -d nombre-del-tag</rich_text>
+		<rich_text> y </rich_text>
+		<rich_text family="monospace">git push origin :refs/tags/nombre-del-tag</rich_text>
+		<rich_text>
+</rich_text>
+	</node>
+	<node custom_icon_id="0" foreground="" is_bold="False" name="Creación de git ignore" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1583251224.11" ts_lastsave="1583251285.57" unique_id="13">
+		<rich_text>Git ignore es un archivo en el que se escriben otros archivos que no se van a tomar en cuenta a la hora de subir archivo a github, el archivo debe llamarse haci:
+
+.gitignore
+
+se pueden ignoarar todas las imagenes con:
+*.jpg
+Se pueden ignorar las carpetas:
+/carpeta
+
+Y las imagenes se pueden publicar de forma esterna por ejemplo en:
+
+</rich_text>
+		<rich_text link="webs http://imgurl.com/">imgurl.com</rich_text>
+		<rich_text> se pueden referenciar imagenes.
+
+Para aprender mas es mejor ir a revisar otros proyectos de github.</rich_text>
+	</node>
+	<node custom_icon_id="0" foreground="" is_bold="False" name="Readme" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1583251285.57" ts_lastsave="1583251443.05" unique_id="14">
+		<rich_text>El readme es un archivo que contiene información de que es el proyecto y para generarlo se tiene que crear dicho archivo el cual cuenta con una sintaxis para dar formato al texto.
+Para facilitar la creación del readme usa el siguiente editor online:
+
+</rich_text>
+		<rich_text link="webs https://pandao.github.io/editor.md/en.html">https://pandao.github.io/editor.md/en.html</rich_text>
+		<rich_text>
+
+</rich_text>
 	</node>
 	<node custom_icon_id="0" foreground="" is_bold="False" name="Basico" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1582826331.58" ts_lastsave="1582829601.98" unique_id="2">
 		<rich_text>Comandos:

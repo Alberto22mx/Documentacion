@@ -68,11 +68,12 @@ Recupera los datos de un servidor
 		<rich_text link="webs https://git-scm.com/">https://git-scm.com/</rich_text>
 		<rich_text> y seguir los pasos de instalación.</rich_text>
 	</node>
-	<node custom_icon_id="0" foreground="" is_bold="False" name="Consola" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1582827974.55" ts_lastsave="1582828685.11" unique_id="4">
+	<node custom_icon_id="0" foreground="" is_bold="False" name="Consola" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1582827974.55" ts_lastsave="1582999982.44" unique_id="4">
 		<rich_text foreground="#1e1e9090ffff">mkdir nombreCarpeta</rich_text>
 		<rich_text> crea  un carpeta
 </rich_text>
-		<rich_text foreground="#1e1e9090ffff">pwr</rich_text>
+		<rich_text foreground="#1e1e9090ffff">pw</rich_text>
+		<rich_text foreground="#1e1ea4a4ffff">d</rich_text>
 		<rich_text> muestra la ruta actual
 </rich_text>
 		<rich_text foreground="#1e1e9090ffff">ls</rich_text>
@@ -215,7 +216,7 @@ Conclusión: Lo mejor que puedes hacer para salvar tu puesto y evitar un incendi
 </rich_text>
 		</node>
 	</node>
-	<node custom_icon_id="0" foreground="" is_bold="False" name="Flujo de trabajo" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1582832860.55" ts_lastsave="1582833431.61" unique_id="9">
+	<node custom_icon_id="0" foreground="" is_bold="False" name="Flujo de trabajo" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1582832860.55" ts_lastsave="1582992418.16" unique_id="9">
 		<rich_text>Debemos traer el repositorio para esto usamos:
 
 </rich_text>
@@ -251,5 +252,27 @@ O podemos usar un comando que combina fetch y merge:
 		<rich_text>
 
 </rich_text>
+	</node>
+	<node custom_icon_id="0" foreground="" is_bold="False" name="Ramas o branchs" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1582992418.21" ts_lastsave="1583125107.94" unique_id="10">
+		<rich_text>Realmente solo se tiene que practicar un poco con los comandos que ya se vieron.</rich_text>
+	</node>
+	<node custom_icon_id="0" foreground="" is_bold="False" name="SSH" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1583125133.03" ts_lastsave="1583125145.45" unique_id="11">
+		<rich_text>Primer paso: Generar tus llaves SSH.
+
+</rich_text>
+		<rich_text background="#333333">ssh-keygen -t rsa -b 4096 -C </rich_text>
+		<rich_text background="#333333" foreground="#a6e22e">&quot;tu@email.com&quot;</rich_text>
+		<rich_text>
+
+</rich_text>
+		<rich_text background="#333333" foreground="#75715e"># Encender el &quot;servidor&quot; de llaves SSH de tu computadora:</rich_text>
+		<rich_text background="#333333"> 
+</rich_text>
+		<rich_text background="#333333" foreground="#a6e22e">eval</rich_text>
+		<rich_text background="#333333"> $(ssh-agent -s)  
+</rich_text>
+		<rich_text background="#333333" foreground="#75715e"># Añadir tu llave SSH a este &quot;servidor&quot;:</rich_text>
+		<rich_text background="#333333"> 
+ssh-add ruta-donde-guardaste-tu-llave-privada</rich_text>
 	</node>
 </cherrytree>
