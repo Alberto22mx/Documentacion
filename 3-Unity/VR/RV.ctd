@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<cherrytree>
+	<node custom_icon_id="0" foreground="" is_bold="False" name="RV" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1585005904.99" ts_lastsave="1585006001.11" unique_id="1">
+		<rich_text>Bienvenida al curso y requisitos para utilizar el HTC ViveTe damos la bienvenida a este curso en el que aprenderemos paso a paso todo lo necesario para crear un sencillo videojuego en Realidad Virtual (VR) mediante el entorno de desarrollo de Unity, usando como headset, la HTC Vive y su SDK.
+Iniciaremos </rich_text>
+		<rich_text foreground="#1e1e9090ffff">descargando</rich_text>
+		<rich_text> e </rich_text>
+		<rich_text foreground="#1e1e9090ffff">instalando</rich_text>
+		<rich_text> la plataforma para videojuegos de </rich_text>
+		<rich_text foreground="#1e1e9090ffff">Steam</rich_text>
+		<rich_text>, la misma que típicamente utilizamos para jugar, pero que en esta ocasión nos permitirá disponer de un Plugin adicional que usaremos en nuestro proyecto.
+Este plugin identifica de forma automática los componentes de la HTC Vive y permite su configuración para el desarrollo con Unity. Si por alguna razón observas en algún momento una perdida de conexión con el headset, solo bastará con volver al plugin y reiniciarlo.
+Para la instalación y configuración básica de Unity puedes consultar la documentación oficial en el siguiente enlace:
+</rich_text>
+		<rich_text link="webs https://docs.unity3d.com/es/current/Manual/InstallingUnity.html">Descargando e Instalando Unity</rich_text>
+		<rich_text>
+
+
+</rich_text>
+		<rich_text link="webs https://store.steampowered.com/vr/">https://store.steampowered.com/vr/</rich_text>
+	</node>
+</cherrytree>
