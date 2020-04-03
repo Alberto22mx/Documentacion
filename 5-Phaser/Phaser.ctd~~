@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <cherrytree>
-	<node custom_icon_id="0" foreground="" is_bold="False" name="Phaser" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1585671608.38" ts_lastsave="1585673651.36" unique_id="1">
+	<node custom_icon_id="0" foreground="" is_bold="False" name="Phaser" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1585671608.38" ts_lastsave="1585850335.7" unique_id="1">
 		<rich_text></rich_text>
 		<node custom_icon_id="0" foreground="" is_bold="False" name="Instalación" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1585673645.17" ts_lastsave="1585841850.38" unique_id="3">
 			<rich_text>Lo primero que se necesita es instalar nodejs.</rich_text>
@@ -36,7 +36,7 @@ pg --new test
 
 poner datos de prueba y listo.</rich_text>
 			</node>
-			<node custom_icon_id="0" foreground="" is_bold="False" name="Estructura" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1585841850.38" ts_lastsave="1585845482.59" unique_id="5">
+			<node custom_icon_id="0" foreground="" is_bold="False" name="Estructura" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1585841850.38" ts_lastsave="1585846021.24" unique_id="5">
 				<rich_text>Una vez que se a descargado phaser correctamente ahora se tiene que crear la estrutura en donde emplearemos phaser.
 
 Para tener un buen orden tenemos que crear un index y dentro crear un div contenedor con la siguiente estructura:
@@ -50,6 +50,105 @@ Dentro del vamos la referencia hacia phaser y otro archivo que tambien tenemos q
 
 Una vez creada la carpeta src y el archivo main ahora hace falta la estructura basica de un proyecto phaser, dentreo de main debemos tener un codigp como el siguiente:
 
+</rich_text>
+				<rich_text foreground="#1e1e9090ffff">//Esta es la configuración que tendra tu juego los atributos son muy explicitos.
+const config = {
+    //Con figuración opcional
+    title: 'Curso phaser', //Titulo de tu juego
+    url: 'http://google.es',//Pagina de tu juego
+    version: '0.0.1', //Versión de tu juego
+    //Configuración necesaria
+    typo: Phaser.AUTO, //Tipo de rencerisado existen Phaser.AUTO, Phaser.CANVAS y Phaser.WEBGL
+    width: 640,
+    height: 360,
+    parent: 'contenedor', //En esta opción se tiene que colocar el id del div de en donde se va a renderizar el juego
+    pixelArt: true, //Solo se usa si esta desarrollado para pixelart
+    backgroundColor: '#34495e', //Cambia el color de fondo del juego
+    //Esto edita la información mostrada del proyecto en consola.
+    banner: {
+        hidePhaser: true,
+        text: '#fff00f',
+        background: ['#ff0000'] //Pedemos pasar varios colores
+    },
+
+    scene: {} //Aqui se crean los mundos de phaser por escenas
+};
+
+//Por ultimos instanciamos Phaser para crear el primer proyecto
+const game = new Phaser.Game(config);</rich_text>
+				<rich_text>
+
+Vamos a descargar las definiciones de phaser para el autocompletado lo podemos descargar del curso de phaser.
+
+Creamos una carpeta llamada def y colocamos el archivo.
+
+ahora al nivel del proyecto creamos un archivos llamado jsconfig.json y dentro escribimos solo {} y lo guardamos.
+
+</rich_text>
+			</node>
+		</node>
+		<node custom_icon_id="0" foreground="" is_bold="False" name="Escenas" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1585847636.46" ts_lastsave="1585849305.0" unique_id="6">
+			<rich_text>Para tener un buen contros de las escenas vamos a crear su propia carpeta llamada scenes, detro vamos a colocar todas las escenas.
+
+Las escenas son archivos con extención js con algunas configuración que se veran en los ejemplos.
+
+Estas escenas creadas dentro de la nueva carpeta son las que vamos a usar dentro de la configuración que usemos para nuestro videojuegos.
+
+Para complementar la información de las escenas es necesario que se descarque el proyecto que cuenta con todas estructura de forma detallada:
+
+</rich_text>
+			<rich_text link="webs https://github.com/Alberto22mx/Phaser.git">https://github.com/Alberto22mx/Phaser.git</rich_text>
+			<node custom_icon_id="0" foreground="" is_bold="False" name="ejemplos" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1585848632.28" ts_lastsave="1585850157.5" unique_id="7">
+				<rich_text></rich_text>
+				<node custom_icon_id="0" foreground="" is_bold="False" name="1" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1585849553.03" ts_lastsave="1585849557.06" unique_id="8">
+					<rich_text>//Esta es la configuración que tendra tu juego los atributos son muy explicitos.
+const config = {
+    //Con figuración opcional
+    title: 'Curso phaser', //Titulo de tu juego
+    url: 'http://google.es',//Pagina de tu juego
+    version: '0.0.1', //Versión de tu juego
+    //Configuración necesaria
+    typo: Phaser.AUTO, //Tipo de rencerisado existen Phaser.AUTO, Phaser.CANVAS y Phaser.WEBGL
+    width: 640,
+    height: 360,
+    parent: 'contenedor', //En esta opción se tiene que colocar el id del div de en donde se va a renderizar el juego
+    pixelArt: true, //Solo se usa si esta desarrollado para pixelart
+    backgroundColor: '#34495e', //Cambia el color de fondo del juego
+    //Esto edita la información mostrada del proyecto en consola.
+    banner: {
+        hidePhaser: true,
+        text: '#fff00f',
+        background: ['#ff0000'] //Pedemos pasar varios colores
+    },
+    //Aqui se crean los mundos de phaser por escenas
+    scene: {
+        init,
+        preload,
+        create,
+        update
+    }
+};
+
+//Por ultimos instanciamos Phaser para crear el primer proyecto
+const game = new Phaser.Game(config);
+
+function init() {
+    console.log('Init');
+}
+function preload() {
+    console.log('preloas');
+}
+function create() {
+  console.log('create');
+}
+function update(time, delta) {
+    
+}</rich_text>
+				</node>
+				<node custom_icon_id="0" foreground="" is_bold="False" name="Escenas separadas" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1585850157.5" ts_lastsave="1585850159.46" unique_id="9">
+					<rich_text>Para crear multiples escenas es necesario importar desde el main:
+
+import Bootloader from './../scenes/Bootloader.js';
 //Esta es la configuración que tendra tu juego los atributos son muy explicitos.
 const config = {
     //Con figuración opcional
@@ -62,20 +161,112 @@ const config = {
     height: 360,
     parent: 'contenedor', //En esta opción se tiene que colocar el id del div de en donde se va a renderizar el juego
     pixelArt: true, //Solo se usa si esta desarrollado para pixelart
-    scene: {} //Aqui se crean los mundos de phaser por escenas
+    backgroundColor: '#34495e', //Cambia el color de fondo del juego
+    //Esto edita la información mostrada del proyecto en consola.
+    banner: {
+        hidePhaser: true,
+        text: '#fff00f',
+        background: ['#ff0000'] //Pedemos pasar varios colores
+    },
+    //Aqui se crean los mundos de phaser por escenas
+    scene: [Bootloader]
 };
 
 //Por ultimos instanciamos Phaser para crear el primer proyecto
 const game = new Phaser.Game(config);
 
-Vamos a descargar las definiciones de phaser para el autocompletado lo podemos descargar del curso de phaser.
+Tambien exportar desdes la escena:
 
-Creamos una carpeta llamada def y colocamos el archivo.
+class Bootloader extends Phaser.Scene {
+    constructor(){
+        super({
+            key: 'Bootloader'
+        });
+    }
+    init(){
+        console.log(&quot;init&quot;);
+    }
+    preload() {
+        console.log(&quot;preload&quot;);
+    }
+    create(){
+        console.log(&quot;create&quot;);
+    }
+    update(time, delta){
 
-ahora al nivel del proyecto creamos un archivos llamado jsconfig.json y dentro escribimos solo {} y lo guardamos.
+    }
+}
+export default Bootloader;
+
+y agregar type=&quot;module&quot; a la etiqueta src del main en el index.
 
 </rich_text>
+					<rich_text foreground="#808080">&lt;</rich_text>
+					<rich_text foreground="#569cd6">script</rich_text>
+					<rich_text foreground="#d4d4d4"> </rich_text>
+					<rich_text foreground="#9cdcfe">src</rich_text>
+					<rich_text foreground="#d4d4d4">=</rich_text>
+					<rich_text foreground="#ce9178">&quot;./src/main.js&quot;</rich_text>
+					<rich_text foreground="#d4d4d4"> </rich_text>
+					<rich_text foreground="#9cdcfe">type</rich_text>
+					<rich_text foreground="#d4d4d4">=</rich_text>
+					<rich_text foreground="#ce9178">&quot;module&quot;</rich_text>
+					<rich_text foreground="#808080">&gt;&lt;/</rich_text>
+					<rich_text foreground="#569cd6">script</rich_text>
+					<rich_text foreground="#808080">&gt;</rich_text>
+				</node>
 			</node>
+		</node>
+		<node custom_icon_id="0" foreground="" is_bold="False" name="Cargar sprites" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1585850335.7" ts_lastsave="1585860144.63" unique_id="10">
+			<rich_text>Para la comprensión de todos los aspectos de el uso de sprites tenemos que ver la documentasión:
+
+</rich_text>
+			<rich_text link="webs https://photonstorm.github.io/phaser3-docs/Phaser.GameObjects.Image.html">https://photonstorm.github.io/phaser3-docs/Phaser.GameObjects.Image.html</rich_text>
+			<rich_text>
+</rich_text>
+			<rich_text link="file QzpcVXNlcnNcVWx0cm9uXERvY3VtZW50c1xHaXRcRG9jdW1lbnRhY2lvblw1LVBoYXNlclxvcmlnaW5hbC5wZGY=">PDF</rich_text>
+			<rich_text>
+
+</rich_text>
+			<codebox char_offset="176" frame_height="500" frame_width="700" highlight_brackets="True" show_line_numbers="False" syntax_highlighting="js" width_in_pixels="True">class Bootloader extends Phaser.Scene {
+    constructor(){
+        super({
+            key: 'Bootloader'
+        });
+    }
+    init(){
+        console.log(&quot;init&quot;);
+    }
+    preload() {
+        console.log(&quot;preload&quot;);
+        this.load.path = './src/assets/';//Sirve para crear la ruta de las imagenes
+        //load.image('cubix_fondo', 'cubix_fondo.png');//Con esto creamos la imagen
+        //this.load.image('cubix');//Tambien phaser internamente crea las extenciones por lo que se puede sar solo su nombre
+        this.load.image(['cubix_fondo', 'cubix'])//Esta es otra opción más corta para cargar imagenes equivalente a las dos lineas anteriores
+    }
+    create(){
+        console.log(&quot;create&quot;);
+        this.cubix_fondo = this.add.image(100, 100, 'cubix_fondo');//Crea la imagen y la posiciona
+        this.cubix = this.add.image(130, 130, 'cubix');//Crea la imagen y la posiciona
+
+        this.cubix.setOrigin(1);//Cambia el punto de origne de la imagen, 1 toma las coordenadas hasta abajo a la derecha equivalente a transform-origin: bottom left; los valores van de 0 a 1
+        this.cubix.flipX = true;//Voltea la imagen, tambien tiene flipY para voltear de cabeza
+        this.cubix.setVisible(1);//Oculta una imagen 1 es visible 0 la oculta pero la imagen sigue ahi.
+        this.cubix.setScale(2);//Escala una imagen. se puede escalar en X e Y. (2, 1)
+        //this.cubix.setAlpha(0);//Transparencia de 1 a 0
+        this.cubix.setTint(0xff0000);//Tinta la imagen es decir cambia el color hacia el que se declara pero solo funciona en WEBGl
+        this.cubix.x = 200; //Mueve la imagen. tambien exite y
+        //this.cubix.angle = 10;//Angulo
+        //this.cubix.rotation = 10;//rotación
+        this.cubix.setDepth(1);//Propiedades iguales a z-index
+        this.cubix_fondo.setDepth(2);//Propiedades iguales a z-index
+        console.log(this.cubix);//Podemos ver que propiedades tiene.
+    }
+    update(time, delta){
+
+    }
+}
+export default Bootloader;</codebox>
 		</node>
 	</node>
 </cherrytree>
