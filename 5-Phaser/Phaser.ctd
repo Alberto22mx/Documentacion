@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <cherrytree>
-	<node custom_icon_id="0" foreground="" is_bold="False" name="Phaser" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1585671608.38" ts_lastsave="1585860201.43" unique_id="1">
+	<node custom_icon_id="0" foreground="" is_bold="False" name="Phaser" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1585671608.38" ts_lastsave="1586275757.76" unique_id="1">
 		<rich_text></rich_text>
 		<node custom_icon_id="0" foreground="" is_bold="False" name="Instalación" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1585673645.17" ts_lastsave="1585841850.38" unique_id="3">
 			<rich_text>Lo primero que se necesita es instalar nodejs.</rich_text>
@@ -217,7 +217,7 @@ y agregar type=&quot;module&quot; a la etiqueta src del main en el index.
 				</node>
 			</node>
 		</node>
-		<node custom_icon_id="0" foreground="" is_bold="False" name="Cargar sprites" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1585850335.7" ts_lastsave="1585860144.63" unique_id="10">
+		<node custom_icon_id="0" foreground="" is_bold="False" name="Cargar sprites" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1585850335.7" ts_lastsave="1586188588.64" unique_id="10">
 			<rich_text>Para la comprensión de todos los aspectos de el uso de sprites tenemos que ver la documentasión:
 
 </rich_text>
@@ -268,6 +268,19 @@ y agregar type=&quot;module&quot; a la etiqueta src del main en el index.
     }
 }
 export default Bootloader;</codebox>
+			<node custom_icon_id="0" foreground="" is_bold="False" name="animar sprites" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1586188588.64" ts_lastsave="1586188592.64" unique_id="15">
+				<rich_text></rich_text>
+				<node custom_icon_id="0" foreground="" is_bold="False" name="Atlas" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1586188605.63" ts_lastsave="1586188642.5" unique_id="16">
+					<rich_text>Para creación de atlas usamos la siguiente pagina:
+
+</rich_text>
+					<rich_text link="webs https://gammafp.com/tool/atlas-packer/">https://gammafp.com/tool/atlas-packer/</rich_text>
+					<rich_text>
+
+</rich_text>
+					<rich_text link="webs https://gammafp.com/tools/">https://gammafp.com/tools/</rich_text>
+				</node>
+			</node>
 		</node>
 		<node custom_icon_id="0" foreground="" is_bold="False" name="Input/control" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1585860201.43" ts_lastsave="1585860314.44" unique_id="11">
 			<rich_text></rich_text>
@@ -303,6 +316,94 @@ export default Bootloader;</codebox>
 			<node custom_icon_id="0" foreground="" is_bold="False" name="Drag and drop" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1585860314.44" ts_lastsave="1585860314.44" unique_id="14">
 				<rich_text></rich_text>
 			</node>
+		</node>
+		<node custom_icon_id="0" foreground="" is_bold="False" name="Interpolaciones" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1586194032.37" ts_lastsave="1586195403.16" unique_id="17">
+			<rich_text>Los tweens o interpolaciones nos ayuda a llegar de una fase a otra de manera gradual.
+
+tipo de interpolación:
+Power0 
+    Power1 
+    Power2 
+    Power3 
+    Power4 
+    Linear 
+    Quad 
+    Cubic 
+    Quart 
+    Quint 
+    Sine 
+    Expo 
+    Circ 
+    Elastic 
+    Back 
+    Bounce 
+    Stepped 
+    Quad.easeIn 
+    Cubic.easeIn 
+    Quart.easeIn 
+    Quint.easeIn 
+    Sine.easeIn 
+    Expo.easeIn 
+    Circ.easeIn 
+    Elastic.easeIn 
+    Back.easeIn 
+    Bounce.easeIn 
+    
+    Quad.easeOut 
+    Cubic.easeOut 
+    Quart.easeOut 
+    Quint.easeOut 
+    Sine.easeOut 
+    Expo.easeOut 
+    Circ.easeOut 
+    Elastic.easeOut 
+    Back.easeOut 
+    Bounce.easeOut 
+
+    Quad.easeInOut 
+    Cubic.easeInOut 
+    Quart.easeInOut 
+    Quint.easeInOut 
+    Sine.easeInOut 
+    Expo.easeInOut 
+    Circ.easeInOut 
+    Elastic.easeInOut 
+    Back.easeInOut 
+    Bounce.easeInOut</rich_text>
+		</node>
+		<node custom_icon_id="0" foreground="" is_bold="False" name="Subir juego" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1586214810.12" ts_lastsave="1586214826.97" unique_id="18">
+			<rich_text>Es una pagina que nos permite publicar nuestro juegos y obtener ganancias de el:
+
+</rich_text>
+			<rich_text link="webs https://itch.io/">https://itch.io/</rich_text>
+		</node>
+		<node custom_icon_id="0" foreground="" is_bold="False" name="Crear funtes" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1586275757.76" ts_lastsave="1586275773.58" unique_id="19">
+			<rich_text>Esta pagina nos permite crear funtes personalizadas:
+
+</rich_text>
+			<rich_text link="webs http://ttf2png.ga/">http://ttf2png.ga/</rich_text>
+			<rich_text>
+
+para cargar las fuentes personalizadas y poder usar las en phaser se tienen que cargar en el index con el siguite codigo:
+
+</rich_text>
+			<rich_text foreground="#c586c0">@font-face</rich_text>
+			<rich_text foreground="#d4d4d4"> {</rich_text>
+			<rich_text>
+    </rich_text>
+			<rich_text foreground="#9cdcfe">font-family</rich_text>
+			<rich_text foreground="#d4d4d4">: </rich_text>
+			<rich_text foreground="#ce9178">'IndieFlower'</rich_text>
+			<rich_text foreground="#d4d4d4">;</rich_text>
+			<rich_text>
+    </rich_text>
+			<rich_text foreground="#9cdcfe">src</rich_text>
+			<rich_text foreground="#d4d4d4">: </rich_text>
+			<rich_text foreground="#dcdcaa">url</rich_text>
+			<rich_text foreground="#d4d4d4">(</rich_text>
+			<rich_text foreground="#ce9178">'./IndieFlower.ttf'</rich_text>
+			<rich_text foreground="#d4d4d4">);        
+}</rich_text>
 		</node>
 	</node>
 </cherrytree>
