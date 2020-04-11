@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <cherrytree>
-	<node custom_icon_id="0" foreground="" is_bold="False" name="Phaser" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1585671608.38" ts_lastsave="1586194032.37" unique_id="1">
+	<node custom_icon_id="0" foreground="" is_bold="False" name="Phaser" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1585671608.38" ts_lastsave="1586214810.12" unique_id="1">
 		<rich_text></rich_text>
 		<node custom_icon_id="0" foreground="" is_bold="False" name="Instalación" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1585673645.17" ts_lastsave="1585841850.38" unique_id="3">
 			<rich_text>Lo primero que se necesita es instalar nodejs.</rich_text>
@@ -370,6 +370,12 @@ Power0
     Elastic.easeInOut 
     Back.easeInOut 
     Bounce.easeInOut</rich_text>
+		</node>
+		<node custom_icon_id="0" foreground="" is_bold="False" name="Subir juego" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1586214810.12" ts_lastsave="1586214826.97" unique_id="18">
+			<rich_text>Es una pagina que nos permite publicar nuestro juegos y obtener ganancias de el:
+
+</rich_text>
+			<rich_text link="webs https://itch.io/">https://itch.io/</rich_text>
 		</node>
 	</node>
 </cherrytree>

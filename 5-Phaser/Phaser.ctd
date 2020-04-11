@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <cherrytree>
-	<node custom_icon_id="0" foreground="" is_bold="False" name="Phaser" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1585671608.38" ts_lastsave="1586275757.76" unique_id="1">
+	<node custom_icon_id="0" foreground="" is_bold="False" name="Phaser" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1585671608.38" ts_lastsave="1586303687.26" unique_id="1">
 		<rich_text></rich_text>
 		<node custom_icon_id="0" foreground="" is_bold="False" name="Instalación" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1585673645.17" ts_lastsave="1585841850.38" unique_id="3">
 			<rich_text>Lo primero que se necesita es instalar nodejs.</rich_text>
@@ -404,6 +404,15 @@ para cargar las fuentes personalizadas y poder usar las en phaser se tienen que 
 			<rich_text foreground="#ce9178">'./IndieFlower.ttf'</rich_text>
 			<rich_text foreground="#d4d4d4">);        
 }</rich_text>
+		</node>
+		<node custom_icon_id="0" foreground="" is_bold="False" name="Audios" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1586303687.26" ts_lastsave="1586303697.94" unique_id="20">
+			<rich_text>Para los audios se usa la siguiente pagina:
+
+</rich_text>
+			<rich_text link="webs https://gammafp.github.io/audio-sprite-gamma/">https://gammafp.github.io/audio-sprite-gamma/</rich_text>
+			<rich_text>
+
+esto nos ayuda a unir los audios y los separa como si fueran sprites.</rich_text>
 		</node>
 	</node>
 </cherrytree>

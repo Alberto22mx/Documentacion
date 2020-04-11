@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <cherrytree>
-	<node custom_icon_id="0" foreground="" is_bold="False" name="Phaser" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1585671608.38" ts_lastsave="1586214810.12" unique_id="1">
+	<node custom_icon_id="0" foreground="" is_bold="False" name="Phaser" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1585671608.38" ts_lastsave="1586275757.76" unique_id="1">
 		<rich_text></rich_text>
 		<node custom_icon_id="0" foreground="" is_bold="False" name="Instalación" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1585673645.17" ts_lastsave="1585841850.38" unique_id="3">
 			<rich_text>Lo primero que se necesita es instalar nodejs.</rich_text>
@@ -376,6 +376,34 @@ Power0
 
 </rich_text>
 			<rich_text link="webs https://itch.io/">https://itch.io/</rich_text>
+		</node>
+		<node custom_icon_id="0" foreground="" is_bold="False" name="Crear funtes" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1586275757.76" ts_lastsave="1586275773.58" unique_id="19">
+			<rich_text>Esta pagina nos permite crear funtes personalizadas:
+
+</rich_text>
+			<rich_text link="webs http://ttf2png.ga/">http://ttf2png.ga/</rich_text>
+			<rich_text>
+
+para cargar las fuentes personalizadas y poder usar las en phaser se tienen que cargar en el index con el siguite codigo:
+
+</rich_text>
+			<rich_text foreground="#c586c0">@font-face</rich_text>
+			<rich_text foreground="#d4d4d4"> {</rich_text>
+			<rich_text>
+    </rich_text>
+			<rich_text foreground="#9cdcfe">font-family</rich_text>
+			<rich_text foreground="#d4d4d4">: </rich_text>
+			<rich_text foreground="#ce9178">'IndieFlower'</rich_text>
+			<rich_text foreground="#d4d4d4">;</rich_text>
+			<rich_text>
+    </rich_text>
+			<rich_text foreground="#9cdcfe">src</rich_text>
+			<rich_text foreground="#d4d4d4">: </rich_text>
+			<rich_text foreground="#dcdcaa">url</rich_text>
+			<rich_text foreground="#d4d4d4">(</rich_text>
+			<rich_text foreground="#ce9178">'./IndieFlower.ttf'</rich_text>
+			<rich_text foreground="#d4d4d4">);        
+}</rich_text>
 		</node>
 	</node>
 </cherrytree>

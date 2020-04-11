@@ -317,9 +317,10 @@ export default Bootloader;</codebox>
 				<rich_text></rich_text>
 			</node>
 		</node>
-		<node custom_icon_id="0" foreground="" is_bold="False" name="Interpolaciones" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1586194032.37" ts_lastsave="1586195383.22" unique_id="17">
+		<node custom_icon_id="0" foreground="" is_bold="False" name="Interpolaciones" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1586194032.37" ts_lastsave="1586195403.16" unique_id="17">
 			<rich_text>Los tweens o interpolaciones nos ayuda a llegar de una fase a otra de manera gradual.
 
+tipo de interpolación:
 Power0 
     Power1 
     Power2 
