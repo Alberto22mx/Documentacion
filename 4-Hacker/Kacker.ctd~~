@@ -30,7 +30,7 @@ ls -R - Muestra el contenido de todos los subdirectorios de forma recursiva.
 ls -S - Ordena los resultados por tamaño de archivo.</rich_text>
 			</node>
 		</node>
-		<node custom_icon_id="0" foreground="" is_bold="False" name="Archivos" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1585153048.54" ts_lastsave="1585251762.74" unique_id="4">
+		<node custom_icon_id="0" foreground="" is_bold="False" name="Archivos" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1585153048.54" ts_lastsave="1585270385.08" unique_id="4">
 			<rich_text>nano archivo.txt - Edita un archivo tambien crear el archivo si no exite pero solo funciona con cygwinsg
 vim archivo.txt - Edita un archivo para guardar tenemos que usar la tecla Esc y luego escribir dos puentos :w y :q para salir.
 
@@ -54,7 +54,7 @@ grep textoBuscado dum1.sq - Permite trabajar con expresiones regulares.
     grep -i textoBuscado dum1.sq - Con -i busca si tomas encuen si hay mayusculas.
 sed ‘s/Parabra/Cambio/g’ archivo.txt - Crea un nuevo flujo con la sustitución de la palabra.
 awk -F ‘;’  ‘{ print $1 }’ nuevasPelis.csv - Trae solo la primera columna usa un delimitardo y una funcion como script.</rich_text>
-			<node custom_icon_id="0" foreground="" is_bold="False" name="compresión y combinación" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1585269694.46" ts_lastsave="1585269701.93" unique_id="11">
+			<node custom_icon_id="0" foreground="" is_bold="False" name="compresión y combinación" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1585269694.46" ts_lastsave="1585270306.47" unique_id="11">
 				<rich_text>Para comprimir un archivo usamos gzip:
 
 gzip archivo.txt
@@ -68,6 +68,7 @@ tar tf backup.tar
 tar xf backup.tar
 
 tar czf backup.tgz backup/* - Es una combinación de comprimir y juntar archivos.
+tar xzf bacup.tgz
 
 Compresión de archivos
 gzip archivo.txt crea un archivo .gz comprimido de la version archivo
@@ -78,6 +79,9 @@ tar xf backup.tar extraer los archivos de paquete
 *tar czf backup.tgz ** learning/ comprime y empaqueta los archivos de una carpeta
 **tar xzf backup.tgz ** descomprime los archivos y los extrae
 </rich_text>
+			</node>
+			<node custom_icon_id="0" foreground="" is_bold="False" name="Buquedas" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1585270385.08" ts_lastsave="1585270385.08" unique_id="12">
+				<rich_text></rich_text>
 			</node>
 		</node>
 		<node custom_icon_id="0" foreground="" is_bold="False" name="Ejecutar mysql" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1585261344.96" ts_lastsave="1585261347.81" unique_id="7">

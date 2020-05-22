@@ -1,0 +1,637 @@
+<?xml version="1.0" ?>
+<cherrytree>
+	<node custom_icon_id="0" foreground="" is_bold="False" name="Hacking etico" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1585152963.45" ts_lastsave="1590102201.37" unique_id="1">
+		<rich_text></rich_text>
+		<node custom_icon_id="0" foreground="" is_bold="False" name="Introducccion" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1589925539.08" ts_lastsave="1589925617.09" unique_id="13">
+			<rich_text></rich_text>
+			<node custom_icon_id="0" foreground="" is_bold="False" name="Nociones" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1589925617.09" ts_lastsave="1590095288.12" unique_id="14">
+				<rich_text scale="h1">Ambitos de seguridad.</rich_text>
+				<rich_text>
+
+Cuando hablamos de seguridad es importe conocer en que consiste la seguridad y los diferentes ambitos que abarca.
+
+Ambito Fisico.
+
+    Instrusión fisica:
+    Análisis perimetral de seguridad.
+    Identificación de accesos alternativos.
+    Evasión de control RFID/NFC.
+    Evasión de control biometrico.
+    Evaluación de sistemas embebidos.
+    Análisis de redes wireles.
+    Control remoto de CTV.
+    Análisis de entornos industriales.
+
+Ambito Digital.
+
+    Intrusión Digital:
+    Anonimización de las comunicaciones.
+    Análisis de sistemas perimetrales.
+    Análisis de servidores públicos.
+    Intrusión y control de dominios internos.
+    Control a sistemas industriales.
+    Control de sistemas mainframe.
+    Desarrollo de exploits propios.
+    
+Ambito Humano.
+    
+    Ingenieria :
+    Desarrollo de campañas de phishing.
+    Envío de spear-phishing.
+    Envio de malware personalizado.
+    Despliegue de dispositivos USB Cebo.
+    Acciones Vishing personalizado.
+    Escenario personal de Ingenieria social.
+    Análisis de leaks y datos filtrados.
+    
+    
+</rich_text>
+				<rich_text scale="h1">Tipos de servicios de seguridad.</rich_text>
+				<rich_text>
+
+</rich_text>
+				<rich_text scale="h2">Pruebas acotadas dentro de Hacking Etico.</rich_text>
+				<rich_text>
+    
+</rich_text>
+				<rich_text scale="h3">Ejercicios de Red Team.</rich_text>
+				<rich_text>
+    
+• Simulación de intrusión real donde la empresa desconoce las accciones que van a ser realizadas, cuando y por quien.
+        
+</rich_text>
+				<rich_text scale="h3">Test de intrusión.</rich_text>
+				<rich_text>
+    
+• Pruebas de intrusión con alcance acotado (externo, wifi...) donde éxiste colaboración entre el auditor y la empresa.
+        
+</rich_text>
+				<rich_text scale="h3">Au</rich_text>
+				<rich_text>ditoria de Vulnerabilidades.
+
+• Identificación de vulnerabiliades conocidad.
+• Colaboración entre el auditor y la empresa.
+
+</rich_text>
+				<rich_text scale="h1">Auditoría de seguridad.</rich_text>
+				<rich_text>
+
+Limitado a activos muy concretos | Alcance
+Un único ámbito de actuación bien definido | Ámbito
+La organización es conocedora de todos los detalles | Detalles
+Únicamente verificación de vulnerabilidades | Ventores
+Muy acotadas(dias) | Tiempo
+
+</rich_text>
+				<rich_text scale="h1">Test de intrusión.</rich_text>
+				<rich_text>
+
+Activos especificos dentro de un escenario | Alcance
+Un único ámbito de actuación bien definido | Ámbito
+La organización es conocedora de parte de los detalles | Detalles
+Verificación y explotación de vulnerabilidades | Vectores
+Limitado a semanas | Tiempo
+
+</rich_text>
+				<rich_text scale="h1">Ejercicios de Red Team.</rich_text>
+				<rich_text>
+
+Completo | Alcance
+Cualquier ambito de actuación | Ámbito
+Pocas personas conocen los detalles del proyecto | Detalles
+Vectores multidimensionales | Vectores
+Meses | Tiempo (2 a 4 meses)
+
+</rich_text>
+				<rich_text scale="h1">Tipo de enfoques</rich_text>
+				<rich_text>
+
+Caja Negra: Desconocimiento completo de cualquier información referente al activo.
+Caja Negra con Post-Autenticación: Únicamente conocimiento de credenciales para acceso.
+Caja Gris: Conocimiento parcial del activo a auditar.
+Caja Blanca: Conocimiento completo del activo.
+
+
+
+
+
+
+
+</rich_text>
+				<node custom_icon_id="0" foreground="" is_bold="False" name="email" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1589930051.4" ts_lastsave="1589930451.96" unique_id="15">
+					<rich_text scale="h2">Mailinator: Es un correo publico que puede ver cualquier persona.</rich_text>
+					<rich_text>
+</rich_text>
+					<rich_text scale="h2">Receive FREE SMS online: Recibe mensajes sms.</rich_text>
+					<rich_text>
+
+</rich_text>
+				</node>
+				<node custom_icon_id="0" foreground="" is_bold="False" name="Vectores de ataque" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1589931571.71" ts_lastsave="1589932453.86" unique_id="16">
+					<rich_text scale="h2">Tipos de ataques:</rich_text>
+					<rich_text>
+
+Dirigidos.
+
+    Atacan a una empresa en particular.
+
+No dirigidos.
+
+    Atacan a la mayor cantidad dispositivos.
+    
+</rich_text>
+					<rich_text scale="h2">Ataque dirigidos.</rich_text>
+					<rich_text>
+
+Reconocimiento.
+Vector de acceso.
+Persistencia.
+Intrusipon real.
+Movimiento lateral.
+Acceso a datos.
+Exfiltración.
+
+</rich_text>
+					<rich_text scale="h2">Ataque no dirigidos.</rich_text>
+					<rich_text>
+
+Malware.
+Phising.
+Explotación masiva.
+Imaginación.
+
+</rich_text>
+					<rich_text scale="h2">Tipos de atacantes.</rich_text>
+					<rich_text>
+
+Terroristas.
+Estados.
+Criminales.
+Hacktivistas.
+Empleados internos.
+Script kiddies.</rich_text>
+				</node>
+				<node custom_icon_id="0" foreground="" is_bold="False" name="Dispsitivos de seguridad" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1589932690.91" ts_lastsave="1590090095.65" unique_id="17">
+					<rich_text>Firewall
+
+Un contrafuegos (firewall) es un software, hardware o combinación de ambos generalmente se utiliza para separar una rede protegida de una publica y no protegida.
+Estos dispositivos tienen la capacidad de monitorizar y filtrar el trafico entrante o saliente para prevenir el acceso no autorizado a las redes protegidas.
+
+Red DMZ
+
+Una zona desmilitarizada o DMZ, también llamda red perimetral, es una red aislada intermedia entre internet y la red interna de la organización.s 
+
+El objetico de una DMZ es que las conexiones desde la red interna y la externa estén premitidas, mientras que en general las conexiones desde la DMZ solo se permitan a la red externa y no a la interna.
+
+</rich_text>
+					<rich_text scale="h2">Honeypot</rich_text>
+					<rich_text>
+
+Un honeypot es un equipo explicitamente desplegado para atraer a aquellas personas que penetrenn en la red de la organización. Estos sistemas emulan servicios especialmente atractivos que buscarian unos atacantes que hayan accedido a la red.
+Entre las acciones que pueden realizar: emular servicios con diferente nivel de realizamo, mantener logs tanto locales como remotos de cualquier interación realizada, ect.
+
+IDS
+
+Un sistema de detección de intrusos o IDS es un software encargado de detectar accesos no autorizados o comportamientos potencialmente maliciosos en un sistema o red.
+Estos sistemas suelen tener sensores o sondas como pueden equipo con sniffers de red encargados de recopilar el trafico de red enviarlo al sistema cetral para que lo analice y detecte posibles amenazas.
+
+WAF
+
+Un firewall de aplicación es un dispositivo hardware o software que tiene como objetivo analizar el tráfico web entre el servidor web y la WAN, protegiendo al servidor de diversos ataques web como SQL Injection, Cross Site Scripting, etc.
+
+DLP
+
+Un sistema de prevención de perdida de datos o DLP es un software diseñado para enlizar el trafico de red y enviar la expfiltración de información sensible como pueden ser usuarios y contraseñas, documentos con información bancario, etc.</rich_text>
+				</node>
+				<node custom_icon_id="0" foreground="" is_bold="False" name="Metodologias" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590095288.12" ts_lastsave="1590095344.41" unique_id="18">
+					<rich_text>OWASP
+OWISAM
+PTES
+OSSTMM</rich_text>
+				</node>
+			</node>
+		</node>
+		<node custom_icon_id="0" foreground="" is_bold="False" name="Laboratorio de pruebas" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590101664.65" ts_lastsave="1590104263.98" unique_id="50">
+			<rich_text></rich_text>
+			<node custom_icon_id="0" foreground="" is_bold="False" name="Introducción" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590104263.98" ts_lastsave="1590104278.24" unique_id="90">
+				<rich_text></rich_text>
+			</node>
+			<node custom_icon_id="0" foreground="" is_bold="False" name="Distribuciones vulnerables" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590104278.24" ts_lastsave="1590104292.6" unique_id="91">
+				<rich_text></rich_text>
+			</node>
+			<node custom_icon_id="0" foreground="" is_bold="False" name="VirtualBox" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590104292.6" ts_lastsave="1590104325.15" unique_id="92">
+				<rich_text></rich_text>
+			</node>
+			<node custom_icon_id="0" foreground="" is_bold="False" name="Web for pentester" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590104325.15" ts_lastsave="1590104342.0" unique_id="93">
+				<rich_text></rich_text>
+			</node>
+			<node custom_icon_id="0" foreground="" is_bold="False" name="Red NAT" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590104342.0" ts_lastsave="1590104356.6" unique_id="94">
+				<rich_text></rich_text>
+			</node>
+			<node custom_icon_id="0" foreground="" is_bold="False" name="Creación de MV" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590104356.6" ts_lastsave="1590104365.88" unique_id="95">
+				<rich_text></rich_text>
+			</node>
+			<node custom_icon_id="0" foreground="" is_bold="False" name="Live-USB" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590104365.88" ts_lastsave="1590104365.88" unique_id="96">
+				<rich_text></rich_text>
+			</node>
+		</node>
+		<node custom_icon_id="0" foreground="" is_bold="False" name="Manejo de kali" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590102000.77" ts_lastsave="1590104524.93" unique_id="51">
+			<rich_text></rich_text>
+			<node custom_icon_id="0" foreground="" is_bold="False" name="Herramientas" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590104516.05" ts_lastsave="1590104516.05" unique_id="97">
+				<rich_text></rich_text>
+			</node>
+			<node custom_icon_id="0" foreground="" is_bold="False" name="Terminal" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590104524.93" ts_lastsave="1590104532.3" unique_id="98">
+				<rich_text></rich_text>
+			</node>
+			<node custom_icon_id="0" foreground="" is_bold="False" name="Permisos" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590104532.3" ts_lastsave="1590104559.57" unique_id="99">
+				<rich_text></rich_text>
+			</node>
+			<node custom_icon_id="0" foreground="" is_bold="False" name="Red e instalación de software" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590104559.57" ts_lastsave="1590104590.31" unique_id="100">
+				<rich_text></rich_text>
+			</node>
+			<node custom_icon_id="0" foreground="" is_bold="False" name="Sistema y compresión de datos" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590104590.31" ts_lastsave="1590104604.08" unique_id="101">
+				<rich_text></rich_text>
+			</node>
+			<node custom_icon_id="0" foreground="" is_bold="False" name="Bash Scripting" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590104604.08" ts_lastsave="1590104604.08" unique_id="102">
+				<rich_text></rich_text>
+			</node>
+		</node>
+		<node custom_icon_id="0" foreground="" is_bold="False" name="Anonimato en internet" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590102022.99" ts_lastsave="1590103804.26" unique_id="52">
+			<rich_text></rich_text>
+			<node custom_icon_id="0" foreground="" is_bold="False" name="Introducción" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590103640.93" ts_lastsave="1590103645.15" unique_id="79">
+				<rich_text></rich_text>
+			</node>
+			<node custom_icon_id="0" foreground="" is_bold="False" name="Nociones" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590103645.15" ts_lastsave="1590103656.42" unique_id="80">
+				<rich_text></rich_text>
+			</node>
+			<node custom_icon_id="0" foreground="" is_bold="False" name="Tor" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590103656.42" ts_lastsave="1590103667.34" unique_id="81">
+				<rich_text></rich_text>
+			</node>
+			<node custom_icon_id="0" foreground="" is_bold="False" name="Proxys" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590103667.34" ts_lastsave="1590103667.34" unique_id="82">
+				<rich_text></rich_text>
+			</node>
+			<node custom_icon_id="0" foreground="" is_bold="False" name="VPNs" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590103679.2" ts_lastsave="1590103683.25" unique_id="83">
+				<rich_text></rich_text>
+			</node>
+			<node custom_icon_id="0" foreground="" is_bold="False" name="MAC" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590103695.83" ts_lastsave="1590103721.92" unique_id="84">
+				<rich_text></rich_text>
+			</node>
+			<node custom_icon_id="0" foreground="" is_bold="False" name="Plataforma de anonimización" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590103721.92" ts_lastsave="1590103756.52" unique_id="85">
+				<rich_text></rich_text>
+				<node custom_icon_id="0" foreground="" is_bold="False" name="Creación" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590103764.46" ts_lastsave="1590103778.68" unique_id="86">
+					<rich_text></rich_text>
+				</node>
+				<node custom_icon_id="0" foreground="" is_bold="False" name="Compra de servidores" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590103778.68" ts_lastsave="1590103792.82" unique_id="87">
+					<rich_text></rich_text>
+				</node>
+				<node custom_icon_id="0" foreground="" is_bold="False" name="Creación de tuneles" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590103792.82" ts_lastsave="1590103792.82" unique_id="88">
+					<rich_text></rich_text>
+				</node>
+			</node>
+			<node custom_icon_id="0" foreground="" is_bold="False" name="SSH" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590103804.26" ts_lastsave="1590103804.26" unique_id="89">
+				<rich_text></rich_text>
+			</node>
+		</node>
+		<node custom_icon_id="0" foreground="" is_bold="False" name="Hacking en sistemas" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590102089.48" ts_lastsave="1590102092.09" unique_id="53">
+			<rich_text></rich_text>
+		</node>
+		<node custom_icon_id="0" foreground="" is_bold="False" name="Hacking web" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590095771.42" ts_lastsave="1590102128.53" unique_id="19">
+			<rich_text>La identificación y explotación de vulnerabiliades en aplicaciones web.</rich_text>
+			<node custom_icon_id="0" foreground="" is_bold="False" name="Indice" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590095855.36" ts_lastsave="1590099863.91" unique_id="20">
+				<rich_text scale="h1">Nociones básicas para la explotación de vulnerabilidades en aplicaciones web.</rich_text>
+				<rich_text>
+
+Uso de principales herramiestas de auditoria.
+
+Introducción a las tecnologías, protocolos y metodologías.
+
+Mapeo y análisis de la aplicación.
+
+Pruebas en los controles del cliente.
+
+Pruebas en el mecanismo de autenticación.
+
+Pruebas en el control de autorización.
+
+Pruebas en la lógica de la aplicación.
+
+</rich_text>
+				<rich_text scale="h1">Durante el presete modulo vamos a realizar las siguientes acciones:</rich_text>
+				<rich_text>
+
+Ataques Cress-Site Scripting (XSS).
+
+Ataques SQL Injection.
+
+Ataques file include y directory traversal.
+
+Ataques de subida de ficheros.
+
+Uso de webshells.
+
+Pivoting mediante aplicaciones web.
+
+Uso de herramientas para la identificación de vulnerabilidades.
+
+</rich_text>
+			</node>
+			<node custom_icon_id="0" foreground="" is_bold="False" name="Nociones básicas" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590100132.73" ts_lastsave="1590100132.73" unique_id="21">
+				<rich_text></rich_text>
+			</node>
+			<node custom_icon_id="0" foreground="" is_bold="False" name="Herramientas principales" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590100153.92" ts_lastsave="1590100305.53" unique_id="22">
+				<rich_text></rich_text>
+				<node custom_icon_id="0" foreground="" is_bold="False" name="Mantra" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590100159.19" ts_lastsave="1590100159.19" unique_id="23">
+					<rich_text></rich_text>
+				</node>
+				<node custom_icon_id="0" foreground="" is_bold="False" name="BurpSuite" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590100171.99" ts_lastsave="1590100179.45" unique_id="24">
+					<rich_text></rich_text>
+				</node>
+				<node custom_icon_id="0" foreground="" is_bold="False" name="Zap Proxy" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590100179.45" ts_lastsave="1590100189.17" unique_id="25">
+					<rich_text></rich_text>
+				</node>
+				<node custom_icon_id="0" foreground="" is_bold="False" name="Charles Proxy" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590100189.17" ts_lastsave="1590100199.29" unique_id="26">
+					<rich_text></rich_text>
+				</node>
+				<node custom_icon_id="0" foreground="" is_bold="False" name="Intruder" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590100199.29" ts_lastsave="1590100207.8" unique_id="27">
+					<rich_text></rich_text>
+				</node>
+				<node custom_icon_id="0" foreground="" is_bold="False" name="Repeater" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590100207.8" ts_lastsave="1590100219.82" unique_id="28">
+					<rich_text></rich_text>
+				</node>
+				<node custom_icon_id="0" foreground="" is_bold="False" name="Comparer y decoder" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590100219.82" ts_lastsave="1590100219.82" unique_id="29">
+					<rich_text></rich_text>
+				</node>
+				<node custom_icon_id="0" foreground="" is_bold="False" name="Dirbuster" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590100305.53" ts_lastsave="1590100330.86" unique_id="31">
+					<rich_text></rich_text>
+					<node custom_icon_id="0" foreground="" is_bold="False" name="BurpSuite" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590100330.87" ts_lastsave="1590100330.87" unique_id="32">
+						<rich_text></rich_text>
+					</node>
+				</node>
+			</node>
+			<node custom_icon_id="0" foreground="" is_bold="False" name="Exploración" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590100286.38" ts_lastsave="1590100286.38" unique_id="30">
+				<rich_text></rich_text>
+			</node>
+			<node custom_icon_id="0" foreground="" is_bold="False" name="Detección de métodos HTTP" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590100353.99" ts_lastsave="1590100429.8" unique_id="33">
+				<rich_text></rich_text>
+			</node>
+			<node custom_icon_id="0" foreground="" is_bold="False" name="Funcionalidades" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590100887.7" ts_lastsave="1590100887.7" unique_id="34">
+				<rich_text></rich_text>
+			</node>
+			<node custom_icon_id="0" foreground="" is_bold="False" name="Envío de datos" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590101394.29" ts_lastsave="1590101394.29" unique_id="35">
+				<rich_text></rich_text>
+			</node>
+			<node custom_icon_id="0" foreground="" is_bold="False" name="Detección de controlles" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590101404.67" ts_lastsave="1590101404.67" unique_id="36">
+				<rich_text></rich_text>
+			</node>
+			<node custom_icon_id="0" foreground="" is_bold="False" name="Anpalisis del proceso" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590101420.58" ts_lastsave="1590101420.58" unique_id="37">
+				<rich_text></rich_text>
+			</node>
+			<node custom_icon_id="0" foreground="" is_bold="False" name="Enumeración de usuarios" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590101440.6" ts_lastsave="1590101440.6" unique_id="38">
+				<rich_text></rich_text>
+			</node>
+			<node custom_icon_id="0" foreground="" is_bold="False" name="Sessiones" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590101458.77" ts_lastsave="1590101466.95" unique_id="39">
+				<rich_text></rich_text>
+				<node custom_icon_id="0" foreground="" is_bold="False" name="Introducción" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590101466.95" ts_lastsave="1590101480.95" unique_id="40">
+					<rich_text></rich_text>
+				</node>
+				<node custom_icon_id="0" foreground="" is_bold="False" name="Evación de privilegios" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590101480.95" ts_lastsave="1590101484.33" unique_id="41">
+					<rich_text></rich_text>
+				</node>
+			</node>
+			<node custom_icon_id="0" foreground="" is_bold="False" name="XSS" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590101495.87" ts_lastsave="1590101616.88" unique_id="42">
+				<rich_text></rich_text>
+				<node custom_icon_id="0" foreground="" is_bold="False" name="Definición" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590101511.54" ts_lastsave="1590101518.46" unique_id="43">
+					<rich_text></rich_text>
+				</node>
+				<node custom_icon_id="0" foreground="" is_bold="False" name="Reflejado" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590101518.46" ts_lastsave="1590101527.71" unique_id="44">
+					<rich_text></rich_text>
+				</node>
+				<node custom_icon_id="0" foreground="" is_bold="False" name="Persistente" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590101527.71" ts_lastsave="1590101527.71" unique_id="45">
+					<rich_text></rich_text>
+				</node>
+				<node custom_icon_id="0" foreground="" is_bold="False" name="Evasión de filtros" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590101549.58" ts_lastsave="1590101549.58" unique_id="46">
+					<rich_text></rich_text>
+				</node>
+				<node custom_icon_id="0" foreground="" is_bold="False" name="Coockies" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590101591.16" ts_lastsave="1590101591.16" unique_id="47">
+					<rich_text></rich_text>
+				</node>
+			</node>
+			<node custom_icon_id="0" foreground="" is_bold="False" name="SQL Injection" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590101616.88" ts_lastsave="1590101625.24" unique_id="48">
+				<rich_text></rich_text>
+			</node>
+			<node custom_icon_id="0" foreground="" is_bold="False" name="SQLmap" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590101625.24" ts_lastsave="1590101625.24" unique_id="49">
+				<rich_text></rich_text>
+			</node>
+		</node>
+		<node custom_icon_id="0" foreground="" is_bold="False" name="Hacking en redes" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590102128.53" ts_lastsave="1590103549.94" unique_id="54">
+			<rich_text></rich_text>
+			<node custom_icon_id="0" foreground="" is_bold="False" name="Introducción" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590103549.94" ts_lastsave="1590103555.42" unique_id="72">
+				<rich_text></rich_text>
+			</node>
+			<node custom_icon_id="0" foreground="" is_bold="False" name="Nociones" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590103555.42" ts_lastsave="1590103566.7" unique_id="73">
+				<rich_text></rich_text>
+			</node>
+			<node custom_icon_id="0" foreground="" is_bold="False" name="Wireshark" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590103566.7" ts_lastsave="1590103586.32" unique_id="74">
+				<rich_text></rich_text>
+			</node>
+			<node custom_icon_id="0" foreground="" is_bold="False" name="Análisis pasivo" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590103586.32" ts_lastsave="1590103597.77" unique_id="75">
+				<rich_text></rich_text>
+			</node>
+			<node custom_icon_id="0" foreground="" is_bold="False" name="Bettercap" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590103597.77" ts_lastsave="1590103603.81" unique_id="76">
+				<rich_text></rich_text>
+			</node>
+			<node custom_icon_id="0" foreground="" is_bold="False" name="CAIN" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590103603.81" ts_lastsave="1590103614.43" unique_id="77">
+				<rich_text></rich_text>
+			</node>
+			<node custom_icon_id="0" foreground="" is_bold="False" name="DHCP" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590103614.43" ts_lastsave="1590103614.43" unique_id="78">
+				<rich_text></rich_text>
+			</node>
+		</node>
+		<node custom_icon_id="0" foreground="" is_bold="False" name="Hacking en redes WI-FI" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590102177.17" ts_lastsave="1590102177.17" unique_id="55">
+			<rich_text></rich_text>
+		</node>
+		<node custom_icon_id="0" foreground="" is_bold="False" name="Ingenieria Social" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590102192.97" ts_lastsave="1590102337.5" unique_id="56">
+			<rich_text></rich_text>
+			<node custom_icon_id="0" foreground="" is_bold="False" name="Introducción" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590102337.5" ts_lastsave="1590102347.69" unique_id="58">
+				<rich_text></rich_text>
+			</node>
+			<node custom_icon_id="0" foreground="" is_bold="False" name="Nociones" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590102347.69" ts_lastsave="1590102366.04" unique_id="59">
+				<rich_text></rich_text>
+			</node>
+			<node custom_icon_id="0" foreground="" is_bold="False" name="Pretextos y escenarios" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590102366.04" ts_lastsave="1590102378.77" unique_id="60">
+				<rich_text></rich_text>
+			</node>
+			<node custom_icon_id="0" foreground="" is_bold="False" name="Phishing" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590102378.77" ts_lastsave="1590102397.24" unique_id="61">
+				<rich_text></rich_text>
+			</node>
+			<node custom_icon_id="0" foreground="" is_bold="False" name="GoPhish" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590102397.24" ts_lastsave="1590102415.85" unique_id="62">
+				<rich_text></rich_text>
+				<node custom_icon_id="0" foreground="" is_bold="False" name="Instalación" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590102415.85" ts_lastsave="1590102419.83" unique_id="63">
+					<rich_text></rich_text>
+				</node>
+				<node custom_icon_id="0" foreground="" is_bold="False" name="Uso" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590102419.83" ts_lastsave="1590102419.83" unique_id="64">
+					<rich_text></rich_text>
+				</node>
+			</node>
+		</node>
+		<node custom_icon_id="0" foreground="" is_bold="False" name="Red Team" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590102201.37" ts_lastsave="1590102682.21" unique_id="57">
+			<rich_text></rich_text>
+			<node custom_icon_id="0" foreground="" is_bold="False" name="Introducción" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590102682.21" ts_lastsave="1590102686.42" unique_id="65">
+				<rich_text></rich_text>
+			</node>
+			<node custom_icon_id="0" foreground="" is_bold="False" name="Nociones" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590102686.42" ts_lastsave="1590102695.67" unique_id="66">
+				<rich_text></rich_text>
+			</node>
+			<node custom_icon_id="0" foreground="" is_bold="False" name="Infraestructura" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590102695.67" ts_lastsave="1590102706.1" unique_id="67">
+				<rich_text></rich_text>
+			</node>
+			<node custom_icon_id="0" foreground="" is_bold="False" name="Obtención de infornación" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590102706.1" ts_lastsave="1590102717.74" unique_id="68">
+				<rich_text></rich_text>
+			</node>
+			<node custom_icon_id="0" foreground="" is_bold="False" name="Pre-producción" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590102717.74" ts_lastsave="1590102734.62" unique_id="69">
+				<rich_text></rich_text>
+			</node>
+			<node custom_icon_id="0" foreground="" is_bold="False" name="Rangos y servicios ocultos" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590102734.62" ts_lastsave="1590102752.51" unique_id="70">
+				<rich_text></rich_text>
+			</node>
+			<node custom_icon_id="0" foreground="" is_bold="False" name="Resdes no protegidas" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590102752.51" ts_lastsave="1590102752.51" unique_id="71">
+				<rich_text></rich_text>
+			</node>
+		</node>
+	</node>
+	<node custom_icon_id="0" foreground="" is_bold="False" name="Terminal" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1585152971.82" ts_lastsave="1585269694.46" unique_id="2">
+		<rich_text></rich_text>
+		<node custom_icon_id="0" foreground="" is_bold="False" name="Directorios" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1585153041.95" ts_lastsave="1585153766.67" unique_id="3">
+			<rich_text>Todos los directorios contienen los archivos . y .., estos son punteros a directorios.
+
+pwd - Muestra la ruta del directorio actual.
+cd url - Te mueve a otra ruta.
+    cd .. - Te mueve una carpeta atras.
+    cd - - Te mueve a la ultima carpeta accesada apartir de la actual.
+    cd ~ - Te mueve a la raiz.
+
+rmdir - Eliminar un directorio. En este caso es importante resaltar que, para que el directorio pueda ser eliminado, no puede contener archivos u otros directorios en su interior.
+    rmdir [ruta / nombre del directorio a eliminar]
+</rich_text>
+			<node custom_icon_id="0" foreground="" is_bold="False" name="ls" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1585153352.35" ts_lastsave="1585153364.54" unique_id="5">
+				<rich_text>ls se usa para mostrar el contenido de los directorios y cuenta con distintos parametro o modificadores:
+
+ls - Listoa los archivos dentro de un directorio.
+ls -a Lista todos los archivos incluyendo aquellos que se han definido como ocultos.
+ls -t - Ordena los archivos por fecha de modificación.
+ls -x - Ordena los archivos por extensión.
+ls -l - Muestra toda la información: usuario, grupo, permisos, tamaño, fecha y hora de creación.
+ls -lh - Muestra la misma información que ls -l pero con las unidades de tamaño en KB, MB.
+ls -R - Muestra el contenido de todos los subdirectorios de forma recursiva.
+ls -S - Ordena los resultados por tamaño de archivo.</rich_text>
+			</node>
+		</node>
+		<node custom_icon_id="0" foreground="" is_bold="False" name="Archivos" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1585153048.54" ts_lastsave="1585270385.08" unique_id="4">
+			<rich_text>nano archivo.txt - Edita un archivo tambien crear el archivo si no exite pero solo funciona con cygwinsg
+vim archivo.txt - Edita un archivo para guardar tenemos que usar la tecla Esc y luego escribir dos puentos :w y :q para salir.
+
+touch - nos permite crear archivos.
+    touch archivo.txt
+
+cp - Copiar un archivo hacia un directorio.
+    cp [archivo que se va a copiar] [directorio hacia el que se va a mover]
+rm - eliminar un archivo.
+    rm archivo.txt
+mv - Mover un archivo, cambiar su ubicación. La sintaxis es así
+    mv [ruta del archivo] [directorio hacia el que se va a mover]
+    
+cat nombre.txt - Muestra el contenido completo de un archivo.
+head archivo.txt - Muestra las primeras lineas de un archivo tambien se puede usar con parametros:
+    head -n 5 archivo.txt
+tail archivo.txt - Muestra las ultimas lineas de un archivo.
+    tail -n 5 archivo.txt
+    
+grep textoBuscado dum1.sq - Permite trabajar con expresiones regulares.
+    grep -i textoBuscado dum1.sq - Con -i busca si tomas encuen si hay mayusculas.
+sed ‘s/Parabra/Cambio/g’ archivo.txt - Crea un nuevo flujo con la sustitución de la palabra.
+awk -F ‘;’  ‘{ print $1 }’ nuevasPelis.csv - Trae solo la primera columna usa un delimitardo y una funcion como script.</rich_text>
+			<node custom_icon_id="0" foreground="" is_bold="False" name="compresión y combinación" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1585269694.46" ts_lastsave="1585270306.47" unique_id="11">
+				<rich_text>Para comprimir un archivo usamos gzip:
+
+gzip archivo.txt
+gzip -d archivo.txt.gz
+
+Para combinar archivos:
+
+tar cf backup.tar backup/*
+tar tf backup.tar
+
+tar xf backup.tar
+
+tar czf backup.tgz backup/* - Es una combinación de comprimir y juntar archivos.
+tar xzf bacup.tgz
+
+Compresión de archivos
+gzip archivo.txt crea un archivo .gz comprimido de la version archivo
+gzip -d archivo.txt.gz descomprime el archivo
+tar cf backup.tar learning/* agrupa y empaqueta todo el contenido de learning en un archivo backup.tar
+tar tf backup.tar muestra los archivos internos dentro del paquete
+tar xf backup.tar extraer los archivos de paquete
+*tar czf backup.tgz ** learning/ comprime y empaqueta los archivos de una carpeta
+**tar xzf backup.tgz ** descomprime los archivos y los extrae
+</rich_text>
+			</node>
+			<node custom_icon_id="0" foreground="" is_bold="False" name="Buquedas" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1585270385.08" ts_lastsave="1585270385.08" unique_id="12">
+				<rich_text></rich_text>
+			</node>
+		</node>
+		<node custom_icon_id="0" foreground="" is_bold="False" name="Ejecutar mysql" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1585261344.96" ts_lastsave="1585261347.81" unique_id="7">
+			<rich_text>mysql -h 1270.0.1 -u root -p1234 &lt; archivo.sql</rich_text>
+		</node>
+		<node custom_icon_id="0" foreground="" is_bold="False" name="procesos" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1585266333.5" ts_lastsave="1585266354.03" unique_id="8">
+			<rich_text>Administracion de procesos en background y foreground.
+&amp; =&gt; al final de un comando nos permite seguir trabajando mientras un proceso se ejecuta.
+ctrl + z =&gt; Me permite poner un proceso en background y poder seguir utilizando la linea de comandos.
+fg =&gt; Me permite poder volver a ese proceso.
+Herramientas:
+ps =&gt; Me permite ver los procesos que se estan ejecutando.
+top =&gt; Me permite ver en tiempo real como los procesos van cambiando.
+Como detener procesos:
+ctrl + c = nos permite terminar un programa en ejecucion en la consola.
+ps ax =&gt; nos permite ver los procesos y con el numero de id del procesos lo podemos eliminar.
+Para eliminarlos por el id del proceso:
+kill =&gt; elimina el proceso por el id. kill -9 elimina el procesos inmediatamente.
+killall =&gt; elmina el proceso por el nombre del ejecutable.</rich_text>
+		</node>
+		<node custom_icon_id="0" foreground="" is_bold="False" name="permisos" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1585266376.89" ts_lastsave="1585267803.33" unique_id="9">
+			<rich_text>ls -l - Muestra los permisos.
+
+
+chmod o-w archivo.txt - El modo de los permisos son cambios individuales.
+    chmod +x archivo.txt
+    chmod 760 archivo.txt
+chown - Cambia el usuario propietario del archivo.
+    chown propietario archivo.txt
+chgrp - Cambiar el grupo de usuarios que puede acceder al archivo.
+
+</rich_text>
+			<rich_text justification="left"></rich_text>
+			<rich_text>
+
+Tambien podemos dar permisos con binarios.</rich_text>
+			<encoded_png char_offset="310">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</encoded_png>
+		</node>
+		<node custom_icon_id="0" foreground="" is_bold="False" name="paquetes" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1585268635.93" ts_lastsave="1585269602.65" unique_id="10">
+			<rich_text>sudo apt install lynx - Instala un programa.
+    lynx platzi.com - nos permite visitar paginas web es forma texto.
+
+
+sudo apt update
+sudo apt upgrade
+
+sudo apt install lynx
+
+sudo apt install python3 python3-pip ipython3
+
+sudo pip install pandas</rich_text>
+		</node>
+	</node>
+	<node custom_icon_id="0" foreground="" is_bold="False" name="Expresiones regulares" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1585251596.79" ts_lastsave="1585251596.79" unique_id="6">
+		<rich_text></rich_text>
+	</node>
+</cherrytree>

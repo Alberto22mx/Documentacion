@@ -3,7 +3,7 @@
 	<node custom_icon_id="0" foreground="" is_bold="False" name="Hacker" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1585152963.45" ts_lastsave="1585152971.82" unique_id="1">
 		<rich_text></rich_text>
 	</node>
-	<node custom_icon_id="0" foreground="" is_bold="False" name="Terminal" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1585152971.82" ts_lastsave="1585268635.93" unique_id="2">
+	<node custom_icon_id="0" foreground="" is_bold="False" name="Terminal" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1585152971.82" ts_lastsave="1585269694.46" unique_id="2">
 		<rich_text></rich_text>
 		<node custom_icon_id="0" foreground="" is_bold="False" name="Directorios" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1585153041.95" ts_lastsave="1585153766.67" unique_id="3">
 			<rich_text>Todos los directorios contienen los archivos . y .., estos son punteros a directorios.
@@ -54,6 +54,32 @@ grep textoBuscado dum1.sq - Permite trabajar con expresiones regulares.
     grep -i textoBuscado dum1.sq - Con -i busca si tomas encuen si hay mayusculas.
 sed ‘s/Parabra/Cambio/g’ archivo.txt - Crea un nuevo flujo con la sustitución de la palabra.
 awk -F ‘;’  ‘{ print $1 }’ nuevasPelis.csv - Trae solo la primera columna usa un delimitardo y una funcion como script.</rich_text>
+			<node custom_icon_id="0" foreground="" is_bold="False" name="compresión y combinación" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1585269694.46" ts_lastsave="1585270306.47" unique_id="11">
+				<rich_text>Para comprimir un archivo usamos gzip:
+
+gzip archivo.txt
+gzip -d archivo.txt.gz
+
+Para combinar archivos:
+
+tar cf backup.tar backup/*
+tar tf backup.tar
+
+tar xf backup.tar
+
+tar czf backup.tgz backup/* - Es una combinación de comprimir y juntar archivos.
+tar xzf bacup.tgz
+
+Compresión de archivos
+gzip archivo.txt crea un archivo .gz comprimido de la version archivo
+gzip -d archivo.txt.gz descomprime el archivo
+tar cf backup.tar learning/* agrupa y empaqueta todo el contenido de learning en un archivo backup.tar
+tar tf backup.tar muestra los archivos internos dentro del paquete
+tar xf backup.tar extraer los archivos de paquete
+*tar czf backup.tgz ** learning/ comprime y empaqueta los archivos de una carpeta
+**tar xzf backup.tgz ** descomprime los archivos y los extrae
+</rich_text>
+			</node>
 		</node>
 		<node custom_icon_id="0" foreground="" is_bold="False" name="Ejecutar mysql" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1585261344.96" ts_lastsave="1585261347.81" unique_id="7">
 			<rich_text>mysql -h 1270.0.1 -u root -p1234 &lt; archivo.sql</rich_text>

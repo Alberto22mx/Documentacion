@@ -1,0 +1,97 @@
+<?xml version="1.0" ?>
+<cherrytree>
+	<node custom_icon_id="0" foreground="" is_bold="False" name="MySQL" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590096592.81" ts_lastsave="1590096655.64" unique_id="1">
+		<rich_text></rich_text>
+	</node>
+	<node custom_icon_id="0" foreground="" is_bold="False" name="Introducción" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590096655.64" ts_lastsave="1590097405.9" unique_id="2">
+		<rich_text></rich_text>
+		<node custom_icon_id="0" foreground="" is_bold="False" name="Sistema cliente-servidor" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590097435.42" ts_lastsave="1590097781.76" unique_id="22">
+			<rich_text scale="h1">Sistema cliente/ servidor</rich_text>
+			<rich_text>
+
+</rich_text>
+			<rich_text scale="h3">Los tres componentes de hardware del sistema cliente/servidor.</rich_text>
+			<rich_text>
+
+Los clintes: PCs, Macs, workstations, dispositivos móviles, laptops, smartphones.
+El servidor: es una computadora que almacena los archivos de la base de datos y provee servicio a los clientes. Cuado almacena bases de datos se dice que es un serviodr de base de datos.
+La red: consiste en el cableado, líneas de comunicación, o cualquier otro componente que conecte los clientews con el sevidor.
+
+</rich_text>
+			<rich_text scale="h1">Software cliente, software servidor e interface sql.</rich_text>
+			<rich_text>
+
+Software del servidor: 
+
+Quien almacena y maneja las bases de datos del sistema cliente-servidor, coda servidor requiere un sistema manejador de bases de datos (DBMS)  con  MySQL.
+El proceso que hace el DBMS es conocido como back-end preocessing.
+
+Software cliente:
+
+La aplicación que trabaja para solicitar información al servidor. Este software puede ser desarrollado por ejemplo.
+Por ejemplo al trabjar con Java tenemos una API (application programming interface) para MySQL como lo es JDBC (Java Database Connectivity).
+
+Interfece SQL:
+
+El software a la aplicacion se comunica con el DBMS mandando consultas SQL atraves de la API. Al recibir las peticiones el servidor provee un servicio que regresa los datos por medio de un Query Results.
+SQL( Structured Query Languaje) es el lenguaje estándar para trabajar con bases de datos relacionales.</rich_text>
+		</node>
+	</node>
+	<node custom_icon_id="0" foreground="" is_bold="False" name="Software" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590096671.9" ts_lastsave="1590096674.78" unique_id="3">
+		<rich_text></rich_text>
+	</node>
+	<node custom_icon_id="0" foreground="" is_bold="False" name="Herramientas" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590096689.38" ts_lastsave="1590096716.68" unique_id="4">
+		<rich_text></rich_text>
+	</node>
+	<node custom_icon_id="0" foreground="" is_bold="False" name="Creando DB" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590096716.68" ts_lastsave="1590096724.21" unique_id="5">
+		<rich_text></rich_text>
+	</node>
+	<node custom_icon_id="0" foreground="" is_bold="False" name="Exportar e importar" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590096739.41" ts_lastsave="1590096755.69" unique_id="6">
+		<rich_text></rich_text>
+	</node>
+	<node custom_icon_id="0" foreground="" is_bold="False" name="Linea de comandos" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590096755.69" ts_lastsave="1590096767.14" unique_id="7">
+		<rich_text></rich_text>
+	</node>
+	<node custom_icon_id="0" foreground="" is_bold="False" name="Sentencias DDL" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590096767.14" ts_lastsave="1590096816.22" unique_id="8">
+		<rich_text></rich_text>
+		<node custom_icon_id="0" foreground="" is_bold="False" name="Practicas" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590096794.74" ts_lastsave="1590096794.74" unique_id="9">
+			<rich_text></rich_text>
+		</node>
+	</node>
+	<node custom_icon_id="0" foreground="" is_bold="False" name="Sentencias DML" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590096816.22" ts_lastsave="1590097013.84" unique_id="10">
+		<rich_text></rich_text>
+		<node custom_icon_id="0" foreground="" is_bold="False" name="Con mas tablas" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590096961.28" ts_lastsave="1590096980.39" unique_id="11">
+			<rich_text></rich_text>
+		</node>
+		<node custom_icon_id="0" foreground="" is_bold="False" name="Update" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590097008.89" ts_lastsave="1590097008.89" unique_id="13">
+			<rich_text></rich_text>
+		</node>
+		<node custom_icon_id="0" foreground="" is_bold="False" name="Delete" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590097013.84" ts_lastsave="1590097013.84" unique_id="14">
+			<rich_text></rich_text>
+		</node>
+	</node>
+	<node custom_icon_id="0" foreground="" is_bold="False" name="Funciones de agregación" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590096980.39" ts_lastsave="1590097024.98" unique_id="12">
+		<rich_text></rich_text>
+	</node>
+	<node custom_icon_id="0" foreground="" is_bold="False" name="Sentecias DCL" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590097024.98" ts_lastsave="1590097043.47" unique_id="15">
+		<rich_text></rich_text>
+	</node>
+	<node custom_icon_id="0" foreground="" is_bold="False" name="Programas almacenados" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590097043.47" ts_lastsave="1590097046.12" unique_id="16">
+		<rich_text></rich_text>
+	</node>
+	<node custom_icon_id="0" foreground="" is_bold="False" name="Dynamic SQL" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590097058.51" ts_lastsave="1590097064.65" unique_id="17">
+		<rich_text></rich_text>
+	</node>
+	<node custom_icon_id="0" foreground="" is_bold="False" name="Transacciones" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590097078.4" ts_lastsave="1590097094.34" unique_id="18">
+		<rich_text></rich_text>
+	</node>
+	<node custom_icon_id="0" foreground="" is_bold="False" name="Char set y collations" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590097094.34" ts_lastsave="1590097110.56" unique_id="19">
+		<rich_text></rich_text>
+	</node>
+	<node custom_icon_id="0" foreground="" is_bold="False" name="SQL y Execel" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590097110.56" ts_lastsave="1590097124.53" unique_id="20">
+		<rich_text></rich_text>
+	</node>
+	<node custom_icon_id="0" foreground="" is_bold="False" name="SQL en un servidor" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590097124.53" ts_lastsave="1590097124.53" unique_id="21">
+		<rich_text></rich_text>
+	</node>
+</cherrytree>
