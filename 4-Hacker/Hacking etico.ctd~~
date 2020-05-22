@@ -1,11 +1,12 @@
 <?xml version="1.0" ?>
 <cherrytree>
-	<node custom_icon_id="0" foreground="" is_bold="False" name="Hacker" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1585152963.45" ts_lastsave="1589925539.08" unique_id="1">
+	<node custom_icon_id="0" foreground="" is_bold="False" name="Hacking etico" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1585152963.45" ts_lastsave="1590102201.37" unique_id="1">
 		<rich_text></rich_text>
 		<node custom_icon_id="0" foreground="" is_bold="False" name="Introducccion" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1589925539.08" ts_lastsave="1589925617.09" unique_id="13">
 			<rich_text></rich_text>
-			<node custom_icon_id="0" foreground="" is_bold="False" name="Nociones" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1589925617.09" ts_lastsave="1589925634.39" unique_id="14">
-				<rich_text>Ambitos de seguridad.
+			<node custom_icon_id="0" foreground="" is_bold="False" name="Nociones" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1589925617.09" ts_lastsave="1590095288.12" unique_id="14">
+				<rich_text scale="h1">Ambitos de seguridad.</rich_text>
+				<rich_text>
 
 Cuando hablamos de seguridad es importe conocer en que consiste la seguridad y los diferentes ambitos que abarca.
 
@@ -21,9 +22,9 @@ Ambito Fisico.
     Control remoto de CTV.
     Análisis de entornos industriales.
 
-Ambito Humano.
+Ambito Digital.
 
-    Intrusión Digital.
+    Intrusión Digital:
     Anonimización de las comunicaciones.
     Análisis de sistemas perimetrales.
     Análisis de servidores públicos.
@@ -32,15 +33,430 @@ Ambito Humano.
     Control de sistemas mainframe.
     Desarrollo de exploits propios.
     
-Ambito Digital.
-
+Ambito Humano.
+    
+    Ingenieria :
     Desarrollo de campañas de phishing.
     Envío de spear-phishing.
     Envio de malware personalizado.
     Despliegue de dispositivos USB Cebo.
     Acciones Vishing personalizado.
     Escenario personal de Ingenieria social.
-    Análisis de leaks y datos filtrados.</rich_text>
+    Análisis de leaks y datos filtrados.
+    
+    
+</rich_text>
+				<rich_text scale="h1">Tipos de servicios de seguridad.</rich_text>
+				<rich_text>
+
+</rich_text>
+				<rich_text scale="h2">Pruebas acotadas dentro de Hacking Etico.</rich_text>
+				<rich_text>
+    
+</rich_text>
+				<rich_text scale="h3">Ejercicios de Red Team.</rich_text>
+				<rich_text>
+    
+• Simulación de intrusión real donde la empresa desconoce las accciones que van a ser realizadas, cuando y por quien.
+        
+</rich_text>
+				<rich_text scale="h3">Test de intrusión.</rich_text>
+				<rich_text>
+    
+• Pruebas de intrusión con alcance acotado (externo, wifi...) donde éxiste colaboración entre el auditor y la empresa.
+        
+</rich_text>
+				<rich_text scale="h3">Au</rich_text>
+				<rich_text>ditoria de Vulnerabilidades.
+
+• Identificación de vulnerabiliades conocidad.
+• Colaboración entre el auditor y la empresa.
+
+</rich_text>
+				<rich_text scale="h1">Auditoría de seguridad.</rich_text>
+				<rich_text>
+
+Limitado a activos muy concretos | Alcance
+Un único ámbito de actuación bien definido | Ámbito
+La organización es conocedora de todos los detalles | Detalles
+Únicamente verificación de vulnerabilidades | Ventores
+Muy acotadas(dias) | Tiempo
+
+</rich_text>
+				<rich_text scale="h1">Test de intrusión.</rich_text>
+				<rich_text>
+
+Activos especificos dentro de un escenario | Alcance
+Un único ámbito de actuación bien definido | Ámbito
+La organización es conocedora de parte de los detalles | Detalles
+Verificación y explotación de vulnerabilidades | Vectores
+Limitado a semanas | Tiempo
+
+</rich_text>
+				<rich_text scale="h1">Ejercicios de Red Team.</rich_text>
+				<rich_text>
+
+Completo | Alcance
+Cualquier ambito de actuación | Ámbito
+Pocas personas conocen los detalles del proyecto | Detalles
+Vectores multidimensionales | Vectores
+Meses | Tiempo (2 a 4 meses)
+
+</rich_text>
+				<rich_text scale="h1">Tipo de enfoques</rich_text>
+				<rich_text>
+
+Caja Negra: Desconocimiento completo de cualquier información referente al activo.
+Caja Negra con Post-Autenticación: Únicamente conocimiento de credenciales para acceso.
+Caja Gris: Conocimiento parcial del activo a auditar.
+Caja Blanca: Conocimiento completo del activo.
+
+
+
+
+
+
+
+</rich_text>
+				<node custom_icon_id="0" foreground="" is_bold="False" name="email" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1589930051.4" ts_lastsave="1589930451.96" unique_id="15">
+					<rich_text scale="h2">Mailinator: Es un correo publico que puede ver cualquier persona.</rich_text>
+					<rich_text>
+</rich_text>
+					<rich_text scale="h2">Receive FREE SMS online: Recibe mensajes sms.</rich_text>
+					<rich_text>
+
+</rich_text>
+				</node>
+				<node custom_icon_id="0" foreground="" is_bold="False" name="Vectores de ataque" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1589931571.71" ts_lastsave="1589932453.86" unique_id="16">
+					<rich_text scale="h2">Tipos de ataques:</rich_text>
+					<rich_text>
+
+Dirigidos.
+
+    Atacan a una empresa en particular.
+
+No dirigidos.
+
+    Atacan a la mayor cantidad dispositivos.
+    
+</rich_text>
+					<rich_text scale="h2">Ataque dirigidos.</rich_text>
+					<rich_text>
+
+Reconocimiento.
+Vector de acceso.
+Persistencia.
+Intrusipon real.
+Movimiento lateral.
+Acceso a datos.
+Exfiltración.
+
+</rich_text>
+					<rich_text scale="h2">Ataque no dirigidos.</rich_text>
+					<rich_text>
+
+Malware.
+Phising.
+Explotación masiva.
+Imaginación.
+
+</rich_text>
+					<rich_text scale="h2">Tipos de atacantes.</rich_text>
+					<rich_text>
+
+Terroristas.
+Estados.
+Criminales.
+Hacktivistas.
+Empleados internos.
+Script kiddies.</rich_text>
+				</node>
+				<node custom_icon_id="0" foreground="" is_bold="False" name="Dispsitivos de seguridad" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1589932690.91" ts_lastsave="1590090095.65" unique_id="17">
+					<rich_text>Firewall
+
+Un contrafuegos (firewall) es un software, hardware o combinación de ambos generalmente se utiliza para separar una rede protegida de una publica y no protegida.
+Estos dispositivos tienen la capacidad de monitorizar y filtrar el trafico entrante o saliente para prevenir el acceso no autorizado a las redes protegidas.
+
+Red DMZ
+
+Una zona desmilitarizada o DMZ, también llamda red perimetral, es una red aislada intermedia entre internet y la red interna de la organización.s 
+
+El objetico de una DMZ es que las conexiones desde la red interna y la externa estén premitidas, mientras que en general las conexiones desde la DMZ solo se permitan a la red externa y no a la interna.
+
+</rich_text>
+					<rich_text scale="h2">Honeypot</rich_text>
+					<rich_text>
+
+Un honeypot es un equipo explicitamente desplegado para atraer a aquellas personas que penetrenn en la red de la organización. Estos sistemas emulan servicios especialmente atractivos que buscarian unos atacantes que hayan accedido a la red.
+Entre las acciones que pueden realizar: emular servicios con diferente nivel de realizamo, mantener logs tanto locales como remotos de cualquier interación realizada, ect.
+
+IDS
+
+Un sistema de detección de intrusos o IDS es un software encargado de detectar accesos no autorizados o comportamientos potencialmente maliciosos en un sistema o red.
+Estos sistemas suelen tener sensores o sondas como pueden equipo con sniffers de red encargados de recopilar el trafico de red enviarlo al sistema cetral para que lo analice y detecte posibles amenazas.
+
+WAF
+
+Un firewall de aplicación es un dispositivo hardware o software que tiene como objetivo analizar el tráfico web entre el servidor web y la WAN, protegiendo al servidor de diversos ataques web como SQL Injection, Cross Site Scripting, etc.
+
+DLP
+
+Un sistema de prevención de perdida de datos o DLP es un software diseñado para enlizar el trafico de red y enviar la expfiltración de información sensible como pueden ser usuarios y contraseñas, documentos con información bancario, etc.</rich_text>
+				</node>
+				<node custom_icon_id="0" foreground="" is_bold="False" name="Metodologias" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590095288.12" ts_lastsave="1590095344.41" unique_id="18">
+					<rich_text>OWASP
+OWISAM
+PTES
+OSSTMM</rich_text>
+				</node>
+			</node>
+		</node>
+		<node custom_icon_id="0" foreground="" is_bold="False" name="Laboratorio de pruebas" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590101664.65" ts_lastsave="1590102007.19" unique_id="50">
+			<rich_text></rich_text>
+		</node>
+		<node custom_icon_id="0" foreground="" is_bold="False" name="Manejo de kali" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590102000.77" ts_lastsave="1590102003.54" unique_id="51">
+			<rich_text></rich_text>
+		</node>
+		<node custom_icon_id="0" foreground="" is_bold="False" name="Anonimato en internet" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590102022.99" ts_lastsave="1590103804.26" unique_id="52">
+			<rich_text></rich_text>
+			<node custom_icon_id="0" foreground="" is_bold="False" name="Introducción" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590103640.93" ts_lastsave="1590103645.15" unique_id="79">
+				<rich_text></rich_text>
+			</node>
+			<node custom_icon_id="0" foreground="" is_bold="False" name="Nociones" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590103645.15" ts_lastsave="1590103656.42" unique_id="80">
+				<rich_text></rich_text>
+			</node>
+			<node custom_icon_id="0" foreground="" is_bold="False" name="Tor" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590103656.42" ts_lastsave="1590103667.34" unique_id="81">
+				<rich_text></rich_text>
+			</node>
+			<node custom_icon_id="0" foreground="" is_bold="False" name="Proxys" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590103667.34" ts_lastsave="1590103667.34" unique_id="82">
+				<rich_text></rich_text>
+			</node>
+			<node custom_icon_id="0" foreground="" is_bold="False" name="VPNs" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590103679.2" ts_lastsave="1590103683.25" unique_id="83">
+				<rich_text></rich_text>
+			</node>
+			<node custom_icon_id="0" foreground="" is_bold="False" name="MAC" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590103695.83" ts_lastsave="1590103721.92" unique_id="84">
+				<rich_text></rich_text>
+			</node>
+			<node custom_icon_id="0" foreground="" is_bold="False" name="Plataforma de anonimización" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590103721.92" ts_lastsave="1590103756.52" unique_id="85">
+				<rich_text></rich_text>
+				<node custom_icon_id="0" foreground="" is_bold="False" name="Creación" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590103764.46" ts_lastsave="1590103778.68" unique_id="86">
+					<rich_text></rich_text>
+				</node>
+				<node custom_icon_id="0" foreground="" is_bold="False" name="Compra de servidores" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590103778.68" ts_lastsave="1590103792.82" unique_id="87">
+					<rich_text></rich_text>
+				</node>
+				<node custom_icon_id="0" foreground="" is_bold="False" name="Creación de tuneles" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590103792.82" ts_lastsave="1590103792.82" unique_id="88">
+					<rich_text></rich_text>
+				</node>
+			</node>
+			<node custom_icon_id="0" foreground="" is_bold="False" name="SSH" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590103804.26" ts_lastsave="1590103804.26" unique_id="89">
+				<rich_text></rich_text>
+			</node>
+		</node>
+		<node custom_icon_id="0" foreground="" is_bold="False" name="Hacking en sistemas" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590102089.48" ts_lastsave="1590102092.09" unique_id="53">
+			<rich_text></rich_text>
+		</node>
+		<node custom_icon_id="0" foreground="" is_bold="False" name="Hacking web" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590095771.42" ts_lastsave="1590102128.53" unique_id="19">
+			<rich_text>La identificación y explotación de vulnerabiliades en aplicaciones web.</rich_text>
+			<node custom_icon_id="0" foreground="" is_bold="False" name="Indice" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590095855.36" ts_lastsave="1590099863.91" unique_id="20">
+				<rich_text scale="h1">Nociones básicas para la explotación de vulnerabilidades en aplicaciones web.</rich_text>
+				<rich_text>
+
+Uso de principales herramiestas de auditoria.
+
+Introducción a las tecnologías, protocolos y metodologías.
+
+Mapeo y análisis de la aplicación.
+
+Pruebas en los controles del cliente.
+
+Pruebas en el mecanismo de autenticación.
+
+Pruebas en el control de autorización.
+
+Pruebas en la lógica de la aplicación.
+
+</rich_text>
+				<rich_text scale="h1">Durante el presete modulo vamos a realizar las siguientes acciones:</rich_text>
+				<rich_text>
+
+Ataques Cress-Site Scripting (XSS).
+
+Ataques SQL Injection.
+
+Ataques file include y directory traversal.
+
+Ataques de subida de ficheros.
+
+Uso de webshells.
+
+Pivoting mediante aplicaciones web.
+
+Uso de herramientas para la identificación de vulnerabilidades.
+
+</rich_text>
+			</node>
+			<node custom_icon_id="0" foreground="" is_bold="False" name="Nociones básicas" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590100132.73" ts_lastsave="1590100132.73" unique_id="21">
+				<rich_text></rich_text>
+			</node>
+			<node custom_icon_id="0" foreground="" is_bold="False" name="Herramientas principales" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590100153.92" ts_lastsave="1590100305.53" unique_id="22">
+				<rich_text></rich_text>
+				<node custom_icon_id="0" foreground="" is_bold="False" name="Mantra" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590100159.19" ts_lastsave="1590100159.19" unique_id="23">
+					<rich_text></rich_text>
+				</node>
+				<node custom_icon_id="0" foreground="" is_bold="False" name="BurpSuite" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590100171.99" ts_lastsave="1590100179.45" unique_id="24">
+					<rich_text></rich_text>
+				</node>
+				<node custom_icon_id="0" foreground="" is_bold="False" name="Zap Proxy" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590100179.45" ts_lastsave="1590100189.17" unique_id="25">
+					<rich_text></rich_text>
+				</node>
+				<node custom_icon_id="0" foreground="" is_bold="False" name="Charles Proxy" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590100189.17" ts_lastsave="1590100199.29" unique_id="26">
+					<rich_text></rich_text>
+				</node>
+				<node custom_icon_id="0" foreground="" is_bold="False" name="Intruder" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590100199.29" ts_lastsave="1590100207.8" unique_id="27">
+					<rich_text></rich_text>
+				</node>
+				<node custom_icon_id="0" foreground="" is_bold="False" name="Repeater" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590100207.8" ts_lastsave="1590100219.82" unique_id="28">
+					<rich_text></rich_text>
+				</node>
+				<node custom_icon_id="0" foreground="" is_bold="False" name="Comparer y decoder" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590100219.82" ts_lastsave="1590100219.82" unique_id="29">
+					<rich_text></rich_text>
+				</node>
+				<node custom_icon_id="0" foreground="" is_bold="False" name="Dirbuster" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590100305.53" ts_lastsave="1590100330.86" unique_id="31">
+					<rich_text></rich_text>
+					<node custom_icon_id="0" foreground="" is_bold="False" name="BurpSuite" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590100330.87" ts_lastsave="1590100330.87" unique_id="32">
+						<rich_text></rich_text>
+					</node>
+				</node>
+			</node>
+			<node custom_icon_id="0" foreground="" is_bold="False" name="Exploración" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590100286.38" ts_lastsave="1590100286.38" unique_id="30">
+				<rich_text></rich_text>
+			</node>
+			<node custom_icon_id="0" foreground="" is_bold="False" name="Detección de métodos HTTP" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590100353.99" ts_lastsave="1590100429.8" unique_id="33">
+				<rich_text></rich_text>
+			</node>
+			<node custom_icon_id="0" foreground="" is_bold="False" name="Funcionalidades" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590100887.7" ts_lastsave="1590100887.7" unique_id="34">
+				<rich_text></rich_text>
+			</node>
+			<node custom_icon_id="0" foreground="" is_bold="False" name="Envío de datos" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590101394.29" ts_lastsave="1590101394.29" unique_id="35">
+				<rich_text></rich_text>
+			</node>
+			<node custom_icon_id="0" foreground="" is_bold="False" name="Detección de controlles" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590101404.67" ts_lastsave="1590101404.67" unique_id="36">
+				<rich_text></rich_text>
+			</node>
+			<node custom_icon_id="0" foreground="" is_bold="False" name="Anpalisis del proceso" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590101420.58" ts_lastsave="1590101420.58" unique_id="37">
+				<rich_text></rich_text>
+			</node>
+			<node custom_icon_id="0" foreground="" is_bold="False" name="Enumeración de usuarios" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590101440.6" ts_lastsave="1590101440.6" unique_id="38">
+				<rich_text></rich_text>
+			</node>
+			<node custom_icon_id="0" foreground="" is_bold="False" name="Sessiones" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590101458.77" ts_lastsave="1590101466.95" unique_id="39">
+				<rich_text></rich_text>
+				<node custom_icon_id="0" foreground="" is_bold="False" name="Introducción" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590101466.95" ts_lastsave="1590101480.95" unique_id="40">
+					<rich_text></rich_text>
+				</node>
+				<node custom_icon_id="0" foreground="" is_bold="False" name="Evación de privilegios" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590101480.95" ts_lastsave="1590101484.33" unique_id="41">
+					<rich_text></rich_text>
+				</node>
+			</node>
+			<node custom_icon_id="0" foreground="" is_bold="False" name="XSS" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590101495.87" ts_lastsave="1590101616.88" unique_id="42">
+				<rich_text></rich_text>
+				<node custom_icon_id="0" foreground="" is_bold="False" name="Definición" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590101511.54" ts_lastsave="1590101518.46" unique_id="43">
+					<rich_text></rich_text>
+				</node>
+				<node custom_icon_id="0" foreground="" is_bold="False" name="Reflejado" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590101518.46" ts_lastsave="1590101527.71" unique_id="44">
+					<rich_text></rich_text>
+				</node>
+				<node custom_icon_id="0" foreground="" is_bold="False" name="Persistente" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590101527.71" ts_lastsave="1590101527.71" unique_id="45">
+					<rich_text></rich_text>
+				</node>
+				<node custom_icon_id="0" foreground="" is_bold="False" name="Evasión de filtros" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590101549.58" ts_lastsave="1590101549.58" unique_id="46">
+					<rich_text></rich_text>
+				</node>
+				<node custom_icon_id="0" foreground="" is_bold="False" name="Coockies" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590101591.16" ts_lastsave="1590101591.16" unique_id="47">
+					<rich_text></rich_text>
+				</node>
+			</node>
+			<node custom_icon_id="0" foreground="" is_bold="False" name="SQL Injection" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590101616.88" ts_lastsave="1590101625.24" unique_id="48">
+				<rich_text></rich_text>
+			</node>
+			<node custom_icon_id="0" foreground="" is_bold="False" name="SQLmap" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590101625.24" ts_lastsave="1590101625.24" unique_id="49">
+				<rich_text></rich_text>
+			</node>
+		</node>
+		<node custom_icon_id="0" foreground="" is_bold="False" name="Hacking en redes" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590102128.53" ts_lastsave="1590103549.94" unique_id="54">
+			<rich_text></rich_text>
+			<node custom_icon_id="0" foreground="" is_bold="False" name="Introducción" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590103549.94" ts_lastsave="1590103555.42" unique_id="72">
+				<rich_text></rich_text>
+			</node>
+			<node custom_icon_id="0" foreground="" is_bold="False" name="Nociones" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590103555.42" ts_lastsave="1590103566.7" unique_id="73">
+				<rich_text></rich_text>
+			</node>
+			<node custom_icon_id="0" foreground="" is_bold="False" name="Wireshark" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590103566.7" ts_lastsave="1590103586.32" unique_id="74">
+				<rich_text></rich_text>
+			</node>
+			<node custom_icon_id="0" foreground="" is_bold="False" name="Análisis pasivo" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590103586.32" ts_lastsave="1590103597.77" unique_id="75">
+				<rich_text></rich_text>
+			</node>
+			<node custom_icon_id="0" foreground="" is_bold="False" name="Bettercap" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590103597.77" ts_lastsave="1590103603.81" unique_id="76">
+				<rich_text></rich_text>
+			</node>
+			<node custom_icon_id="0" foreground="" is_bold="False" name="CAIN" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590103603.81" ts_lastsave="1590103614.43" unique_id="77">
+				<rich_text></rich_text>
+			</node>
+			<node custom_icon_id="0" foreground="" is_bold="False" name="DHCP" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590103614.43" ts_lastsave="1590103614.43" unique_id="78">
+				<rich_text></rich_text>
+			</node>
+		</node>
+		<node custom_icon_id="0" foreground="" is_bold="False" name="Hacking en redes WI-FI" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590102177.17" ts_lastsave="1590102177.17" unique_id="55">
+			<rich_text></rich_text>
+		</node>
+		<node custom_icon_id="0" foreground="" is_bold="False" name="Ingenieria Social" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590102192.97" ts_lastsave="1590102337.5" unique_id="56">
+			<rich_text></rich_text>
+			<node custom_icon_id="0" foreground="" is_bold="False" name="Introducción" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590102337.5" ts_lastsave="1590102347.69" unique_id="58">
+				<rich_text></rich_text>
+			</node>
+			<node custom_icon_id="0" foreground="" is_bold="False" name="Nociones" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590102347.69" ts_lastsave="1590102366.04" unique_id="59">
+				<rich_text></rich_text>
+			</node>
+			<node custom_icon_id="0" foreground="" is_bold="False" name="Pretextos y escenarios" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590102366.04" ts_lastsave="1590102378.77" unique_id="60">
+				<rich_text></rich_text>
+			</node>
+			<node custom_icon_id="0" foreground="" is_bold="False" name="Phishing" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590102378.77" ts_lastsave="1590102397.24" unique_id="61">
+				<rich_text></rich_text>
+			</node>
+			<node custom_icon_id="0" foreground="" is_bold="False" name="GoPhish" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590102397.24" ts_lastsave="1590102415.85" unique_id="62">
+				<rich_text></rich_text>
+				<node custom_icon_id="0" foreground="" is_bold="False" name="Instalación" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590102415.85" ts_lastsave="1590102419.83" unique_id="63">
+					<rich_text></rich_text>
+				</node>
+				<node custom_icon_id="0" foreground="" is_bold="False" name="Uso" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590102419.83" ts_lastsave="1590102419.83" unique_id="64">
+					<rich_text></rich_text>
+				</node>
+			</node>
+		</node>
+		<node custom_icon_id="0" foreground="" is_bold="False" name="Red Team" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590102201.37" ts_lastsave="1590102682.21" unique_id="57">
+			<rich_text></rich_text>
+			<node custom_icon_id="0" foreground="" is_bold="False" name="Introducción" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590102682.21" ts_lastsave="1590102686.42" unique_id="65">
+				<rich_text></rich_text>
+			</node>
+			<node custom_icon_id="0" foreground="" is_bold="False" name="Nociones" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590102686.42" ts_lastsave="1590102695.67" unique_id="66">
+				<rich_text></rich_text>
+			</node>
+			<node custom_icon_id="0" foreground="" is_bold="False" name="Infraestructura" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590102695.67" ts_lastsave="1590102706.1" unique_id="67">
+				<rich_text></rich_text>
+			</node>
+			<node custom_icon_id="0" foreground="" is_bold="False" name="Obtención de infornación" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590102706.1" ts_lastsave="1590102717.74" unique_id="68">
+				<rich_text></rich_text>
+			</node>
+			<node custom_icon_id="0" foreground="" is_bold="False" name="Pre-producción" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590102717.74" ts_lastsave="1590102734.62" unique_id="69">
+				<rich_text></rich_text>
+			</node>
+			<node custom_icon_id="0" foreground="" is_bold="False" name="Rangos y servicios ocultos" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590102734.62" ts_lastsave="1590102752.51" unique_id="70">
+				<rich_text></rich_text>
+			</node>
+			<node custom_icon_id="0" foreground="" is_bold="False" name="Resdes no protegidas" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590102752.51" ts_lastsave="1590102752.51" unique_id="71">
+				<rich_text></rich_text>
 			</node>
 		</node>
 	</node>
