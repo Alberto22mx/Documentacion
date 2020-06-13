@@ -211,11 +211,50 @@ OSSTMM</rich_text>
 				</node>
 			</node>
 		</node>
-		<node custom_icon_id="0" foreground="" is_bold="False" name="Laboratorio de pruebas" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590101664.65" ts_lastsave="1590102007.19" unique_id="50">
+		<node custom_icon_id="0" foreground="" is_bold="False" name="Laboratorio de pruebas" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590101664.65" ts_lastsave="1590104263.98" unique_id="50">
 			<rich_text></rich_text>
+			<node custom_icon_id="0" foreground="" is_bold="False" name="Introducción" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590104263.98" ts_lastsave="1590104278.24" unique_id="90">
+				<rich_text></rich_text>
+			</node>
+			<node custom_icon_id="0" foreground="" is_bold="False" name="Distribuciones vulnerables" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590104278.24" ts_lastsave="1590104292.6" unique_id="91">
+				<rich_text></rich_text>
+			</node>
+			<node custom_icon_id="0" foreground="" is_bold="False" name="VirtualBox" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590104292.6" ts_lastsave="1590104325.15" unique_id="92">
+				<rich_text></rich_text>
+			</node>
+			<node custom_icon_id="0" foreground="" is_bold="False" name="Web for pentester" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590104325.15" ts_lastsave="1590104342.0" unique_id="93">
+				<rich_text></rich_text>
+			</node>
+			<node custom_icon_id="0" foreground="" is_bold="False" name="Red NAT" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590104342.0" ts_lastsave="1590104356.6" unique_id="94">
+				<rich_text></rich_text>
+			</node>
+			<node custom_icon_id="0" foreground="" is_bold="False" name="Creación de MV" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590104356.6" ts_lastsave="1590104365.88" unique_id="95">
+				<rich_text></rich_text>
+			</node>
+			<node custom_icon_id="0" foreground="" is_bold="False" name="Live-USB" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590104365.88" ts_lastsave="1590104365.88" unique_id="96">
+				<rich_text></rich_text>
+			</node>
 		</node>
-		<node custom_icon_id="0" foreground="" is_bold="False" name="Manejo de kali" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590102000.77" ts_lastsave="1590102003.54" unique_id="51">
+		<node custom_icon_id="0" foreground="" is_bold="False" name="Manejo de kali" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590102000.77" ts_lastsave="1590104524.93" unique_id="51">
 			<rich_text></rich_text>
+			<node custom_icon_id="0" foreground="" is_bold="False" name="Herramientas" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590104516.05" ts_lastsave="1590104516.05" unique_id="97">
+				<rich_text></rich_text>
+			</node>
+			<node custom_icon_id="0" foreground="" is_bold="False" name="Terminal" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590104524.93" ts_lastsave="1590104532.3" unique_id="98">
+				<rich_text></rich_text>
+			</node>
+			<node custom_icon_id="0" foreground="" is_bold="False" name="Permisos" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590104532.3" ts_lastsave="1590104559.57" unique_id="99">
+				<rich_text></rich_text>
+			</node>
+			<node custom_icon_id="0" foreground="" is_bold="False" name="Red e instalación de software" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590104559.57" ts_lastsave="1590104590.31" unique_id="100">
+				<rich_text></rich_text>
+			</node>
+			<node custom_icon_id="0" foreground="" is_bold="False" name="Sistema y compresión de datos" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590104590.31" ts_lastsave="1590104604.08" unique_id="101">
+				<rich_text></rich_text>
+			</node>
+			<node custom_icon_id="0" foreground="" is_bold="False" name="Bash Scripting" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590104604.08" ts_lastsave="1590104604.08" unique_id="102">
+				<rich_text></rich_text>
+			</node>
 		</node>
 		<node custom_icon_id="0" foreground="" is_bold="False" name="Anonimato en internet" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590102022.99" ts_lastsave="1590103804.26" unique_id="52">
 			<rich_text></rich_text>

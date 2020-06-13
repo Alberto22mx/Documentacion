@@ -264,8 +264,19 @@ OSSTMM</rich_text>
 			<node custom_icon_id="0" foreground="" is_bold="False" name="Nociones" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590103645.15" ts_lastsave="1590103656.42" unique_id="80">
 				<rich_text></rich_text>
 			</node>
-			<node custom_icon_id="0" foreground="" is_bold="False" name="Tor" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590103656.42" ts_lastsave="1590103667.34" unique_id="81">
+			<node custom_icon_id="0" foreground="" is_bold="False" name="Tor" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590103656.42" ts_lastsave="1590507456.46" unique_id="81">
 				<rich_text></rich_text>
+				<node custom_icon_id="0" foreground="" is_bold="False" name="Inslatacion en kali" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590507456.46" ts_lastsave="1590507467.43" unique_id="140">
+					<rich_text>sudo apt-get install tor
+
+dpkg paqueteDebian
+
+Se instala como servicio:
+
+service tor status -Para saber su estatus
+
+service tor start - Para iniciar tor</rich_text>
+				</node>
 			</node>
 			<node custom_icon_id="0" foreground="" is_bold="False" name="Proxys" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590103667.34" ts_lastsave="1590103667.34" unique_id="82">
 				<rich_text></rich_text>

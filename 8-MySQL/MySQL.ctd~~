@@ -3,9 +3,9 @@
 	<node custom_icon_id="0" foreground="" is_bold="False" name="MySQL" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590096592.81" ts_lastsave="1590096655.64" unique_id="1">
 		<rich_text></rich_text>
 	</node>
-	<node custom_icon_id="0" foreground="" is_bold="False" name="Introducción" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590096655.64" ts_lastsave="1590097405.9" unique_id="2">
+	<node custom_icon_id="0" foreground="" is_bold="False" name="Introducción" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590096655.64" ts_lastsave="1590098965.63" unique_id="2">
 		<rich_text></rich_text>
-		<node custom_icon_id="0" foreground="" is_bold="False" name="Sistema cliente-servidor" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590097435.42" ts_lastsave="1590097781.76" unique_id="22">
+		<node custom_icon_id="0" foreground="" is_bold="False" name="Sistema cliente-servidor" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590097435.42" ts_lastsave="1590098994.6" unique_id="22">
 			<rich_text scale="h1">Sistema cliente/ servidor</rich_text>
 			<rich_text>
 
@@ -34,28 +34,366 @@ Por ejemplo al trabjar con Java tenemos una API (application programming interfa
 Interfece SQL:
 
 El software a la aplicacion se comunica con el DBMS mandando consultas SQL atraves de la API. Al recibir las peticiones el servidor provee un servicio que regresa los datos por medio de un Query Results.
-SQL( Structured Query Languaje) es el lenguaje estándar para trabajar con bases de datos relacionales.</rich_text>
+SQL( Structured Query Languaje) es el lenguaje estándar para trabajar con bases de datos relacionales.
+
+Un sistema cliente-servidor puede incluir servidores adicionales como servidores de aplicaciones y servidores web.
+
+Los servidores de aplicaciones son usados típicacmente para almacenar componentes de negocio que hacen parte del proceso en las aplicaciones su función es mandar las consultas SQL al servidor y recibir las respuesta.
+
+Un servidor web es típicamente usado para almacenar aplicaciones web y webservices.
+
+En un sistema web un navegador web se ejecuta en el cliente, manda las peticiones al servidor web desde internet. Después el servidor web envía dichas peticiones al servidor de bases de datos.
+
+Existen otras arquitecturas que incluyen dos o mas servidores de aplicaciones o web servers y servidores de bases de datos.</rich_text>
+		</node>
+		<node custom_icon_id="0" foreground="" is_bold="False" name="Entidad relación" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590098783.27" ts_lastsave="1590098783.27" unique_id="23">
+			<rich_text></rich_text>
+		</node>
+		<node custom_icon_id="0" foreground="" is_bold="False" name="Foreing keys" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590098929.23" ts_lastsave="1590098929.23" unique_id="24">
+			<rich_text></rich_text>
+		</node>
+		<node custom_icon_id="0" foreground="" is_bold="False" name="Analisis de DB" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590098965.63" ts_lastsave="1590098971.38" unique_id="25">
+			<rich_text></rich_text>
 		</node>
 	</node>
-	<node custom_icon_id="0" foreground="" is_bold="False" name="Software" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590096671.9" ts_lastsave="1590096674.78" unique_id="3">
+	<node custom_icon_id="0" foreground="" is_bold="False" name="Workbench" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590096671.9" ts_lastsave="1590099285.15" unique_id="3">
 		<rich_text></rich_text>
-	</node>
-	<node custom_icon_id="0" foreground="" is_bold="False" name="Herramientas" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590096689.38" ts_lastsave="1590096716.68" unique_id="4">
-		<rich_text></rich_text>
-	</node>
-	<node custom_icon_id="0" foreground="" is_bold="False" name="Creando DB" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590096716.68" ts_lastsave="1590096724.21" unique_id="5">
-		<rich_text></rich_text>
-	</node>
-	<node custom_icon_id="0" foreground="" is_bold="False" name="Exportar e importar" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590096739.41" ts_lastsave="1590096755.69" unique_id="6">
-		<rich_text></rich_text>
-	</node>
-	<node custom_icon_id="0" foreground="" is_bold="False" name="Linea de comandos" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590096755.69" ts_lastsave="1590096767.14" unique_id="7">
-		<rich_text></rich_text>
-	</node>
-	<node custom_icon_id="0" foreground="" is_bold="False" name="Sentencias DDL" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590096767.14" ts_lastsave="1590096816.22" unique_id="8">
-		<rich_text></rich_text>
-		<node custom_icon_id="0" foreground="" is_bold="False" name="Practicas" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590096794.74" ts_lastsave="1590096794.74" unique_id="9">
+		<node custom_icon_id="0" foreground="" is_bold="False" name="Instalación" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590099297.94" ts_lastsave="1590099297.94" unique_id="26">
 			<rich_text></rich_text>
+		</node>
+		<node custom_icon_id="0" foreground="" is_bold="False" name="Creando DB" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590096716.68" ts_lastsave="1590099362.28" unique_id="5">
+			<rich_text></rich_text>
+		</node>
+		<node custom_icon_id="0" foreground="" is_bold="False" name="Exportar e importar" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590096739.41" ts_lastsave="1590099365.77" unique_id="6">
+			<rich_text>trigarante2020-1.cypym5wo7yt3.us-east-1.rds.amazonaws.com
+servici1
+3306</rich_text>
+		</node>
+	</node>
+	<node custom_icon_id="0" foreground="" is_bold="False" name="Linea de comandos" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590096755.69" ts_lastsave="1591305917.33" unique_id="7">
+		<rich_text>Ejecutar MySQL:
+
+1- Entrar a: </rich_text>
+		<rich_text link="fold QzpcUHJvZ3JhbSBGaWxlc1xNeVNRTFxNeVNRTCBTZXJ2ZXIgOC4wXGJpbg==">C:\Program Files\MySQL\MySQL Server 8.0\bin</rich_text>
+		<rich_text>
+2- Ejecutar: mysql -u root -p
+
+Conexiín base en la nube:
+
+1- Entrar a: </rich_text>
+		<rich_text link="fold QzpcUHJvZ3JhbSBGaWxlc1xNeVNRTFxNeVNRTCBTZXJ2ZXIgOC4wXGJpbg==">C:\Program Files\MySQL\MySQL Server 8.0\bin</rich_text>
+		<rich_text>
+                                ip                  admin
+2- Ejecutar: mysql - h hostname -u username -p
+
+Crear base de datos:
+
+create database dbEmployees
+
+Usar base de datos:
+
+use dbEmployees
+
+Ejecutar el archivo con su ruta pero si estamos al mismo nivel solo se usa el nombre para la importacion:
+
+source </rich_text>
+		<rich_text link="fold QzpcUHJvZ3JhbSBGaWxlc1xNeVNRTFxNeVNRTCBTZXJ2ZXIgOC4wXGJpbg==">C:\Program Files\MySQL\MySQL Server 8.0\bin</rich_text>
+		<rich_text>\dbEmployees.sql
+
+
+Comado mas rapido: 
+
+maysql -u root -dbEmployees &lt; dbEmployees.sql o ruta.
+
+Exportación:
+
+</rich_text>
+		<rich_text family="monospace">mysqldump</rich_text>
+		<rich_text> -u root -p dbemployees &gt; </rich_text>
+		<rich_text link="fold QzpcVXNlcnNcVWx0cm9uXERvY3VtZW50c1x0ZXN0">C:\Users\Ultron\Documents\test</rich_text>
+		<rich_text>\dbemployees.sql;
+
+Exportar tablas:
+
+mysqldump -h localhost -u root -p dbemployees employees &gt; empleados.sql
+
+Importar tabla:
+
+mysql -h localhost -u root -p dbpendientes &lt; empleados.sql</rich_text>
+	</node>
+	<node custom_icon_id="0" foreground="" is_bold="False" name="Sentencias DDL" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590096767.14" ts_lastsave="1591312789.58" unique_id="8">
+		<rich_text></rich_text>
+		<node custom_icon_id="0" foreground="" is_bold="False" name="Bases de datos" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590931656.45" ts_lastsave="1590931668.58" unique_id="27">
+			<rich_text>CREATE DATABASE IF NOT EXIST nombreDB; - Crea una base de datos si no existe.
+
+
+DROP DATABASE IF EXIST nombreDB; - Borra una base de datos si existe.
+
+USE nombreDB; - Se lecciona una base de datos para su consulta.</rich_text>
+		</node>
+		<node custom_icon_id="0" foreground="" is_bold="False" name="Tablas" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590936860.46" ts_lastsave="1591139698.62" unique_id="28">
+			<rich_text>Sintaxis para la creación de una tabla.
+
+CREATE TABLE [IF NOT EXISTS] dbNombre.nombreTabla
+{
+    nombreColumna tipoDeDato [atributo],
+    nombreColumna tipoDeDato [atributo],
+    [constrainsTabla]
+}
+
+DROP [TEMPORARY] TABLE [IF EXISTS] table_name [, table_name] ... [RESTRICT | CASCADE]
+
+Atributos mas comunes.
+
+NOT NULL - La columna no acepta nulos, si se omite este atributo puede aceptar nulos.
+UNIQUE - Cada valor en la columna debe ser único.
+DEFAULT default_valor - Especifica un valor default para la columna puede ser literal o una expresión.
+AUTO_INCREMENT - Su valor es incrementado automáticamente por MySQL cuanod se agrefar un renglón, tienen que ser de tipo entrero o número con punto flotante.
+
+Ejemplos:
+
+CREATE TABLE clientes
+(
+	id int,
+    nombreCliente varchar(30),
+    ciudad varchar(30),
+    telefono varchar(30)
+);
+
+CREATE TABLE IF NOT EXISTS bdtempora.productos
+(
+	id int NOT NULL UNIQUE AUTO_INCREMENT,
+    nombreProducto varchar(30) UNIQUE,
+    costo decimal(8, 2) NOT NULL default 0,
+    precioVenta decimal(8, 2) NOT NULL default 0,
+    existencia decimal(8, 2) NOT NULL default 0
+);
+
+Tabla tempora.
+
+CREATE TEMPORARY TABLE tmpProductos AS SELECT * FROM productos;
+
+Las tablas temporales no las muestra el schema.
+
+SELECT * FROM tmpProductos;
+
+Podemos hacer los mismo pero que no tenga datos solo pasa la estructura:
+
+CREATE TABLE tmpProductos LIKE productos;</rich_text>
+		</node>
+		<node custom_icon_id="0" foreground="" is_bold="False" name="Constraint" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590947506.77" ts_lastsave="1591309212.51" unique_id="29">
+			<rich_text>Constrains: un constraint restringe los datos que pueden ser almacenados en una columna.
+
+-Not null
+-Primery key
+-Uniqye
+
+Tipos de constraint
+
+Constraint a nivel de columna
+Sintaxis nombreColumna tipoDeDato PRIMARY KEY atributosDeColumna
+
+Ejemplo:
+
+CREATE TABLE clientes
+(
+	id int PRIMARY KEY auto_increment,
+    nombreCliente varchar(30) NOT NULL unique,
+    ciudad varchar(30),
+    telefono varchar(30)
+)
+
+Constaint a nivel de tabla
+Sintaxis [CONSTRAINT [nombreContraint]]
+    PRIMARY KEY (nombreColumna1 [nombreColumna2].....)
+    
+Ejemplo:
+
+CREATE TABLE clientes
+(
+	id int auto_increment,
+    nombreCliente varchar(30),
+    ciudad varchar(30),
+    telefono varchar(30),
+    constraint clientes_pk primary key (id),
+    constraint nombreClienet_uq unique (nombreCliente)
+);
+    
+La ventaja de la segunda forma de los constains es que se pueden controlar los nombres.
+
+Creación desde el inciio:
+
+-- borramos la base de datos
+drop database if exists bdTemporal;
+
+-- creamos la base de datos
+create database if not exists bdTemporal;
+
+-- seleccionamos la base de datos
+use bdTemporal;
+
+-- crear una tabla que no tenga ningun atributo
+CREATE TABLE clientes
+(
+  id int primary key auto_increment,
+  nombreCliente varchar(30) not null unique,
+  ciudad varchar (30),
+  telefono varchar(30)
+)ENGINE = InnoDB;
+
+-- crear una tabla que tenga atributos en sus columnas y defina el nombre de la base de datos
+
+CREATE TABLE IF NOT EXISTS bdTemporal.productos
+(
+  id int   not null     unique       auto_increment     ,
+  nombreProducto varchar(30)   unique,
+  costo decimal(8,2)           not null    default 0,
+  precioVenta decimal(8,2)     not null    default 0,
+  existencia decimal(8,2)      not null    default 0
+)ENGINE = InnoDB;
+
+-- creamos la tabla
+
+CREATE TABLE IF NOT EXISTS detalleVenta
+(
+  id int   not null     unique       auto_increment     ,
+  fechaVenta date not null,
+  idClientes int not null,
+  idProductos int not null,
+  cantidadVendida decimal(8,2) not null,
+  costo decimal(8,2)      not null    default 0,
+  precioVenta decimal (8,2)
+)ENGINE = InnoDB;
+
+
+
+
+
+
+
+
+
+
+</rich_text>
+			<node custom_icon_id="0" foreground="" is_bold="False" name="Foreing key" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1591138730.96" ts_lastsave="1591308116.34" unique_id="30">
+				<rich_text>Una llave foránea o foreign key requiere valoresen una tabla y que coincidan con los valores de otra tabla, esto define la relación entre dos tablas y así forza la integridad referencial.
+
+Sintaxis a nivel tabla del constraint foreign key:
+
+    [CONSTRAINT [nombreConstraint]]
+    FOREIGN KEY [index_name] (col_name, ....)
+        FEFERENCES tbl_name (col_name, ....)
+        [ON DELETE reference_option {CASCADE | SET NULL | NO ACTION | SET DEFAULT}]
+        [ON UPDATE reference_option {CASCADE | SET NULL | NO ACTION | SET DEFAULT}]
+        
+        </rich_text>
+			</node>
+			<node custom_icon_id="0" foreground="" is_bold="False" name="Scripts" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1591309212.56" ts_lastsave="1591309249.59" unique_id="31">
+				<rich_text>NOTA:on delete no action evita borrar un registro que tenga relación y on delete cascade elimina el registro y todos los registros con relación.
+
+-- borramos la base de datos
+drop database if exists bdTemporal;
+
+-- creamos la base de datos
+create database if not exists bdTemporal;
+
+-- seleccionamos la base de datos
+use bdTemporal;
+
+-- crear una tabla que no tenga ningun atributo
+
+CREATE TABLE clientes
+(
+  id int primary key auto_increment,
+  nombreCliente varchar(30) not null unique,
+  ciudad varchar (30),
+  telefono varchar(30)
+)ENGINE = InnoDB;
+
+-- crear una tabla que tenga atributos en sus columnas y defina el nombre de la base de datos
+
+CREATE TABLE IF NOT EXISTS bdTemporal.productos
+(
+  id int   not null     unique       auto_increment     ,
+  nombreProducto varchar(30)   unique,
+  costo decimal(8,2)           not null    default 0,
+  precioVenta decimal(8,2)     not null    default 0,
+  existencia decimal(8,2)      not null    default 0
+)ENGINE = InnoDB;
+
+-- creamos la tabla 
+
+CREATE TABLE IF NOT EXISTS detalleVenta
+(
+  id int   not null     unique       auto_increment     ,
+  fechaVenta date not null,
+  idClientes int not null,
+  idProductos int not null,
+  cantidadVendida decimal(8,2) not null,
+  costo decimal(8,2)      not null    default 0,
+  precioVenta decimal (8,2)
+)ENGINE = InnoDB;
+
+-- creamos la tabla con integridad
+
+CREATE TABLE IF NOT EXISTS detalleVenta
+(
+  id int   not null     unique       auto_increment     ,
+  fechaVenta date not null,
+  idClientes int not null,
+  idProductos int not null,
+  cantidadVendida decimal(8,2) not null,
+  costo decimal(8,2)      not null    default 0,
+  precioVenta decimal (8,2),
+  
+  constraint fkDetalleVentaProductos
+  foreign key (idProductos)
+  references productos (id)
+  on delete no action,
+  
+  constraint fkDetalleVentaClientes
+  foreign key (idClientes)
+  references clientes (id)
+  on delete no action
+)ENGINE = InnoDB;
+
+-- insertando 5 clientes en la tabla clientes
+insert into clientes(id,nombreCliente,ciudad,telefono) values (1,'José Manuel García','Cd. de México','014898989');
+insert into clientes(id,nombreCliente,ciudad,telefono) values (2,'Ma. del Carmen de Loera','Morelia','0143432389');
+insert into clientes(id,nombreCliente,ciudad,telefono) values (3,'Victor Contreras','La Paz California','234323423432');
+insert into clientes(id,nombreCliente,ciudad,telefono) values (4,'Manuel Felix','Fresnillo','354345345');
+insert into clientes(id,nombreCliente,ciudad,telefono) values (5,'Julio Arteaga','Calera','345345353455');
+
+-- insertando 3 productos en la tabla productos
+insert into productos (id,nombreProducto,costo,precioVenta, existencia) values(1,'Teclado usb',100,130,5);
+insert into productos (id,nombreProducto,costo,precioVenta, existencia) values(2,'Mouse alámbrico',120,170,6);
+insert into productos (id,nombreProducto,costo,precioVenta, existencia) values(3,'Computadora de escritorio',1000,1300,2);
+
+-- insertando 1 venta de dos productos para el cliente 1
+insert into detalleVenta(id,fechaVenta,idClientes,idProductos,cantidadVendida,costo,precioVenta)
+			values(1,'2019-12-31',1,1,2,100,130);
+            
+insert into detalleVenta(id,fechaVenta,idClientes,idProductos,cantidadVendida,costo,precioVenta)
+			values(2,'2019-12-31',1,2,1,120,170);
+
+-- INSERT QUE VIOLA LA INTEGRIDAD REFERENCIAL PORQUE EL CLIENTE QUE QUIERO INSERTAR NO EXISTE
+insert into detalleVenta(id,fechaVenta,idClientes,idProductos,cantidadVendida,costo,precioVenta)
+			values(3,'2019-12-31',10,30,1,120,170);
+
+select * from detalleVenta</rich_text>
+			</node>
+		</node>
+		<node custom_icon_id="0" foreground="" is_bold="False" name="Alter table" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1591312789.58" ts_lastsave="1591312807.45" unique_id="32">
+			<rich_text>La sentencia ALTER TABLE nos sirve para agregar, borrar, modificar o renombrar columnas de una tabla de base de datos.
+
+SINTAXIS:
+
+ALTER TABLE [dbNombre.]nombreTabla(
+    ADD nombreColumna tipoDeDato [atributosColumna] [FIRST|AFTER existing_column] |
+    DROP COLUMN nombreColumna |
+    MODIFY nombreColumna tipoDeDato [atributosColumna] |
+    CHANGE COLUMN anteriorNombreColumna nuevoNombreColumna
+)</rich_text>
 		</node>
 	</node>
 	<node custom_icon_id="0" foreground="" is_bold="False" name="Sentencias DML" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590096816.22" ts_lastsave="1590097013.84" unique_id="10">

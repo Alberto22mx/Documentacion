@@ -1,0 +1,85 @@
+<?xml version="1.0" ?>
+<cherrytree>
+	<node custom_icon_id="0" foreground="" is_bold="False" name="Ingles" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1591631253.74" ts_lastsave="1591631284.92" unique_id="1">
+		<rich_text></rich_text>
+		<node custom_icon_id="0" foreground="" is_bold="False" name="TO BE" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1591631284.92" ts_lastsave="1591631601.78" unique_id="2">
+			<rich_text></rich_text>
+			<node custom_icon_id="0" foreground="" is_bold="False" name="Present" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1591631557.69" ts_lastsave="1591658637.32" unique_id="3">
+				<rich_text>Presente:
+
+I am successuful at everything I do
+You are successuful at everything I do
+He is successuful at everything I does
+She is successuful at everything I does
+It is successuful at everything I does
+we are successuful at everything I do
+you are successuful at everything I do
+they are successuful at everything I do
+
+Soy exitoso en todo lo que hago
+Eres exitoso en todo lo que haces
+Él es exitoso en todo lo que hace
+Ella tiene éxito en todo lo que hace
+Es exitoso en todo lo que hace
+Somos exitosos en todo lo que hacemos
+Ustedes son exitoso en todo lo que hacen
+Ellos son exitosos en todo lo que hacen
+
+Negación:
+
+I am not successuful at everything I do
+You are not successuful at everything I do
+He is not successuful at everything I does
+She is not successuful at everything I does
+It is not successuful at everything I does
+we are not successuful at everything I do
+you are not successuful at everything I do
+they are not successuful at everything I do
+
+No soy exitoso en todo lo que hago
+No eres exitoso en todo lo que haces
+Él no es exitoso en todo lo que hace
+Ella no tiene éxito en todo lo que hace
+No es exitoso en todo lo que hace
+No somos exitosos en todo lo que hacemos
+Ustedes no son exitoso en todo lo que hacen
+Ellos no son exitosos en todo lo que hacen
+
+Contracción:
+
+I'm not successuful at everything I do
+You aren't successuful at everything I do
+He isn't successuful at everything I does
+She isn'tsuccessuful at everything I does
+It isn'tsuccessuful at everything I does
+we aren't successuful at everything I do
+you aren't successuful at everything I do
+they aren't successuful at everything I do
+
+No soy exitoso en todo lo que hago
+No eres exitoso en todo lo que haces
+Él no es exitoso en todo lo que hace
+Ella no tiene éxito en todo lo que hace
+No es exitoso en todo lo que hace
+No somos exitosos en todo lo que hacemos
+Ustedes no son exitoso en todo lo que hacen
+Ellos no son exitosos en todo lo que hacen
+
+
+
+
+
+</rich_text>
+			</node>
+			<node custom_icon_id="0" foreground="" is_bold="False" name="Past" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1591631564.67" ts_lastsave="1591631564.67" unique_id="4">
+				<rich_text></rich_text>
+			</node>
+			<node custom_icon_id="0" foreground="" is_bold="False" name="future" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1591631595.82" ts_lastsave="1591631595.82" unique_id="5">
+				<rich_text></rich_text>
+			</node>
+			<node custom_icon_id="0" foreground="" is_bold="False" name="Modals" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1591631601.78" ts_lastsave="1591631601.78" unique_id="6">
+				<rich_text></rich_text>
+			</node>
+		</node>
+	</node>
+</cherrytree>
