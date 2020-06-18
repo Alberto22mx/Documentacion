@@ -70,7 +70,7 @@ servici1
 3306</rich_text>
 		</node>
 	</node>
-	<node custom_icon_id="0" foreground="" is_bold="False" name="Linea de comandos" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590096755.69" ts_lastsave="1591305917.33" unique_id="7">
+	<node custom_icon_id="0" foreground="" is_bold="False" name="Linea de comandos" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590096755.69" ts_lastsave="1592055045.62" unique_id="7">
 		<rich_text>Ejecutar MySQL:
 
 1- Entrar a: </rich_text>
@@ -88,7 +88,9 @@ Conexiín base en la nube:
 
 Crear base de datos:
 
-create database dbEmployees
+</rich_text>
+		<rich_text foreground="#1e1e9090ffff">create database db</rich_text>
+		<rich_text>Pendientes;
 
 Usar base de datos:
 
@@ -119,19 +121,21 @@ mysqldump -h localhost -u root -p dbemployees employees &gt; empleados.sql
 
 Importar tabla:
 
-mysql -h localhost -u root -p dbpendientes &lt; empleados.sql</rich_text>
+mysql -h localhost -u root -p dbPendientes &lt; </rich_text>
+		<rich_text link="fold QzpcVXNlcnNcVWx0cm9uXERvd25sb2Fkcw==">C:\Users\Ultron\Downloads</rich_text>
+		<rich_text>\original.sql;</rich_text>
 	</node>
 	<node custom_icon_id="0" foreground="" is_bold="False" name="Sentencias DDL" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590096767.14" ts_lastsave="1591312789.58" unique_id="8">
 		<rich_text></rich_text>
-		<node custom_icon_id="0" foreground="" is_bold="False" name="Bases de datos" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590931656.45" ts_lastsave="1590931668.58" unique_id="27">
+		<node custom_icon_id="0" foreground="" is_bold="False" name="Bases de datos" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590931656.45" ts_lastsave="1592055816.55" unique_id="27">
 			<rich_text>CREATE DATABASE IF NOT EXIST nombreDB; - Crea una base de datos si no existe.
 
 
-DROP DATABASE IF EXIST nombreDB; - Borra una base de datos si existe.
+DROP DATABASE IF EXIST employees; - Borra una base de datos si existe.
 
 USE nombreDB; - Se lecciona una base de datos para su consulta.</rich_text>
 		</node>
-		<node custom_icon_id="0" foreground="" is_bold="False" name="Tablas" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590936860.46" ts_lastsave="1591139698.62" unique_id="28">
+		<node custom_icon_id="0" foreground="" is_bold="False" name="Tablas" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590936860.46" ts_lastsave="1592021622.76" unique_id="28">
 			<rich_text>Sintaxis para la creación de una tabla.
 
 CREATE TABLE [IF NOT EXISTS] dbNombre.nombreTabla
@@ -180,6 +184,24 @@ SELECT * FROM tmpProductos;
 Podemos hacer los mismo pero que no tenga datos solo pasa la estructura:
 
 CREATE TABLE tmpProductos LIKE productos;</rich_text>
+			<node custom_icon_id="0" foreground="" is_bold="False" name="Renombrar" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1592021606.31" ts_lastsave="1592021636.06" unique_id="35">
+				<rich_text>sintasis para renombrar una tabla&gt;
+
+RENAME TABLE nombreAntiguo TO nuevoNombre;
+</rich_text>
+			</node>
+			<node custom_icon_id="0" foreground="" is_bold="False" name="Truncar" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1592021615.06" ts_lastsave="1592023153.3" unique_id="36">
+				<rich_text>Sintaxis para borrar toda la informacion
+
+-- borra los datos de una tabla
+truncate table detalleventa;</rich_text>
+			</node>
+			<node custom_icon_id="0" foreground="" is_bold="False" name="Borrar" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1592021622.76" ts_lastsave="1592023170.6" unique_id="37">
+				<rich_text>-- elimina una tabla
+drop table productos;
+
+No borra si tienen integridad relacional</rich_text>
+			</node>
 		</node>
 		<node custom_icon_id="0" foreground="" is_bold="False" name="Constraint" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590947506.77" ts_lastsave="1592007357.13" unique_id="29">
 			<rich_text>Constrains: un constraint restringe los datos que pueden ser almacenados en una columna.
@@ -385,7 +407,7 @@ insert into detalleVenta(id,fechaVenta,idClientes,idProductos,cantidadVendida,co
 select * from detalleVenta</rich_text>
 			</node>
 		</node>
-		<node custom_icon_id="0" foreground="" is_bold="False" name="Alter table" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1591312789.58" ts_lastsave="1592006840.81" unique_id="32">
+		<node custom_icon_id="0" foreground="" is_bold="False" name="Alter table" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1591312789.58" ts_lastsave="1592019251.52" unique_id="32">
 			<rich_text>La sentencia ALTER TABLE nos sirve para agregar, borrar, modificar o renombrar columnas de una tabla de base de datos.
 
 SINTAXIS:
@@ -396,31 +418,877 @@ ALTER TABLE [dbNombre.]nombreTabla(
     MODIFY nombreColumna tipoDeDato [atributosColumna] |
     CHANGE COLUMN anteriorNombreColumna nuevoNombreColumna
 )</rich_text>
-			<node custom_icon_id="0" foreground="" is_bold="False" name="ejemplos" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1592006840.81" ts_lastsave="1592006840.81" unique_id="33">
-				<rich_text></rich_text>
+			<node custom_icon_id="0" foreground="" is_bold="False" name="ejemplos" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1592006840.81" ts_lastsave="1592018749.11" unique_id="33">
+				<rich_text>-- Mostrar estructura de la tabla productos
+desc detalleVenta;
+
+-- Agregar una columna a la tabla de productos llamada color
+alter table productos
+add color varchar(29);
+
+-- Agregar una columna a la tabla de productos despues del campo costo
+alter table productos
+add color varchar(29) after costo;
+
+-- Agregar una columna a la tabla de productos siendo el primer campo de la definicion ddl
+alter table productos
+add color1 varchar(29) first;
+
+-- Borrar un campo de la tabla productos, la existencia (no se puede borrar algun campo que viole la integreidad referencial)
+alter table productos
+drop column existencia;
+
+-- Cambiar el tamaño de una columna, no te dejara cambiarlo si violas el tamaño de los registros que ya tengan información
+alter table productos
+modify nombreProducto varchar(20) not null;
+desc productos;
+
+-- Cambiar el tipo de dato de una columna, no te permitira hacer el cambio si tu campo no acepta el tipo de dato con los datos que ya se tengan almacenados
+-- Cambia el tipo de dato pero solo sin son compatibles int a float, char a varchar
+alter table productos
+modify nombreProducto char(20) not null;
+desc productos;
+
+-- Cambiar el valor default para un registro cuando se inserte
+alter table productos
+modify nombreProducto char(20) null default 'ValorPorDefault';
+
+-- Cambiar el nombre de un campo
+alter table productos
+change column costo precioCompra decimal(8, 2);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</rich_text>
+			</node>
+			<node custom_icon_id="0" foreground="" is_bold="False" name="constraints" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1592019251.53" ts_lastsave="1592021391.1" unique_id="34">
+				<rich_text>La sentencia ALTER TABLE nos srive para gregar, borrar, modificar o renombrar columnas de una tabla de base de datos, pero tambien nos sirve para agregar o borrar constraints como lo son llaves foraneas o llaves primarias.
+
+SINTAXIS:
+
+ALTER TABLE [dbNombre.]nombreTabla
+{
+    ADD PRIMARY KEY definicionDeConstraint or
+    ADD [CONSTRAINT nombreConstraint] FOREIGN KEY definicionDeConstraint or
+    DROP PRIMARY KEY or
+    DROP FOREING KEY nombreConstraint
+}
+
+Ejemplo
+
+-- agregar la llave primaria en la tabla detalleVenta siendo la llave primaria el campo id
+ALTER TABLE bdTemporal.detalleVenta
+ADD primary key (ID);
+
+-- agregar las llaves foraneas que pertenecen a los campos idClientes y idProductos a la tabla detalleVenta
+
+ALTER TABLE bdTemporal.detalleVenta
+ADD
+	constraint fkDetalleVentaClientes
+	foreign key (idClientes)
+	references clientes (id)
+	on delete no action;
+DESC detalleVenta;</rich_text>
 			</node>
 		</node>
 	</node>
-	<node custom_icon_id="0" foreground="" is_bold="False" name="Sentencias DML" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590096816.22" ts_lastsave="1590097013.84" unique_id="10">
-		<rich_text></rich_text>
-		<node custom_icon_id="0" foreground="" is_bold="False" name="Con mas tablas" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590096961.28" ts_lastsave="1590096980.39" unique_id="11">
+	<node custom_icon_id="0" foreground="" is_bold="False" name="Sentencias DML" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590096816.22" ts_lastsave="1592157892.18" unique_id="10">
+		<rich_text foreground="#df9307" weight="heavy">¿Que es SQL?</rich_text>
+		<rich_text weight="heavy">
+</rich_text>
+		<rich_text>
+•</rich_text>
+		<rich_text weight="heavy">SQL</rich_text>
+		<rich_text> (por sus siglas en inglés </rich_text>
+		<rich_text weight="heavy">Structured Query Language</rich_text>
+		<rich_text>; en español lenguaje de consulta estructurada) es un lenguaje que da acceso a un sistema de gestión de bases de datos relacionales que permite especificar diversos tipos de operaciones en ellos.
+
+•Es un lenguaje estándar por haberse visto consolidado por el Instituto Americano de Normas (ANSI) y por la Organización de Estándares Internacional (ISO).
+
+•Está compuesto por comandos, cláusulas, operadores y funciones de agregado</rich_text>
+		<node custom_icon_id="0" foreground="" is_bold="False" name="Select" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1592054714.48" ts_lastsave="1592158725.49" unique_id="38">
+			<rich_text foreground="#df9307" weight="heavy">USO DE SENTENCIAS SQL ( SELECT )</rich_text>
+			<rich_text weight="heavy">
+</rich_text>
+			<rich_text>
+•Una instrucción select nos sirve para extraer información de una o más tablas de una base de datos.•</rich_text>
+			<rich_text weight="heavy">Sintaxis:</rich_text>
+			<rich_text>      
+
+    </rich_text>
+			<rich_text weight="heavy">SELECT</rich_text>
+			<rich_text>   campos_seleccionados 
+      </rich_text>
+			<rich_text weight="heavy">FROM</rich_text>
+			<rich_text>   tablas_de_datos 
+     [ </rich_text>
+			<rich_text weight="heavy">WHERE</rich_text>
+			<rich_text>   condición ]
+     [ </rich_text>
+			<rich_text weight="heavy">ORDER BY</rich_text>
+			<rich_text> ordenar_por_lista_campos ]
+     [ </rich_text>
+			<rich_text weight="heavy">LIMIT</rich_text>
+			<rich_text>   limite_de_renglones ]
+
+1. </rich_text>
+			<rich_text foreground="#00b0f0">SELECT </rich_text>
+			<rich_text>id,nombre,telefono</rich_text>
+			<rich_text foreground="#00b0f0"> FROM </rich_text>
+			<rich_text>personas
+
+2. </rich_text>
+			<rich_text foreground="#00b0f0">SELECT </rich_text>
+			<rich_text>*</rich_text>
+			<rich_text foreground="#00b0f0"> FROM </rich_text>
+			<rich_text>personas</rich_text>
+			<rich_text foreground="#00b0f0"> </rich_text>
+			<rich_text>
+</rich_text>
+			<rich_text foreground="#00b0f0">        WHERE </rich_text>
+			<rich_text>id &gt;0 
+</rich_text>
+			<rich_text foreground="#00b0f0">        ORDER by </rich_text>
+			<rich_text>nombre</rich_text>
+			<rich_text foreground="#00b0f0"> </rich_text>
+			<rich_text>
+</rich_text>
+			<rich_text foreground="#00b0f0">        LIMIT </rich_text>
+			<rich_text>10
+
+</rich_text>
+			<rich_text justification="left"></rich_text>
+			<rich_text>
+</rich_text>
+			<table char_offset="460" col_max="400" col_min="40">
+				<row>
+					<cell>  LAS 5 CLAUSULAS DE UN SELECT STATMENT
+  </cell>
+					<cell></cell>
+				</row>
+				<row>
+					<cell>  CLAUSULA
+  </cell>
+					<cell>  DESCRIPCION
+  </cell>
+				</row>
+				<row>
+					<cell>  SELECT
+  </cell>
+					<cell>  Describe   las columnas en el Result   Set
+  </cell>
+				</row>
+				<row>
+					<cell>  FROM
+  </cell>
+					<cell>  Nombre   de las tablas de donde extraerá los datos
+  </cell>
+				</row>
+				<row>
+					<cell>  WHERE
+  </cell>
+					<cell>  Especifica   la condición a cumplir para que los datos se   incluyan en el Result   Set
+  </cell>
+				</row>
+				<row>
+					<cell>  ORDER   BY
+  </cell>
+					<cell>  Especifica   como serán ordenados los datos
+  </cell>
+				</row>
+				<row>
+					<cell>  LIMIT
+  </cell>
+					<cell>  Especifica   el número de renglones a regresar
+  </cell>
+				</row>
+				<row>
+					<cell>haz clic</cell>
+					<cell>haz clic</cell>
+				</row>
+			</table>
+			<node custom_icon_id="0" foreground="" is_bold="False" name="WHERE" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1592155695.49" ts_lastsave="1592155713.19" unique_id="45">
+				<rich_text>La clausula </rich_text>
+				<rich_text foreground="#ff0000">WHERE</rich_text>
+				<rich_text>: limita el set de resultados de una tabla en base a los criterios que especifiquemos.
+      
+</rich_text>
+				<rich_text style="italic">      SINTAXIS</rich_text>
+				<rich_text>
+</rich_text>
+				<rich_text style="italic">      WHERE expresion1 operador expresion2</rich_text>
+				<rich_text>
+</rich_text>
+			</node>
+			<node custom_icon_id="0" foreground="" is_bold="False" name="IN" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1592155840.83" ts_lastsave="1592155855.8" unique_id="47">
+				<rich_text>•El operador IN se puede utilizar para validar si una lista de elementos son validos para mostrar
+
+•Podemos combinar el operador IN con el operador NOT
+
+•Podemos hacer uso de subconsultas en el operador IN
+
+•      </rich_text>
+				<rich_text weight="heavy">SINTAXIS</rich_text>
+				<rich_text>
+
+      </rich_text>
+				<rich_text style="italic">WHERE test_expresión [NOT] IN</rich_text>
+				<rich_text>
+</rich_text>
+				<rich_text style="italic">      ({subconsulta|expression_1 [, expression_2]…}) </rich_text>
+				<rich_text>
+</rich_text>
+			</node>
+			<node custom_icon_id="0" foreground="" is_bold="False" name="BETWEEN" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1592155945.42" ts_lastsave="1592188997.58" unique_id="48">
+				<rich_text>•El operador IN se puede utilizar para validar si una lista de elementos son validos para mostrar
+•Podemos combinar el operador IN con el operador NOT
+•Podemos hacer uso de subconsultas en el operador IN
+•      </rich_text>
+				<rich_text weight="heavy">SINTAXIS</rich_text>
+				<rich_text>
+
+      </rich_text>
+				<rich_text style="italic">WHERE test_expresión [NOT] IN</rich_text>
+				<rich_text>
+</rich_text>
+				<rich_text style="italic">      ({subconsulta|expression_1 [, expression_2]…}) </rich_text>
+				<rich_text>
+
+
+</rich_text>
+				<rich_text foreground="#1e1e9090ffff">SELECT column_name(s)
+FROM table_name
+WHERE column_name BETWEEN value1 AND value2;</rich_text>
+				<rich_text>
+
+</rich_text>
+			</node>
+			<node custom_icon_id="0" foreground="" is_bold="False" name="OPERADORES" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1592147447.55" ts_lastsave="1592156561.33" unique_id="42">
+				<rich_text></rich_text>
+				<node custom_icon_id="0" foreground="" is_bold="False" name="ARITMETICOS" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1592131954.56" ts_lastsave="1592155640.06" unique_id="40">
+					<rich_text>
+</rich_text>
+					<rich_text justification="left"></rich_text>
+					<rich_text>
+</rich_text>
+					<table char_offset="1" col_max="400" col_min="40">
+						<row>
+							<cell>  Operador
+  </cell>
+							<cell>  Operador
+  </cell>
+							<cell>  Orden de Precedencia
+  </cell>
+						</row>
+						<row>
+							<cell>  *
+  </cell>
+							<cell>  Multiplicación
+  </cell>
+							<cell>  1
+  </cell>
+						</row>
+						<row>
+							<cell>  /
+  </cell>
+							<cell>  División
+  </cell>
+							<cell>  1
+  </cell>
+						</row>
+						<row>
+							<cell>  DIV
+  </cell>
+							<cell>  División   Entera
+  </cell>
+							<cell>  1
+  </cell>
+						</row>
+						<row>
+							<cell>  %   (MOD)
+  </cell>
+							<cell>  Módulo   ( Residuo)
+  </cell>
+							<cell>  1
+  </cell>
+						</row>
+						<row>
+							<cell>  +
+  </cell>
+							<cell>  Suma
+  </cell>
+							<cell>  2
+  </cell>
+						</row>
+						<row>
+							<cell>  -
+  </cell>
+							<cell>  Resta
+  </cell>
+							<cell>  2
+  </cell>
+						</row>
+						<row>
+							<cell>haz clic</cell>
+							<cell>haz clic</cell>
+							<cell>haz clic</cell>
+						</row>
+					</table>
+				</node>
+				<node custom_icon_id="0" foreground="" is_bold="False" name="COMPARACION" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1592155625.35" ts_lastsave="1592155667.58" unique_id="44">
+					<rich_text>
+</rich_text>
+					<rich_text justification="left"></rich_text>
+					<rich_text>
+</rich_text>
+					<table char_offset="1" col_max="400" col_min="40">
+						<row>
+							<cell>  OPERADORES DE COMPARACION
+  </cell>
+							<cell></cell>
+						</row>
+						<row>
+							<cell>  SIGNO
+  </cell>
+							<cell>  DESCRIPCION
+  </cell>
+						</row>
+						<row>
+							<cell>  =
+  </cell>
+							<cell>  Igual
+  </cell>
+						</row>
+						<row>
+							<cell>  &lt;
+  </cell>
+							<cell>  Menor   que
+  </cell>
+						</row>
+						<row>
+							<cell>  &gt;
+  </cell>
+							<cell>  Mayor   que
+  </cell>
+						</row>
+						<row>
+							<cell>  &lt;=
+  </cell>
+							<cell>  Menor   igual que
+  </cell>
+						</row>
+						<row>
+							<cell>  &gt;=
+  </cell>
+							<cell>  Mayor   igual que
+  </cell>
+						</row>
+						<row>
+							<cell>  &lt;&gt;
+  </cell>
+							<cell>  Distinto   de
+  </cell>
+						</row>
+						<row>
+							<cell>  !=
+  </cell>
+							<cell>  Distinto   de
+  </cell>
+						</row>
+						<row>
+							<cell>haz clic</cell>
+							<cell>haz clic</cell>
+						</row>
+					</table>
+				</node>
+				<node custom_icon_id="0" foreground="" is_bold="False" name="LOGICOS" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1592155766.13" ts_lastsave="1592155778.94" unique_id="46">
+					<rich_text>
+</rich_text>
+					<rich_text justification="left"></rich_text>
+					<rich_text>
+</rich_text>
+					<table char_offset="1" col_max="400" col_min="40">
+						<row>
+							<cell>  OPERADORES LOGICOS
+  </cell>
+							<cell></cell>
+						</row>
+						<row>
+							<cell>  SIGNO
+  </cell>
+							<cell>  DESCRIPCION
+  </cell>
+						</row>
+						<row>
+							<cell>  AND
+  </cell>
+							<cell>   “Y”
+  </cell>
+						</row>
+						<row>
+							<cell>  OR
+  </cell>
+							<cell>  “O”
+  </cell>
+						</row>
+						<row>
+							<cell>  NOT
+  </cell>
+							<cell>  “NO”
+  </cell>
+						</row>
+						<row>
+							<cell>haz clic</cell>
+							<cell>haz clic</cell>
+						</row>
+					</table>
+				</node>
+				<node custom_icon_id="0" foreground="" is_bold="False" name="Regexp" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1592156130.53" ts_lastsave="1592156392.14" unique_id="49">
+					<rich_text foreground="#f9b639" weight="heavy">Regexp Operators</rich_text>
+					<rich_text>
+
+•Los operadores LIKE o REGEXP sirven para recuperar renglones que tengan un patrón llamado máscara. La máscara determina que valores satisfacen la condición.
+•La máscara para el LIKE puede contener símbolos especiales llamados wildcards o comodines. La máscara para REGEXP contiene constructores y caracteres especiales. Usando máscara con REGEXP se puede decir que no es CASE-SENSITIVE.
+
+
+</rich_text>
+					<rich_text justification="left"></rich_text>
+					<rich_text>
+
+
+</rich_text>
+					<rich_text justification="left"></rich_text>
+					<rich_text>
+</rich_text>
+					<table char_offset="408" col_max="400" col_min="40">
+						<row>
+							<cell>  LIKE wilcards
+  </cell>
+							<cell></cell>
+						</row>
+						<row>
+							<cell>  SIMBOLO
+  </cell>
+							<cell>  Descripción
+  </cell>
+						</row>
+						<row>
+							<cell>  %
+  </cell>
+							<cell>   Coincide con una cadena de cero o más   caracteres
+  </cell>
+						</row>
+						<row>
+							<cell>  -
+  </cell>
+							<cell>  Coincide   con cualquier carácter.
+  </cell>
+						</row>
+						<row>
+							<cell>haz clic</cell>
+							<cell>haz clic</cell>
+						</row>
+					</table>
+					<table char_offset="412" col_max="400" col_min="40">
+						<row>
+							<cell>  REGEXP caracteres especiales y constructores
+  </cell>
+							<cell></cell>
+						</row>
+						<row>
+							<cell>  Carácter   /constructor
+  </cell>
+							<cell>  Descripción
+  </cell>
+						</row>
+						<row>
+							<cell>  ^
+  </cell>
+							<cell>  Coincide   con el patrón desde el comienzo del valor que se prueba.
+  </cell>
+						</row>
+						<row>
+							<cell>  $
+  </cell>
+							<cell>  Coincide   con el patrón al final de el valor testeado
+  </cell>
+						</row>
+						<row>
+							<cell>  -
+  </cell>
+							<cell>  Coincide   con cualquier valor
+  </cell>
+						</row>
+						<row>
+							<cell>  [charlist]
+  </cell>
+							<cell>  Coincide   con cualquier carácter dentro de los corchetes.
+  </cell>
+						</row>
+						<row>
+							<cell>  [char1-char2]
+  </cell>
+							<cell>  Coincide   con cualquier carácter entre el rango dado.
+  </cell>
+						</row>
+						<row>
+							<cell>  |
+  </cell>
+							<cell>  Separa   dos patrones de cadena y coincide cada uno.
+  </cell>
+						</row>
+						<row>
+							<cell>haz clic</cell>
+							<cell>haz clic</cell>
+						</row>
+					</table>
+				</node>
+				<node custom_icon_id="0" foreground="" is_bold="False" name="LIKE" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1592156449.82" ts_lastsave="1592156461.99" unique_id="50">
+					<rich_text>•El operador LIKE se puede utilizar regresar renglones que coincidan con un patrón llamado mascara. La mascara determina que valores en la columna satisface la condición.
+•La mascara para el operador LIKE puede contener símbolos especiales llamados  wilcards las cuales son NO CASE-SENSITIVE
+•Podemos hacer uso de el operador NOT en el operador LIKE para negar los resultados.
+•      </rich_text>
+					<rich_text weight="heavy">SINTAXIS</rich_text>
+					<rich_text>
+
+      </rich_text>
+					<rich_text style="italic">WHERE match_expression [NOT] LIKE pattern</rich_text>
+					<rich_text>
+</rich_text>
+				</node>
+			</node>
+			<node custom_icon_id="0" foreground="" is_bold="False" name="FUNCIONES PROPIAS DE MYSQL" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1592131726.97" ts_lastsave="1592156556.66" unique_id="39">
+				<rich_text foreground="#df9307" weight="heavy">USO DE FUNCIONES PROPIAS DE MYSQL BASICAS</rich_text>
+				<rich_text weight="heavy">
+</rich_text>
+				<rich_text>
+•MySQL al igual que los lenguajes de programación más comunes tiene sus propias funciones para hacernos más fácil el manejo de sentencias SQL.
+•Algunas de las funciones más utilizadas son:
+
+</rich_text>
+				<rich_text justification="left"></rich_text>
+				<rich_text>
+</rich_text>
+				<table char_offset="233" col_max="400" col_min="40">
+					<row>
+						<cell>  Función
+  </cell>
+						<cell>  Sintaxis
+  </cell>
+						<cell>  Descripción
+  </cell>
+					</row>
+					<row>
+						<cell>  CONCAT
+  </cell>
+						<cell>  CONCAT   (cadena1[,cadena2]….)
+  </cell>
+						<cell>  Une   o concatena dos o más cadenas y regresa una única cadena.
+  </cell>
+					</row>
+					<row>
+						<cell>  LEFT
+  </cell>
+						<cell>  LEFT(cadena,   numeroDeCaracteres)
+  </cell>
+						<cell>  Regresa   el número de caracteres de la izquierda de una cadena que especifiquemos en numeroDeCaracteres
+  </cell>
+					</row>
+					<row>
+						<cell>  DATE_FORMAT
+  </cell>
+						<cell>  DATE_FORMAT(fecha,formato)
+  </cell>
+						<cell>  Da   formato a una fecha determinada
+  </cell>
+					</row>
+					<row>
+						<cell>  ROUND
+  </cell>
+						<cell>  ROUND(NUMERO[,numeroDeDecimales])
+  </cell>
+						<cell>  Redondea   un número a la cantidad de decimales que especifiquemos
+  </cell>
+					</row>
+					<row>
+						<cell>haz clic</cell>
+						<cell>haz clic</cell>
+						<cell>haz clic</cell>
+					</row>
+				</table>
+				<node custom_icon_id="0" foreground="" is_bold="False" name="USO DE FUNCIONES " prog_lang="custom-colors" readonly="False" tags="" ts_creation="1592132049.24" ts_lastsave="1592132073.86" unique_id="41">
+					<rich_text>•</rich_text>
+					<rich_text foreground="#ffc000">Función </rich_text>
+					<rich_text foreground="#ffc000" weight="heavy">LEFT: </rich_text>
+					<rich_text weight="heavy">función que trabaja con cadenas y extrae el número de caracteres que se indique como parámetro</rich_text>
+					<rich_text> </rich_text>
+					<rich_text style="italic">     Sintaxis</rich_text>
+					<rich_text>
+</rich_text>
+					<rich_text style="italic">     LEFT (cadena, numero_de_caracteres)</rich_text>
+					<rich_text>
+     
+•</rich_text>
+					<rich_text foreground="#ffc000">Función </rich_text>
+					<rich_text foreground="#ffc000" weight="heavy">DATE_FORMAT: </rich_text>
+					<rich_text weight="heavy">función que da formato a las columnas de tipo fecha.</rich_text>
+					<rich_text style="italic" weight="heavy">     Sintaxis:</rich_text>
+					<rich_text style="italic">
+</rich_text>
+					<rich_text style="italic" weight="heavy">     DATE_FORMAT (fecha, formato_de_cadena)</rich_text>
+					<rich_text style="italic">
+     
+•</rich_text>
+					<rich_text foreground="#ffc000" style="italic">Función  </rich_text>
+					<rich_text foreground="#ffc000" style="italic" weight="heavy">ROUND:</rich_text>
+					<rich_text style="italic" weight="heavy"> función para dar formato respecto al redondeo a datos numéricos.</rich_text>
+					<rich_text style="italic">     Sintaxis:</rich_text>
+					<rich_text>
+</rich_text>
+					<rich_text style="italic">     ROUND(número[,número_de_decimales</rich_text>
+					<rich_text>])
+</rich_text>
+				</node>
+				<node custom_icon_id="0" foreground="" is_bold="False" name="CONCATENAR" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1592147520.74" ts_lastsave="1592147605.14" unique_id="43">
+					<rich_text foreground="#df9307" weight="heavy">FUNCION CONCAT ( CONCATENAR)</rich_text>
+					<rich_text>
+
+•La función </rich_text>
+					<rich_text foreground="#ff0000">CONCAT</rich_text>
+					<rich_text> nos sirve para unir una o más cadenas para finalmente regresar una única cadena de texto, incluso podemos concatenar funciones propias de MySql que regresen otro tipo de valor.•     
+
+Sintaxis
+
+•CONCAT (string1 [, string2]….)</rich_text>
+				</node>
+			</node>
+			<node custom_icon_id="0" foreground="" is_bold="False" name="IS NULL" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1592156567.77" ts_lastsave="1592156638.8" unique_id="51">
+				<rich_text>•El uso de la clausula IS NULL es para preguntar a la base de datos campos sin valor es decir nulos, no hay que confundirlos con cadena vacia (‘’) o con un valor cero.
+• </rich_text>
+				<rich_text weight="heavy">SINTAXIS</rich_text>
+				<rich_text>
+
+      </rich_text>
+				<rich_text style="italic">WHERE expression IS [NOT] NULL</rich_text>
+				<rich_text>
+</rich_text>
+			</node>
+			<node custom_icon_id="0" foreground="" is_bold="False" name="ORDER BY" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1592156626.54" ts_lastsave="1592156656.15" unique_id="52">
+				<rich_text>•El uso de la clausula ORDER BY es para especificar como nuestros renglones en el set de resultados serán ordenados. Puedes ordenarlos por mas de una columna, al mismo tiempo puedes ordenarlas de forma ascendente (ASC) o descendente ( DESC ) por default es ASC.
+•Puedes ordenar por cualquier campo que aparezca en tu clausula SELECT       
+
+</rich_text>
+				<rich_text weight="heavy">SINTAXIS</rich_text>
+				<rich_text>
+
+      </rich_text>
+				<rich_text style="italic">ORDER BY expression [ASC|DESC] [, expression [ASC|DESC]]…</rich_text>
+				<rich_text>
+</rich_text>
+			</node>
+			<node custom_icon_id="0" foreground="" is_bold="False" name="LIMIT" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1592156705.07" ts_lastsave="1592156712.11" unique_id="53">
+				<rich_text>•LIMIT limita el número de renglones regresados por una sentencia SELECT, puede tener uno o dos parámetros.
+•</rich_text>
+				<rich_text weight="heavy">Con un simple argumento le especificamos el </rich_text>
+				<rich_text>número</rich_text>
+				<rich_text weight="heavy"> máximo de registros a regresar empezando desde el primer registro. Al codificar los dos parámetros el offset especifica el primer renglón a regresar.</rich_text>
+				<rich_text>
+•</rich_text>
+				<rich_text weight="heavy">Regularmente LIMIT va de la mano con la clausula ORDER BY.</rich_text>
+				<rich_text>
+
+•</rich_text>
+				<rich_text weight="heavy">SINTAXIS</rich_text>
+				<rich_text>
+      </rich_text>
+				<rich_text style="italic">LIMIT [offset,] row_count</rich_text>
+				<rich_text>
+</rich_text>
+			</node>
+			<node custom_icon_id="0" foreground="" is_bold="False" name="AGREGADOS" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1592158725.49" ts_lastsave="1592181705.72" unique_id="56">
+				<rich_text>Funciones y consultas de agregado
+
+Se utilizan para resumir por ejemplo las ventas de vendedor, los pagos d eun trabajador etx.
+Para sacar el máximo o mínimi valor de una lista de datos.
+
+AVG ([ALL  | DISTINCT] expresión) - El promedio de los valores no nulos en la consulta realizada.
+SUM ([ALL  | DISTINCT] expresión) - El total o suma de los valores no nulos en la consulta realizada.
+MIN ([ALL  | DISTINCT] expresión) - El valor minimo de los registros de la consulta realizada.
+MAX ([ALL  | DISTINCT] expresión) - El valor maximo de los regtistros de la consulta realizada.
+COUNT ([ALL  | DISTINCT] expresión) - El número total de registros de la consulta realizada.
+COUNT (*) - El número total de registros de la cosulta realizada.
+
+-- Cuanto trabajadores existen en la tabla employees
+select count(*) from employees;
+
+--Cuanto trabajadores cumplen años en cada mes del año.
+select month(birth_data), count(*)
+from employees
+group by 1
+order by 1;
+
+--Cuanto trabajadores cumplen años en cada dia del mes del año diferente.
+select month(birth_data), day(birth_data), count(*)
+from employees
+group by 1, 2
+order by 1, 2;</rich_text>
+			</node>
+			<node custom_icon_id="0" foreground="" is_bold="False" name="JOIN" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1592158016.47" ts_lastsave="1592188445.97" unique_id="55">
+				<rich_text>Uso de inner join.
+
+Un Join combina las columnas de dos o mas tablas en un mismo resultset basado en las condiciones que se especifiquen. Mostrando así solo los renglones que satisfacen dicha condición.
+
+Una condición de unión nombra una columna en cada una de las dos tablas involucradas en la unión e indica cómo deben compararse las dos columnas por lo general con el signo igual.
+
+Las tablas son unidas típicamente en la relación mediante la llave primaria de una tabla con la llave foránea de la otra.
+
+Si las dos columnas en el JOIN tienen el mismo nombre, hay que diferenciarlo por medio del nombre de la tabla.nombrecampo
+
+Sintaxis:
+
+SELECT select_lit
+FROM table_1
+    [INNER] JOIN table_2 ON join_codition_1
+    [INNER] JOIN table_3 ON join_codition_2
+    
+    
+Ejemplos:
+
+select *
+from entradaSalidaDinero
+inner join personas on entradaSalidaDinero.idPersonas = personas.id;
+
+select personas.id, entradasalidadinero.id
+from entradaSalidaDinero
+inner join personas on entradaSalidaDinero.idPersonas = personas.id;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</rich_text>
+			</node>
+		</node>
+		<node custom_icon_id="0" foreground="" is_bold="False" name="Insert" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1592157892.18" ts_lastsave="1592157899.73" unique_id="54">
 			<rich_text></rich_text>
 		</node>
 		<node custom_icon_id="0" foreground="" is_bold="False" name="Update" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590097008.89" ts_lastsave="1590097008.89" unique_id="13">
 			<rich_text></rich_text>
 		</node>
-		<node custom_icon_id="0" foreground="" is_bold="False" name="Delete" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590097013.84" ts_lastsave="1590097013.84" unique_id="14">
-			<rich_text></rich_text>
+		<node custom_icon_id="0" foreground="" is_bold="False" name="Delete" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590097013.84" ts_lastsave="1592177057.56" unique_id="14">
+			<rich_text>SINTAXIS INSTRUCCION DELETE.
+
+DELETE FROM nombre_tabla WHERE condición.
+
+La clausula delete nos sirve para borrar una o mas registros de una tabla.
+La clausula where se utiliza para escribir una condición bajo la cual será o serán eliminados los registros que cumplan dicha condicón.
+Se puede utlilizar una subconsulta dentro de la clausula where.
+un constraint de foreing-key nos previene de no eliminar registros que tengan relación con otras tablas.
+
+-- borrar los registros que el tamaño de cadena del nombre sea mayor o igual a 15 de la tabla tmppersonas
+delete from tmppersonas where nombre &gt;= length(15);
+
+delete from usuarios
+where idPersonas in(select id from personas where id &lt;=3)</rich_text>
 		</node>
 	</node>
 	<node custom_icon_id="0" foreground="" is_bold="False" name="Funciones de agregación" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590096980.39" ts_lastsave="1590097024.98" unique_id="12">
 		<rich_text></rich_text>
 	</node>
-	<node custom_icon_id="0" foreground="" is_bold="False" name="Sentecias DCL" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590097024.98" ts_lastsave="1590097043.47" unique_id="15">
-		<rich_text></rich_text>
+	<node custom_icon_id="0" foreground="" is_bold="False" name="Sentecias DCL" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590097024.98" ts_lastsave="1592176859.83" unique_id="15">
+		<rich_text>Seguridad de base de datos.
+
+La seguridad en las bases de datos es mediante instrucciones SQL ya se a para crear usurarios o mediante configuraciones workbench para dar seguridad a ciertas tareas.
+
+</rich_text>
 	</node>
-	<node custom_icon_id="0" foreground="" is_bold="False" name="Programas almacenados" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590097043.47" ts_lastsave="1590097046.12" unique_id="16">
+	<node custom_icon_id="0" foreground="" is_bold="False" name="Programas almacenados" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590097043.47" ts_lastsave="1592178013.8" unique_id="16">
 		<rich_text></rich_text>
+		<node custom_icon_id="0" foreground="" is_bold="False" name="views" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1592178000.87" ts_lastsave="1592178021.5" unique_id="57">
+			<rich_text>Trabajando con vistas (views)
+
+Las vistas son guardadas en la base de datos para ser más accesibles, están compuestas de una claususla select con una o más tablas de la base de datos, con funciones sin funciones propias del lenguaje sql..
+
+Ventajas:
+
+Limitan la exposición de las tablas a los usuarios permitiendoles solo mostrar la información que se desee.
+Ocultan la complefidad en la extracción de datos para los usuarios o programadores.
+Con ciertas restrincciones las vistas pueden ser utilizadas para actualizar, borrar e insertar datos hacia la base de datos.
+Es más rapido que usar los querys.
+
+Se escribe: create view NombreVista as
+Estructura select, update, delete.
+
+Para la creación de las vistas y se guardan debajo de la base de datos en la sección de views.
+
+Para consultar una view solo tenemos que ejecutar: select &quot; from nombreView;
+
+Ejemplo:
+
+create view PersonasView as
+select nombre, correo, telefono from personas;
+
+Para editar una vista:
+
+create or replace view PersonasView as
+select nombre, correo, telefono from personas;</rich_text>
+		</node>
 	</node>
 	<node custom_icon_id="0" foreground="" is_bold="False" name="Dynamic SQL" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590097058.51" ts_lastsave="1590097064.65" unique_id="17">
 		<rich_text></rich_text>
