@@ -1,10 +1,12 @@
 <?xml version="1.0" ?>
 <cherrytree>
 	<node custom_icon_id="0" foreground="" is_bold="False" name="MySQL" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590096592.81" ts_lastsave="1590096655.64" unique_id="1">
-		<rich_text></rich_text>
+		<rich_text>
+</rich_text>
 	</node>
 	<node custom_icon_id="0" foreground="" is_bold="False" name="Introducción" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590096655.64" ts_lastsave="1590098965.63" unique_id="2">
-		<rich_text></rich_text>
+		<rich_text>
+</rich_text>
 		<node custom_icon_id="0" foreground="" is_bold="False" name="Sistema cliente-servidor" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590097435.42" ts_lastsave="1590098994.6" unique_id="22">
 			<rich_text scale="h1">Sistema cliente/ servidor</rich_text>
 			<rich_text>
@@ -47,22 +49,28 @@ En un sistema web un navegador web se ejecuta en el cliente, manda las peticione
 Existen otras arquitecturas que incluyen dos o mas servidores de aplicaciones o web servers y servidores de bases de datos.</rich_text>
 		</node>
 		<node custom_icon_id="0" foreground="" is_bold="False" name="Entidad relación" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590098783.27" ts_lastsave="1590098783.27" unique_id="23">
-			<rich_text></rich_text>
+			<rich_text>
+</rich_text>
 		</node>
 		<node custom_icon_id="0" foreground="" is_bold="False" name="Foreing keys" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590098929.23" ts_lastsave="1590098929.23" unique_id="24">
-			<rich_text></rich_text>
+			<rich_text>
+</rich_text>
 		</node>
 		<node custom_icon_id="0" foreground="" is_bold="False" name="Analisis de DB" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590098965.63" ts_lastsave="1590098971.38" unique_id="25">
-			<rich_text></rich_text>
+			<rich_text>
+</rich_text>
 		</node>
 	</node>
 	<node custom_icon_id="0" foreground="" is_bold="False" name="Workbench" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590096671.9" ts_lastsave="1590099285.15" unique_id="3">
-		<rich_text></rich_text>
+		<rich_text>
+</rich_text>
 		<node custom_icon_id="0" foreground="" is_bold="False" name="Instalación" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590099297.94" ts_lastsave="1590099297.94" unique_id="26">
-			<rich_text></rich_text>
+			<rich_text>
+</rich_text>
 		</node>
 		<node custom_icon_id="0" foreground="" is_bold="False" name="Creando DB" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590096716.68" ts_lastsave="1590099362.28" unique_id="5">
-			<rich_text></rich_text>
+			<rich_text>
+</rich_text>
 		</node>
 		<node custom_icon_id="0" foreground="" is_bold="False" name="Exportar e importar" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590096739.41" ts_lastsave="1590099365.77" unique_id="6">
 			<rich_text>trigarante2020-1.cypym5wo7yt3.us-east-1.rds.amazonaws.com
@@ -126,7 +134,8 @@ mysql -h localhost -u root -p dbPendientes &lt; </rich_text>
 		<rich_text>\original.sql;</rich_text>
 	</node>
 	<node custom_icon_id="0" foreground="" is_bold="False" name="Sentencias DDL" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590096767.14" ts_lastsave="1591312789.58" unique_id="8">
-		<rich_text></rich_text>
+		<rich_text>
+</rich_text>
 		<node custom_icon_id="0" foreground="" is_bold="False" name="Bases de datos" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590931656.45" ts_lastsave="1592055816.55" unique_id="27">
 			<rich_text>CREATE DATABASE IF NOT EXIST nombreDB; - Crea una base de datos si no existe.
 
@@ -510,7 +519,7 @@ DESC detalleVenta;</rich_text>
 			</node>
 		</node>
 	</node>
-	<node custom_icon_id="0" foreground="" is_bold="False" name="Sentencias DML" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590096816.22" ts_lastsave="1592157892.18" unique_id="10">
+	<node custom_icon_id="0" foreground="" is_bold="False" name="Sentencias DML" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590096816.22" ts_lastsave="1595372654.45" unique_id="10">
 		<rich_text foreground="#df9307" weight="heavy">¿Que es SQL?</rich_text>
 		<rich_text weight="heavy">
 </rich_text>
@@ -523,8 +532,10 @@ DESC detalleVenta;</rich_text>
 
 •Es un lenguaje estándar por haberse visto consolidado por el Instituto Americano de Normas (ANSI) y por la Organización de Estándares Internacional (ISO).
 
-•Está compuesto por comandos, cláusulas, operadores y funciones de agregado</rich_text>
-		<node custom_icon_id="0" foreground="" is_bold="False" name="Select" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1592054714.48" ts_lastsave="1592158725.49" unique_id="38">
+•Está compuesto por comandos, cláusulas, operadores y funciones de agregado
+
+[CrudWidowsForms]</rich_text>
+		<node custom_icon_id="0" foreground="" is_bold="False" name="Select" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1592054714.48" ts_lastsave="1592585460.84" unique_id="38">
 			<rich_text foreground="#df9307" weight="heavy">USO DE SENTENCIAS SQL ( SELECT )</rich_text>
 			<rich_text weight="heavy">
 </rich_text>
@@ -625,7 +636,7 @@ DESC detalleVenta;</rich_text>
 					<cell>haz clic</cell>
 				</row>
 			</table>
-			<node custom_icon_id="0" foreground="" is_bold="False" name="WHERE" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1592155695.49" ts_lastsave="1592155713.19" unique_id="45">
+			<node custom_icon_id="0" foreground="" is_bold="False" name="WHERE" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1592155695.49" ts_lastsave="1592592876.55" unique_id="45">
 				<rich_text>La clausula </rich_text>
 				<rich_text foreground="#ff0000">WHERE</rich_text>
 				<rich_text>: limita el set de resultados de una tabla en base a los criterios que especifiquemos.
@@ -636,14 +647,33 @@ DESC detalleVenta;</rich_text>
 </rich_text>
 				<rich_text style="italic">      WHERE expresion1 operador expresion2</rich_text>
 				<rich_text>
-</rich_text>
+
+Ejemplos:
+
+select * from fechaEs where fecha = “2020-01-01”;
+
+select *, left(nombre, 1)
+from personas where left(nombre, 1) &lt; 'k';</rich_text>
 			</node>
-			<node custom_icon_id="0" foreground="" is_bold="False" name="IN" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1592155840.83" ts_lastsave="1592155855.8" unique_id="47">
+			<node custom_icon_id="0" foreground="" is_bold="False" name="AS" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1592523186.46" ts_lastsave="1592523499.04" unique_id="58">
+				<rich_text>AS nos ayuda a personalizar el nombre de los campos de forma visual solo para entender mejor la consulta pero no cambia el nombre del campo de la tabla solo es un alias.
+
+select id, fechaES, monto * 2 as “Operación”
+from entradaSaludaDinero
+Where monto &gt;= 500;</rich_text>
+			</node>
+			<node custom_icon_id="0" foreground="" is_bold="False" name="IN" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1592155840.83" ts_lastsave="1595857149.23" unique_id="47">
 				<rich_text>•El operador IN se puede utilizar para validar si una lista de elementos son validos para mostrar
 
-•Podemos combinar el operador IN con el operador NOT
+•Podemos combinar el operador </rich_text>
+				<rich_text foreground="#1e1e9090ffff">IN</rich_text>
+				<rich_text> con el operador </rich_text>
+				<rich_text foreground="#1e1e9090ffff">NOT</rich_text>
+				<rich_text>
 
-•Podemos hacer uso de subconsultas en el operador IN
+•Podemos hacer uso de </rich_text>
+				<rich_text foreground="#1e1e9090ffff">subconsultas</rich_text>
+				<rich_text> en el operador IN
 
 •      </rich_text>
 				<rich_text weight="heavy">SINTAXIS</rich_text>
@@ -655,9 +685,21 @@ DESC detalleVenta;</rich_text>
 </rich_text>
 				<rich_text style="italic">      ({subconsulta|expression_1 [, expression_2]…}) </rich_text>
 				<rich_text>
-</rich_text>
+
+
+select * from personas
+where id in (1,2,3)
+
+select * from personas
+where id not in (1,2,3)
+
+select * from personas
+where nombre in ('jose', ‘juan’)</rich_text>
+				<node custom_icon_id="0" foreground="" is_bold="False" name="Ejemplos" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1595857104.38" ts_lastsave="1595857104.38" unique_id="62">
+					<rich_text></rich_text>
+				</node>
 			</node>
-			<node custom_icon_id="0" foreground="" is_bold="False" name="BETWEEN" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1592155945.42" ts_lastsave="1592155958.29" unique_id="48">
+			<node custom_icon_id="0" foreground="" is_bold="False" name="BETWEEN" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1592155945.42" ts_lastsave="1592188997.58" unique_id="48">
 				<rich_text>•El operador IN se puede utilizar para validar si una lista de elementos son validos para mostrar
 •Podemos combinar el operador IN con el operador NOT
 •Podemos hacer uso de subconsultas en el operador IN
@@ -671,10 +713,19 @@ DESC detalleVenta;</rich_text>
 </rich_text>
 				<rich_text style="italic">      ({subconsulta|expression_1 [, expression_2]…}) </rich_text>
 				<rich_text>
+
+
+</rich_text>
+				<rich_text foreground="#1e1e9090ffff">SELECT column_name(s)
+FROM table_name
+WHERE column_name BETWEEN value1 AND value2;</rich_text>
+				<rich_text>
+
 </rich_text>
 			</node>
 			<node custom_icon_id="0" foreground="" is_bold="False" name="OPERADORES" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1592147447.55" ts_lastsave="1592156561.33" unique_id="42">
-				<rich_text></rich_text>
+				<rich_text>
+</rich_text>
 				<node custom_icon_id="0" foreground="" is_bold="False" name="ARITMETICOS" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1592131954.56" ts_lastsave="1592155640.06" unique_id="40">
 					<rich_text>
 </rich_text>
@@ -811,12 +862,17 @@ DESC detalleVenta;</rich_text>
 						</row>
 					</table>
 				</node>
-				<node custom_icon_id="0" foreground="" is_bold="False" name="LOGICOS" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1592155766.13" ts_lastsave="1592155778.94" unique_id="46">
+				<node custom_icon_id="0" foreground="" is_bold="False" name="LOGICOS" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1592155766.13" ts_lastsave="1592595291.8" unique_id="46">
 					<rich_text>
 </rich_text>
 					<rich_text justification="left"></rich_text>
 					<rich_text>
-</rich_text>
+
+select * from personas
+where id!=8 and left(telefono,3)='393' and id mod 2 = 0;
+
+select * from personas
+where not left(telefono,3)='393';</rich_text>
 					<table char_offset="1" col_max="400" col_min="40">
 						<row>
 							<cell>  OPERADORES LOGICOS
@@ -854,6 +910,8 @@ DESC detalleVenta;</rich_text>
 					</table>
 				</node>
 				<node custom_icon_id="0" foreground="" is_bold="False" name="Regexp" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1592156130.53" ts_lastsave="1592156392.14" unique_id="49">
+					<rich_text>
+</rich_text>
 					<rich_text foreground="#f9b639" weight="heavy">Regexp Operators</rich_text>
 					<rich_text>
 
@@ -870,7 +928,7 @@ DESC detalleVenta;</rich_text>
 					<rich_text justification="left"></rich_text>
 					<rich_text>
 </rich_text>
-					<table char_offset="408" col_max="400" col_min="40">
+					<table char_offset="409" col_max="400" col_min="40">
 						<row>
 							<cell>  LIKE wilcards
   </cell>
@@ -899,7 +957,7 @@ DESC detalleVenta;</rich_text>
 							<cell>haz clic</cell>
 						</row>
 					</table>
-					<table char_offset="412" col_max="400" col_min="40">
+					<table char_offset="413" col_max="400" col_min="40">
 						<row>
 							<cell>  REGEXP caracteres especiales y constructores
   </cell>
@@ -967,7 +1025,9 @@ DESC detalleVenta;</rich_text>
 </rich_text>
 				</node>
 			</node>
-			<node custom_icon_id="0" foreground="" is_bold="False" name="FUNCIONES PROPIAS DE MYSQL" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1592131726.97" ts_lastsave="1592156556.66" unique_id="39">
+			<node custom_icon_id="0" foreground="" is_bold="False" name="FUNCIONES PROPIAS DE MYSQL" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1592131726.97" ts_lastsave="1595856432.59" unique_id="39">
+				<rich_text>
+</rich_text>
 				<rich_text foreground="#df9307" weight="heavy">USO DE FUNCIONES PROPIAS DE MYSQL BASICAS</rich_text>
 				<rich_text weight="heavy">
 </rich_text>
@@ -979,7 +1039,7 @@ DESC detalleVenta;</rich_text>
 				<rich_text justification="left"></rich_text>
 				<rich_text>
 </rich_text>
-				<table char_offset="233" col_max="400" col_min="40">
+				<table char_offset="234" col_max="400" col_min="40">
 					<row>
 						<cell>  Función
   </cell>
@@ -1058,6 +1118,19 @@ DESC detalleVenta;</rich_text>
 					<rich_text style="italic">     ROUND(número[,número_de_decimales</rich_text>
 					<rich_text>])
 </rich_text>
+					<node custom_icon_id="0" foreground="" is_bold="False" name="Ejemplos" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1592570279.17" ts_lastsave="1592582703.17" unique_id="60">
+						<rich_text>select id,fechaES,date_format(fechaES,'%d/%m/%y') as 'fecha1',date_format(fechaES,'%e-%b-%Y') as 'fecha2',
+observaciones,left(observaciones,10) as 'primeras10',
+montoIE, round(montoIE, 1) as 'redondeo',
+from entradaSlidaDinero
+where id&gt;500;
+
+SELECT current_date(),date_format(current_date(), '%M/%D/%Y');
+
+SELECT &quot;HOLA MUNDO&quot; AS &quot;CADENA&quot;, LEFT(CONCAT(&quot;HOLA MUNDO&quot;, &quot;HOY ES UN BUEN DÍA&quot;), 20) AS &quot;CADENA2&quot;;
+
+SELECT SUM(10+15), ROUND(154.693, 2) AS &quot;REDONDEADO&quot;;</rich_text>
+					</node>
 				</node>
 				<node custom_icon_id="0" foreground="" is_bold="False" name="CONCATENAR" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1592147520.74" ts_lastsave="1592147605.14" unique_id="43">
 					<rich_text foreground="#df9307" weight="heavy">FUNCION CONCAT ( CONCATENAR)</rich_text>
@@ -1115,10 +1188,10 @@ Sintaxis
 				<rich_text>
 </rich_text>
 			</node>
-			<node custom_icon_id="0" foreground="" is_bold="False" name="AGREGADOS" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1592158725.49" ts_lastsave="1592181705.72" unique_id="56">
+			<node custom_icon_id="0" foreground="" is_bold="False" name="AGREGADOS" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1592158725.49" ts_lastsave="1592523836.52" unique_id="56">
 				<rich_text>Funciones y consultas de agregado
 
-Se utilizan para resumir por ejemplo las ventas de vendedor, los pagos d eun trabajador etx.
+Se utilizan para resumir por ejemplo las ventas de vendedor, los pagos de un trabajador etc.
 Para sacar el máximo o mínimi valor de una lista de datos.
 
 AVG ([ALL  | DISTINCT] expresión) - El promedio de los valores no nulos en la consulta realizada.
@@ -1216,12 +1289,110 @@ inner join personas on entradaSalidaDinero.idPersonas = personas.id;
 
 </rich_text>
 			</node>
+			<node custom_icon_id="0" foreground="" is_bold="False" name="DISTINCT" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1592585460.84" ts_lastsave="1592590034.94" unique_id="61">
+				<rich_text>-- Quita todos los elementos repetidos
+select distinct fechaES
+from entradaSalidaDinero;
+select distinct fechaES, count(distinct fechaES)
+from entradaSalidaDinero;
+select distinct year(fechaES)
+from entradaSalidaDinero;
+select distinct(idEstatusPendientes)
+from pendientes;</rich_text>
+			</node>
 		</node>
-		<node custom_icon_id="0" foreground="" is_bold="False" name="Insert" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1592157892.18" ts_lastsave="1592157899.73" unique_id="54">
-			<rich_text></rich_text>
+		<node custom_icon_id="0" foreground="" is_bold="False" name="Insert" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1592157892.18" ts_lastsave="1592522306.31" unique_id="54">
+			<rich_text>-- creamos una copia de una tabla personas
+
+create table tmpPersonas as
+select * from Personas;
+
+-- borramos la tabla tmppersonas
+drop table tmppersonas;
+
+-- creamos una copia de una tabla personas si datos
+
+create table tmpPersonas as
+select * from Personas
+where id = -1;
+
+Nota no se crean las relaciones.
+
+Sintaxis instruccion insert sql:
+
+INSERT INTO nombre_tabla [(lista_columnas)]
+VALUES (expresion1[, expresion2].....)
+
+La instrucción insert nos sirve para agregar uno o más registros en una tabla de la base de datos.
+
+En la clausula insert hay que especificar el nombre de la tabla con una lista de campos (opciona).
+
+Incluye también la lista de valores en la cual si especificaste los nombres de los campos, esta debería llevar el mismo orden de los campos como los declaraste.
+
+-- insertamos un renglo si usar la lista de las columnas
+insert into tmpPersonas
+values (0, 'Jaime', 'jaime@tmppersonas.com', '22334433221')
+
+-- hacemos la insercipon de un registro para la tabla se usuarios
+-- haciendo uso de los nombres de las columnas
+
+insert into usuarios(nombre, password, idPersona)
+values('Pedro', ‘Administrado’, 13)
+
+Se tiene que tener cuidado al agregar un registro que tiene llaves fornareas ya que estas tienen que coincidir o de lo contrario puede ocacionar algun error.
+
+-- hacemos un insert multiple con varios registros en una misma instruccion
+insert into tmpPersonas values
+(0, ‘Juan’, ‘juan@correo.com’, ‘34525234532’),
+(1, ‘Juan’, ‘juan@correo.com’, ‘34525234532’),
+(2, ‘Juan’, ‘juan@correo.com’, ‘34525234532’)
+
+-- insertar todos los registros de la tabla personas hacia la tabla tmppersonas
+-- pero solo los que tengan correo de hotmail
+delete from tmppersonas;
+select * from tmppersonas;
+
+insert into tmppersonas
+select * from personas
+where correo like '%hotmail%';
+
+Nota la inseción de los datos puede ser tan compleja como se necesite pero tienen que tener la misma estructura de los datos.
+
+
+</rich_text>
 		</node>
-		<node custom_icon_id="0" foreground="" is_bold="False" name="Update" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590097008.89" ts_lastsave="1590097008.89" unique_id="13">
-			<rich_text></rich_text>
+		<node custom_icon_id="0" foreground="" is_bold="False" name="Update" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590097008.89" ts_lastsave="1592519083.22" unique_id="13">
+			<rich_text>Sintaxis instrucción update sql.
+
+UPDATE nombre_tabla
+SET nombre_columna = valor
+WHERE condición;
+
+La instrucción UPDATE modifica uno o más registros en una tabla.
+
+En la clausula SET, puedes llamar el nombre de una o mas columnas y asignarle su nuevo valor.
+
+En la clausula WHERE puedes especificar una condición bajo la cual serán modificados los renglones.
+
+Ejemplo:
+
+update usuarios
+set password = 'NuevoDato'
+where idPersona in(select id from personas where correo like '%hotmail%');
+
+select * from tmppersonas;
+
+select * from personas;
+
+-- actualizar una tabla apartir de otra tabla en la que la primer tabla
+-- solo traen nombre las personas y en la segunda ya traen apellido
+
+update personas
+set personas.nombre =  (select tmpperosnas.nombre from tmppersonas where personas.id=tmppersonas.id)
+where personas.id=       (select tmpperosnas.id from tmppersonas where personas.id=tmppersonas.id)
+
+
+</rich_text>
 		</node>
 		<node custom_icon_id="0" foreground="" is_bold="False" name="Delete" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590097013.84" ts_lastsave="1592177057.56" unique_id="14">
 			<rich_text>SINTAXIS INSTRUCCION DELETE.
@@ -1240,8 +1411,9 @@ delete from usuarios
 where idPersonas in(select id from personas where id &lt;=3)</rich_text>
 		</node>
 	</node>
-	<node custom_icon_id="0" foreground="" is_bold="False" name="Funciones de agregación" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590096980.39" ts_lastsave="1590097024.98" unique_id="12">
-		<rich_text></rich_text>
+	<node custom_icon_id="0" foreground="" is_bold="False" name="Funciones de agregación" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590096980.39" ts_lastsave="1592520598.08" unique_id="12">
+		<rich_text>
+</rich_text>
 	</node>
 	<node custom_icon_id="0" foreground="" is_bold="False" name="Sentecias DCL" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590097024.98" ts_lastsave="1592176859.83" unique_id="15">
 		<rich_text>Seguridad de base de datos.
@@ -1251,8 +1423,9 @@ La seguridad en las bases de datos es mediante instrucciones SQL ya se a para cr
 </rich_text>
 	</node>
 	<node custom_icon_id="0" foreground="" is_bold="False" name="Programas almacenados" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590097043.47" ts_lastsave="1592178013.8" unique_id="16">
-		<rich_text></rich_text>
-		<node custom_icon_id="0" foreground="" is_bold="False" name="views" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1592178000.87" ts_lastsave="1592178021.5" unique_id="57">
+		<rich_text>
+</rich_text>
+		<node custom_icon_id="0" foreground="" is_bold="False" name="views" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1592178000.87" ts_lastsave="1592569856.88" unique_id="57">
 			<rich_text>Trabajando con vistas (views)
 
 Las vistas son guardadas en la base de datos para ser más accesibles, están compuestas de una claususla select con una o más tablas de la base de datos, con funciones sin funciones propias del lenguaje sql..
@@ -1279,22 +1452,83 @@ select nombre, correo, telefono from personas;
 Para editar una vista:
 
 create or replace view PersonasView as
-select nombre, correo, telefono from personas;</rich_text>
+select nombre, correo, telefono from personas;
+
+Para eliminar una vista:
+drop view personasview;
+
+Se puede actualizar una tabla usando una vista pero tienen algunas restrincciónes
+
+No puede afectar a tablas con UNION.
+No afecta a tablas con DISTIN.
+Ni tablas que tengan restricciones con llaves foraneas.
+
+Para actualizar se usa:
+
+update personasview
+set nombre = concat(nombre, “-”)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</rich_text>
 		</node>
 	</node>
 	<node custom_icon_id="0" foreground="" is_bold="False" name="Dynamic SQL" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590097058.51" ts_lastsave="1590097064.65" unique_id="17">
-		<rich_text></rich_text>
+		<rich_text>
+</rich_text>
 	</node>
 	<node custom_icon_id="0" foreground="" is_bold="False" name="Transacciones" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590097078.4" ts_lastsave="1590097094.34" unique_id="18">
-		<rich_text></rich_text>
+		<rich_text>
+</rich_text>
 	</node>
 	<node custom_icon_id="0" foreground="" is_bold="False" name="Char set y collations" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590097094.34" ts_lastsave="1590097110.56" unique_id="19">
-		<rich_text></rich_text>
+		<rich_text>
+</rich_text>
 	</node>
 	<node custom_icon_id="0" foreground="" is_bold="False" name="SQL y Execel" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590097110.56" ts_lastsave="1590097124.53" unique_id="20">
-		<rich_text></rich_text>
+		<rich_text>
+</rich_text>
 	</node>
 	<node custom_icon_id="0" foreground="" is_bold="False" name="SQL en un servidor" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590097124.53" ts_lastsave="1590097124.53" unique_id="21">
-		<rich_text></rich_text>
+		<rich_text>
+</rich_text>
 	</node>
 </cherrytree>

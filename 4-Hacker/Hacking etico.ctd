@@ -258,11 +258,158 @@ OSSTMM</rich_text>
 		</node>
 		<node custom_icon_id="0" foreground="" is_bold="False" name="Anonimato en internet" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590102022.99" ts_lastsave="1590103804.26" unique_id="52">
 			<rich_text></rich_text>
-			<node custom_icon_id="0" foreground="" is_bold="False" name="Introducción" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590103640.93" ts_lastsave="1590103645.15" unique_id="79">
-				<rich_text></rich_text>
+			<node custom_icon_id="0" foreground="" is_bold="False" name="Introducción" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590103640.93" ts_lastsave="1596126961.11" unique_id="79">
+				<rich_text>¿Que es el anonimato en internet?
+
+Evitar que se nos identifique como el origen de la conexión.
+
+Indice del modulo
+
+Durante el presente modulo vamos a realizar las siguientes acciones:
+
+- Nociones básicas e instroducción al uso de redes de anonimización.
+- Instalación y uso de Tor en entornos de Windows
+- Instalación y uso de Tor en entorno Unix
+- Instalación y uso de FreeNet
+- Instalación y uso de I2P
+- Uso de proxies de navegación
+- Uso de servicios VPN
+- Creación de plataforma de anomixación propia</rich_text>
 			</node>
-			<node custom_icon_id="0" foreground="" is_bold="False" name="Nociones" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590103645.15" ts_lastsave="1590103656.42" unique_id="80">
-				<rich_text></rich_text>
+			<node custom_icon_id="0" foreground="" is_bold="False" name="Nociones" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590103645.15" ts_lastsave="1596149033.58" unique_id="80">
+				<rich_text scale="h1">Tunelización de protocolos</rich_text>
+				<rich_text>
+
+Definición
+
+Consiste en una técnica que tiene por objetivo encapsular un protocolo de red dentro de otro creando un túnel. Es comúnmente utilizado para transportar un protocolo determinado a través de una red en condicionales normales no lo aceptaria.
+
+Para que la tunelización sea efectiva, tanto cliente como servidor deben de establecer los parámetros de tunelización y protocolos que van a utilizar.
+
+Un ejemplo seria tunelizar trafico SSH a través de trafico HTTP, para ello se tilizaría el cuerpo del ...  enviar el trafico SSH.
+
+</rich_text>
+				<rich_text scale="h1">Sercidores proxy</rich_text>
+				<rich_text>
+
+Definición
+
+Un servidor proxy es un tipo de sistema que funciona como punto intermedio (middleware) o pasarela entre el cliente y su destino en internet, enrutando las peticiones y respuestas de forma transparente para ambos. Esto permite ocultar la dirección IP real del cliente, ya que el servidor vería únicamente la dirección IP del servidor proxy.
+
+Este concepto es la bade de las redes de anonimización presentadas anteriormente, que basan su funcionamiento en el encadenamiento de proxies y uso de robustas conexiones cifradas.
+
+El principal uso que se les da es el de evitar la identificación del cliente como origen de las pruebas. De forma adicional, el servidor puede no almacenar ningún tipo de log, lo que proporcionaría de forma adicional anonimato.
+
+</rich_text>
+				<rich_text scale="h2">Encadenamiento de proxys</rich_text>
+				<rich_text>
+
+De forma manual y sencilla podemos encadenar el uso de diferentes proxies para añadir un mayor nivel de anonimato.
+
+</rich_text>
+				<rich_text scale="h1">Virtual Private Network (VPN)</rich_text>
+				<rich_text>
+
+Definición
+
+Es una tecnología que permite crear conexiones privadas entre dos puntos utilizando una red publica como internet. Se podría decir que en ocaciones tienen un funcionamiento similar a una red localm ya que únicamente los usuarios autenticados tienen visibilidad y la posibilidad de conectarse entre ellos. Para poder crear dicha red VPN es necesario tunelizar el trafico de manera cigrada, evitando que nadie pueda interceptar leer diche trafico.
+
+Podemos encotrar tanto servicios VPN gratuitos como de pago.
+
+</rich_text>
+				<rich_text foreground="#ffffc0c0cbcb">Permite el acceso a sitios que se encuentren censurados en el pais.</rich_text>
+				<rich_text>
+
+Usos
+
+Algunos de los principales usos que podemos encontrarnos son:
+
+- Eviar la posiblidad de interceptaciones de trafico.
+- Ampliamente utilizado para conexiones seguras en sitios públicos.
+- Uso para anonimizar conexxiones a través de proveedores de VPN anónimos.
+
+</rich_text>
+				<rich_text scale="h1">Redes de anonimización</rich_text>
+				<rich_text>
+
+Definición
+
+Una de las principales formas de mantener el anonimato y la privacidad en la red es utilizar redes de anonimización, que unificar los términos vistos anteriormente para permitir al usuario una navegación anónima, evitar la restricción de los gobiernos en paises con opresión o acceder a determinados servicios alojados en dichas redes.
+
+La mayoria de redes de anonimización fueron desarrolladas bajo proyecto libre sin dines monetarios y que ha día de hoy son utilizados  por todo tipo de usuarios.
+
+Entre las principales redes de anonimización se encuentran TOR, FreeNET e I2P.
+
+
+</rich_text>
+				<rich_text scale="h2">Objetivos según el tipo de usuario</rich_text>
+				<rich_text>
+
+Usuarios generales:
+
+- Mantener el derecho al anonimato y la provacidad, no solo de entidades gubernamentales (espionaje), si no también de empresas privadas con dines de marketing.
+
+Personas que residentes en paises oprimidos.
+
+- Tener una forma de liberta, que les permita denunciar los acosos sufridos en el país.
+
+Cibercriminales:
+
+- Posibilidad de lanzar ataques de forma anónima.
+- Acceso y desarrollo de mercados ocultos dentro de las redes.
+
+Riesgos
+
+No todo son ventajas, ya que dependiendo de la red que estemos utilizando existen diferentes escenarios y casuisticas que pueden propiciar
+
+</rich_text>
+				<rich_text scale="h1">Redes de anonimización</rich_text>
+				<rich_text>
+
+</rich_text>
+				<rich_text scale="h2">TOR</rich_text>
+				<rich_text>
+
+Es la red anónima mas conocida a dia de hoy, y que se encuentra operativa desde el año 2003. Consiste en una red completamente centralizada que aporta a sus usuarios anonimato en la navegación por internetm así como permitir el acceso a la red TOR donde podemos encontrar y desplegar cualquier tipo de servicio.
+
+TOR es un servicio orinetado al establecimiento de conexiones anónimas mediante una serie de nodos conectados, lo cual se conoce como circuito virtual. Cada nodo únicamente es conocedor del nodo anterior y del siguiente, y solo el ultimo nodo tendrá l acapacidad de acceder a la información que realmente envío el usurario, ya que será el encargado de hacerle llegar el paquete al destino.
+
+Para mantener el anonimato se utiliza un método de cifrado robusto que se basa en aplicar una capa de cifrado por cada nodo por el que son eviados los datos. Los nodos al recibir el paquete eliminaran su capa de cifrado correspondiente y le enviaran el paquete al siguiente nodo del circuito.
+
+Deep Web
+
+</rich_text>
+				<rich_text scale="h2">FreeNET</rich_text>
+				<rich_text>
+
+Es sin duda uno de los proyectos mas antiguos y conocidos en relación a mantener el anonimato en red. Sus inicios datan de 2001 y aun a día de hoysigue siendo duncional.
+
+Sigue un modelo descantralizado donde cada usuario aporta ancho de banda a la red y almacena ficheros cifrados(datastore) de otros ususarios pertenecientes a la Deep Web.
+
+A diferencia de TOR, no busca ocultar el anonimato en internet, sino dar acceso a sus usuarios a una red secundaria.
+
+I2P (Invisible Internet Project)
+
+Consiste en una red que comparte similitudes con otras como FreeNET, donde el objetivo de la red no es natener tanto el anonimato de los usuarios sino de la información que estos envían y dar acceso a los usuarios a una red paralela.
+
+Es una red descentralizada donde seutiliza el encadenamiento de proxies para la navegacipon anónima y donde es posible desplegar servicios que únicamente serán accesibles a través de dicha red.
+
+Existen grandes diferencias con otras redes como la inexistencia de servidores centralizados de nombres, y la necesidad de acceder de a través de direcciones en la base64 o base32 (.i2p) al servicio concreto.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</rich_text>
 			</node>
 			<node custom_icon_id="0" foreground="" is_bold="False" name="Tor" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590103656.42" ts_lastsave="1590507456.46" unique_id="81">
 				<rich_text></rich_text>
@@ -457,8 +604,47 @@ Uso de herramientas para la identificación de vulnerabilidades.
 
 </rich_text>
 			</node>
-			<node custom_icon_id="0" foreground="" is_bold="False" name="Nociones básicas" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590100132.73" ts_lastsave="1590100132.73" unique_id="21">
-				<rich_text></rich_text>
+			<node custom_icon_id="0" foreground="" is_bold="False" name="Nociones básicas" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590100132.73" ts_lastsave="1593452717.41" unique_id="21">
+				<rich_text>Metodología
+
+Para lograr auditar y vulnerar una aplicación web es necesario seguir una serie de pausar definidas que se componen de:
+
+Mapeo y análisis de la aplicación.
+
+    Exploración de la aplicación.
+    Detección de contenido oculto.
+    Comprobación de métodos HTTP.
+    Identificación de funcionalidades e inputs.
+    Identificación de tecnologias utilizadas.
+    
+Pruebas en los controles del cliente.
+
+    Comrpbación del envíl de datos.
+    Detección de controles (EN el cliente)
+
+Pruebas en el mecanismo de autenticación.
+
+    Análisis del proceso de autenticación.
+    Enumeración de usuarios.
+    Funcionalidad de recordar contraseña.
+    Funcionalidad de rememberMe.
+
+Pruebas en el manejo de sesiones.
+
+    Análisis de sesiones.
+    Verificación de tokens y cookies.
+    Fujación de sesión.
+    Cross-Site Request Forgery (CSRF)
+
+Pruebas en el control de autorización.
+
+    
+Pruebas en la lógica de la aplicación.
+
+    
+Ataques conocidos.
+
+    </rich_text>
 			</node>
 			<node custom_icon_id="0" foreground="" is_bold="False" name="Herramientas principales" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590100153.92" ts_lastsave="1590100305.53" unique_id="22">
 				<rich_text></rich_text>

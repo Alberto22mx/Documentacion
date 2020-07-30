@@ -211,22 +211,178 @@ OSSTMM</rich_text>
 				</node>
 			</node>
 		</node>
-		<node custom_icon_id="0" foreground="" is_bold="False" name="Laboratorio de pruebas" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590101664.65" ts_lastsave="1590102007.19" unique_id="50">
+		<node custom_icon_id="0" foreground="" is_bold="False" name="Laboratorio de pruebas" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590101664.65" ts_lastsave="1590104263.98" unique_id="50">
 			<rich_text></rich_text>
+			<node custom_icon_id="0" foreground="" is_bold="False" name="Introducción" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590104263.98" ts_lastsave="1590104278.24" unique_id="90">
+				<rich_text></rich_text>
+			</node>
+			<node custom_icon_id="0" foreground="" is_bold="False" name="Distribuciones vulnerables" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590104278.24" ts_lastsave="1590104292.6" unique_id="91">
+				<rich_text></rich_text>
+			</node>
+			<node custom_icon_id="0" foreground="" is_bold="False" name="VirtualBox" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590104292.6" ts_lastsave="1590104325.15" unique_id="92">
+				<rich_text></rich_text>
+			</node>
+			<node custom_icon_id="0" foreground="" is_bold="False" name="Web for pentester" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590104325.15" ts_lastsave="1590104342.0" unique_id="93">
+				<rich_text></rich_text>
+			</node>
+			<node custom_icon_id="0" foreground="" is_bold="False" name="Red NAT" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590104342.0" ts_lastsave="1590104356.6" unique_id="94">
+				<rich_text></rich_text>
+			</node>
+			<node custom_icon_id="0" foreground="" is_bold="False" name="Creación de MV" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590104356.6" ts_lastsave="1590104365.88" unique_id="95">
+				<rich_text></rich_text>
+			</node>
+			<node custom_icon_id="0" foreground="" is_bold="False" name="Live-USB" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590104365.88" ts_lastsave="1590104365.88" unique_id="96">
+				<rich_text></rich_text>
+			</node>
 		</node>
-		<node custom_icon_id="0" foreground="" is_bold="False" name="Manejo de kali" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590102000.77" ts_lastsave="1590102003.54" unique_id="51">
+		<node custom_icon_id="0" foreground="" is_bold="False" name="Manejo de kali" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590102000.77" ts_lastsave="1590104524.93" unique_id="51">
 			<rich_text></rich_text>
+			<node custom_icon_id="0" foreground="" is_bold="False" name="Herramientas" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590104516.05" ts_lastsave="1590104516.05" unique_id="97">
+				<rich_text></rich_text>
+			</node>
+			<node custom_icon_id="0" foreground="" is_bold="False" name="Terminal" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590104524.93" ts_lastsave="1590104532.3" unique_id="98">
+				<rich_text></rich_text>
+			</node>
+			<node custom_icon_id="0" foreground="" is_bold="False" name="Permisos" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590104532.3" ts_lastsave="1590104559.57" unique_id="99">
+				<rich_text></rich_text>
+			</node>
+			<node custom_icon_id="0" foreground="" is_bold="False" name="Red e instalación de software" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590104559.57" ts_lastsave="1590104590.31" unique_id="100">
+				<rich_text></rich_text>
+			</node>
+			<node custom_icon_id="0" foreground="" is_bold="False" name="Sistema y compresión de datos" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590104590.31" ts_lastsave="1590104604.08" unique_id="101">
+				<rich_text></rich_text>
+			</node>
+			<node custom_icon_id="0" foreground="" is_bold="False" name="Bash Scripting" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590104604.08" ts_lastsave="1590104604.08" unique_id="102">
+				<rich_text></rich_text>
+			</node>
 		</node>
 		<node custom_icon_id="0" foreground="" is_bold="False" name="Anonimato en internet" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590102022.99" ts_lastsave="1590103804.26" unique_id="52">
 			<rich_text></rich_text>
-			<node custom_icon_id="0" foreground="" is_bold="False" name="Introducción" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590103640.93" ts_lastsave="1590103645.15" unique_id="79">
-				<rich_text></rich_text>
+			<node custom_icon_id="0" foreground="" is_bold="False" name="Introducción" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590103640.93" ts_lastsave="1596126961.11" unique_id="79">
+				<rich_text>¿Que es el anonimato en internet?
+
+Evitar que se nos identifique como el origen de la conexión.
+
+Indice del modulo
+
+Durante el presente modulo vamos a realizar las siguientes acciones:
+
+- Nociones básicas e instroducción al uso de redes de anonimización.
+- Instalación y uso de Tor en entornos de Windows
+- Instalación y uso de Tor en entorno Unix
+- Instalación y uso de FreeNet
+- Instalación y uso de I2P
+- Uso de proxies de navegación
+- Uso de servicios VPN
+- Creación de plataforma de anomixación propia</rich_text>
 			</node>
-			<node custom_icon_id="0" foreground="" is_bold="False" name="Nociones" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590103645.15" ts_lastsave="1590103656.42" unique_id="80">
-				<rich_text></rich_text>
+			<node custom_icon_id="0" foreground="" is_bold="False" name="Nociones" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590103645.15" ts_lastsave="1596137703.46" unique_id="80">
+				<rich_text scale="h1">Tunelización de protocolos</rich_text>
+				<rich_text>
+
+Definición
+
+Consiste en una técnica que tiene por objetivo encapsular un protocolo de red dentro de otro creando un túnel. Es comúnmente utilizado para transportar un protocolo determinado a través de una red en condicionales normales no lo aceptaria.
+
+Para que la tunelización sea efectiva, tanto cliente como servidor deben de establecer los parámetros de tunelización y protocolos que van a utilizar.
+
+Un ejemplo seria tunelizar trafico SSH a través de trafico HTTP, para ello se tilizaría el cuerpo del ...  enviar el trafico SSH.
+
+</rich_text>
+				<rich_text scale="h1">Sercidores proxy</rich_text>
+				<rich_text>
+
+Definición
+
+Un servidor proxy es un tipo de sistema que funciona como punto intermedio (middleware) o pasarela entre el cliente y su destino en internet, enrutando las peticiones y respuestas de forma transparente para ambos. Esto permite ocultar la dirección IP real del cliente, ya que el servidor vería únicamente la dirección IP del servidor proxy.
+
+Este concepto es la bade de las redes de anonimización presentadas anteriormente, que basan su funcionamiento en el encadenamiento de proxies y uso de robustas conexiones cifradas.
+
+El principal uso que se les da es el de evitar la identificación del cliente como origen de las pruebas. De forma adicional, el servidor puede no almacenar ningún tipo de log, lo que proporcionaría de forma adicional anonimato.
+
+</rich_text>
+				<rich_text scale="h2">Encadenamiento de proxys</rich_text>
+				<rich_text>
+
+De forma manual y sencilla podemos encadenar el uso de diferentes proxies para añadir un mayor nivel de anonimato.
+
+</rich_text>
+				<rich_text scale="h1">Virtual Private Network (VPN)</rich_text>
+				<rich_text>
+
+Definición
+
+Es una tecnología que permite crear conexiones privadas entre dos puntos utilizando una red publica como internet. Se podría decir que en ocaciones tienen un funcionamiento similar a una red localm ya que únicamente los usuarios autenticados tienen visibilidad y la posibilidad de conectarse entre ellos. Para poder crear dicha red VPN es necesario tunelizar el trafico de manera cigrada, evitando que nadie pueda interceptar leer diche trafico.
+
+Podemos encotrar tanto servicios VPN gratuitos como de pago.
+
+</rich_text>
+				<rich_text foreground="#ffffc0c0cbcb">Permite el acceso a sitios que se encuentren censurados en el pais.</rich_text>
+				<rich_text>
+
+Usos
+
+Algunos de los principales usos que podemos encontrarnos son:
+
+- Eviar la posiblidad de interceptaciones de trafico.
+- Ampliamente utilizado para conexiones seguras en sitios públicos.
+- Uso para anonimizar conexxiones a través de proveedores de VPN anónimos.
+
+</rich_text>
+				<rich_text scale="h1">Redes de anonimización</rich_text>
+				<rich_text>
+
+Definición
+
+Una de las principales formas de mantener el anonimato y la privacidad en la red es utilizar redes de anonimización, que unificar los términos vistos anteriormente para permitir al usuario una navegación anónima, evitar la restricción de los gobiernos en paises con opresión o acceder a determinados servicios alojados en dichas redes.
+
+La mayoria de redes de anonimización fueron desarrolladas bajo proyecto libre sin dines monetarios y que ha día de hoy son utilizados  por todo tipo de usuarios.
+
+Entre las principales redes de anonimización se encuentran TOR, FreeNET e I2P.
+
+
+</rich_text>
+				<rich_text scale="h2">Objetivos según el tipo de usuario</rich_text>
+				<rich_text>
+
+Usuarios generales:
+
+- Mantener el derecho al anonimato y la provacidad, no solo de entidades gubernamentales (espionaje), si no también de empresas privadas con dines de marketing.
+
+Personas que residentes en paises oprimidos.
+
+- Tener una forma de liberta, que les permita denunciar los acosos sufridos en el país.
+
+Cibercriminales:
+
+- Posibilidad de lanzar ataques de forma anónima.
+- Acceso y desarrollo de mercados ocultos dentro de las redes.
+
+Riesgos
+
+No todo son ventajas, ya que dependiendo de la red que estemos utilizando existen diferentes escenarios y casuisticas que pueden propiciar
+
+
+
+
+
+
+
+</rich_text>
 			</node>
-			<node custom_icon_id="0" foreground="" is_bold="False" name="Tor" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590103656.42" ts_lastsave="1590103667.34" unique_id="81">
+			<node custom_icon_id="0" foreground="" is_bold="False" name="Tor" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590103656.42" ts_lastsave="1590507456.46" unique_id="81">
 				<rich_text></rich_text>
+				<node custom_icon_id="0" foreground="" is_bold="False" name="Inslatacion en kali" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590507456.46" ts_lastsave="1590507467.43" unique_id="140">
+					<rich_text>sudo apt-get install tor
+
+dpkg paqueteDebian
+
+Se instala como servicio:
+
+service tor status -Para saber su estatus
+
+service tor start - Para iniciar tor</rich_text>
+				</node>
 			</node>
 			<node custom_icon_id="0" foreground="" is_bold="False" name="Proxys" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590103667.34" ts_lastsave="1590103667.34" unique_id="82">
 				<rich_text></rich_text>
@@ -253,8 +409,119 @@ OSSTMM</rich_text>
 				<rich_text></rich_text>
 			</node>
 		</node>
-		<node custom_icon_id="0" foreground="" is_bold="False" name="Hacking en sistemas" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590102089.48" ts_lastsave="1590102092.09" unique_id="53">
+		<node custom_icon_id="0" foreground="" is_bold="False" name="Hacking en sistemas" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590102089.48" ts_lastsave="1590105965.28" unique_id="53">
 			<rich_text></rich_text>
+			<node custom_icon_id="0" foreground="" is_bold="False" name="Introducción" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590105170.65" ts_lastsave="1590105174.47" unique_id="103">
+				<rich_text></rich_text>
+			</node>
+			<node custom_icon_id="0" foreground="" is_bold="False" name="Nociones" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590105174.47" ts_lastsave="1590105179.91" unique_id="104">
+				<rich_text></rich_text>
+			</node>
+			<node custom_icon_id="0" foreground="" is_bold="False" name="Whois" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590105179.91" ts_lastsave="1590105190.88" unique_id="105">
+				<rich_text></rich_text>
+			</node>
+			<node custom_icon_id="0" foreground="" is_bold="False" name="Direcciones ip" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590105190.88" ts_lastsave="1590105204.48" unique_id="106">
+				<rich_text></rich_text>
+			</node>
+			<node custom_icon_id="0" foreground="" is_bold="False" name="Robtex" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590105204.48" ts_lastsave="1590105234.45" unique_id="107">
+				<rich_text></rich_text>
+				<node custom_icon_id="0" foreground="" is_bold="False" name="Nueva interfaces" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590105217.73" ts_lastsave="1590105217.73" unique_id="108">
+					<rich_text></rich_text>
+				</node>
+			</node>
+			<node custom_icon_id="0" foreground="" is_bold="False" name="AS" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590105234.45" ts_lastsave="1590105246.09" unique_id="109">
+				<rich_text></rich_text>
+			</node>
+			<node custom_icon_id="0" foreground="" is_bold="False" name="Dominios" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590105246.09" ts_lastsave="1590105264.79" unique_id="110">
+				<rich_text></rich_text>
+			</node>
+			<node custom_icon_id="0" foreground="" is_bold="False" name="Browser hacking" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590105264.79" ts_lastsave="1590105281.32" unique_id="111">
+				<rich_text></rich_text>
+			</node>
+			<node custom_icon_id="0" foreground="" is_bold="False" name="Maltego" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590105281.32" ts_lastsave="1590105289.42" unique_id="112">
+				<rich_text></rich_text>
+			</node>
+			<node custom_icon_id="0" foreground="" is_bold="False" name="Recon-NG" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590105289.42" ts_lastsave="1590105308.04" unique_id="113">
+				<rich_text></rich_text>
+			</node>
+			<node custom_icon_id="0" foreground="" is_bold="False" name="Cuentas y credenciales" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590105308.04" ts_lastsave="1590105336.82" unique_id="114">
+				<rich_text></rich_text>
+			</node>
+			<node custom_icon_id="0" foreground="" is_bold="False" name="Archive.org" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590105336.82" ts_lastsave="1590105347.26" unique_id="115">
+				<rich_text></rich_text>
+			</node>
+			<node custom_icon_id="0" foreground="" is_bold="False" name="FOCA" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590105347.26" ts_lastsave="1590105366.17" unique_id="116">
+				<rich_text></rich_text>
+			</node>
+			<node custom_icon_id="0" foreground="" is_bold="False" name="Enrutación pasiva" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590105366.17" ts_lastsave="1590105426.45" unique_id="117">
+				<rich_text></rich_text>
+				<node custom_icon_id="0" foreground="" is_bold="False" name="Shodan" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590105373.38" ts_lastsave="1590105387.91" unique_id="118">
+					<rich_text></rich_text>
+				</node>
+				<node custom_icon_id="0" foreground="" is_bold="False" name="ZoomEye y oShadan" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590105387.91" ts_lastsave="1590105394.55" unique_id="119">
+					<rich_text></rich_text>
+				</node>
+				<node custom_icon_id="0" foreground="" is_bold="False" name="Censys" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590105394.55" ts_lastsave="1590105394.55" unique_id="120">
+					<rich_text></rich_text>
+				</node>
+			</node>
+			<node custom_icon_id="0" foreground="" is_bold="False" name="Enrutación activa" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590105426.45" ts_lastsave="1590105440.23" unique_id="121">
+				<rich_text></rich_text>
+				<node custom_icon_id="0" foreground="" is_bold="False" name="ARPscan" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590105440.23" ts_lastsave="1590105455.76" unique_id="122">
+					<rich_text></rich_text>
+				</node>
+				<node custom_icon_id="0" foreground="" is_bold="False" name="Análisis de trafico" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590105455.76" ts_lastsave="1590105466.01" unique_id="123">
+					<rich_text></rich_text>
+				</node>
+				<node custom_icon_id="0" foreground="" is_bold="False" name="Nmap" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590105466.01" ts_lastsave="1590105480.12" unique_id="124">
+					<rich_text></rich_text>
+				</node>
+				<node custom_icon_id="0" foreground="" is_bold="False" name="Zenmap" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590105480.12" ts_lastsave="1590105493.25" unique_id="125">
+					<rich_text></rich_text>
+				</node>
+				<node custom_icon_id="0" foreground="" is_bold="False" name="Escaneo de puertos" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590105493.25" ts_lastsave="1590105515.9" unique_id="126">
+					<rich_text></rich_text>
+				</node>
+				<node custom_icon_id="0" foreground="" is_bold="False" name="DNS" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590105515.9" ts_lastsave="1590105556.04" unique_id="127">
+					<rich_text></rich_text>
+					<node custom_icon_id="0" foreground="" is_bold="False" name="Enumeración" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590105556.04" ts_lastsave="1590105561.0" unique_id="128">
+						<rich_text></rich_text>
+					</node>
+					<node custom_icon_id="0" foreground="" is_bold="False" name="Herramientas" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590105561.0" ts_lastsave="1590105561.0" unique_id="129">
+						<rich_text></rich_text>
+					</node>
+				</node>
+			</node>
+			<node custom_icon_id="0" foreground="" is_bold="False" name="Identificación manual" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590105635.37" ts_lastsave="1590105657.3" unique_id="130">
+				<rich_text></rich_text>
+			</node>
+			<node custom_icon_id="0" foreground="" is_bold="False" name="Indentificación automatica" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590105657.3" ts_lastsave="1590105708.02" unique_id="131">
+				<rich_text></rich_text>
+				<node custom_icon_id="0" foreground="" is_bold="False" name="Instalación de nessus" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590105669.89" ts_lastsave="1590105685.17" unique_id="132">
+					<rich_text></rich_text>
+				</node>
+				<node custom_icon_id="0" foreground="" is_bold="False" name="Usos avanzado Nessus" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590105685.17" ts_lastsave="1590105685.17" unique_id="133">
+					<rich_text></rich_text>
+				</node>
+			</node>
+			<node custom_icon_id="0" foreground="" is_bold="False" name="Ejemplo de servicios vulnerables" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590105708.02" ts_lastsave="1590105708.02" unique_id="134">
+				<rich_text></rich_text>
+			</node>
+			<node custom_icon_id="0" foreground="" is_bold="False" name="SNMP" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590105965.28" ts_lastsave="1590105972.12" unique_id="135">
+				<rich_text></rich_text>
+			</node>
+			<node custom_icon_id="0" foreground="" is_bold="False" name="SMB" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590105972.12" ts_lastsave="1590105985.46" unique_id="136">
+				<rich_text></rich_text>
+			</node>
+			<node custom_icon_id="0" foreground="" is_bold="False" name="Exploits" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590105985.46" ts_lastsave="1590105991.21" unique_id="137">
+				<rich_text></rich_text>
+			</node>
+			<node custom_icon_id="0" foreground="" is_bold="False" name="Netcat" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590105991.21" ts_lastsave="1590106003.89" unique_id="138">
+				<rich_text></rich_text>
+			</node>
+			<node custom_icon_id="0" foreground="" is_bold="False" name="Dirty-Cow" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590106003.89" ts_lastsave="1590106003.89" unique_id="139">
+				<rich_text></rich_text>
+			</node>
 		</node>
 		<node custom_icon_id="0" foreground="" is_bold="False" name="Hacking web" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590095771.42" ts_lastsave="1590102128.53" unique_id="19">
 			<rich_text>La identificación y explotación de vulnerabiliades en aplicaciones web.</rich_text>
@@ -296,8 +563,47 @@ Uso de herramientas para la identificación de vulnerabilidades.
 
 </rich_text>
 			</node>
-			<node custom_icon_id="0" foreground="" is_bold="False" name="Nociones básicas" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590100132.73" ts_lastsave="1590100132.73" unique_id="21">
-				<rich_text></rich_text>
+			<node custom_icon_id="0" foreground="" is_bold="False" name="Nociones básicas" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590100132.73" ts_lastsave="1593452717.41" unique_id="21">
+				<rich_text>Metodología
+
+Para lograr auditar y vulnerar una aplicación web es necesario seguir una serie de pausar definidas que se componen de:
+
+Mapeo y análisis de la aplicación.
+
+    Exploración de la aplicación.
+    Detección de contenido oculto.
+    Comprobación de métodos HTTP.
+    Identificación de funcionalidades e inputs.
+    Identificación de tecnologias utilizadas.
+    
+Pruebas en los controles del cliente.
+
+    Comrpbación del envíl de datos.
+    Detección de controles (EN el cliente)
+
+Pruebas en el mecanismo de autenticación.
+
+    Análisis del proceso de autenticación.
+    Enumeración de usuarios.
+    Funcionalidad de recordar contraseña.
+    Funcionalidad de rememberMe.
+
+Pruebas en el manejo de sesiones.
+
+    Análisis de sesiones.
+    Verificación de tokens y cookies.
+    Fujación de sesión.
+    Cross-Site Request Forgery (CSRF)
+
+Pruebas en el control de autorización.
+
+    
+Pruebas en la lógica de la aplicación.
+
+    
+Ataques conocidos.
+
+    </rich_text>
 			</node>
 			<node custom_icon_id="0" foreground="" is_bold="False" name="Herramientas principales" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1590100153.92" ts_lastsave="1590100305.53" unique_id="22">
 				<rich_text></rich_text>
