@@ -1,3 +1,5 @@
+'use strict'
+
 const mat=require('./matematica');
 
 console.log('La suma de 2+2='+mat.sumar(2,2));
