@@ -535,7 +535,7 @@ DESC detalleVenta;</rich_text>
 •Está compuesto por comandos, cláusulas, operadores y funciones de agregado
 
 [CrudWidowsForms]</rich_text>
-		<node custom_icon_id="0" foreground="" is_bold="False" name="Select" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1592054714.48" ts_lastsave="1599491613.5" unique_id="38">
+		<node custom_icon_id="0" foreground="" is_bold="False" name="Select" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1592054714.48" ts_lastsave="1601653777.21" unique_id="38">
 			<rich_text foreground="#df9307" weight="heavy">USO DE SENTENCIAS SQL ( SELECT )</rich_text>
 			<rich_text weight="heavy">
 </rich_text>
@@ -1373,7 +1373,12 @@ from entradaSalidaDinero;
 select distinct(idEstatusPendientes)
 from pendientes;</rich_text>
 			</node>
-			<node custom_icon_id="0" foreground="" is_bold="False" name="Using y Natural" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1599491405.51" ts_lastsave="1599491405.51" unique_id="68">
+			<node custom_icon_id="0" foreground="" is_bold="False" name="Using y Natural" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1599491405.51" ts_lastsave="1601653950.76" unique_id="68">
+				<rich_text>Using es una palabra reservada se usa para simplificar las consultas.
+
+</rich_text>
+			</node>
+			<node custom_icon_id="0" foreground="" is_bold="False" name="INNER JOIN implícito" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1601653777.21" ts_lastsave="1601653780.35" unique_id="71">
 				<rich_text></rich_text>
 			</node>
 			<node custom_icon_id="0" foreground="" is_bold="False" name="UNION" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1598383761.32" ts_lastsave="1599491445.35" unique_id="65">
