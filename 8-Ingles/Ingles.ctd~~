@@ -1,39 +1,193 @@
-<?xml version="1.0" ?>
+<?xml version="1.0" encoding="UTF-8"?>
 <cherrytree>
-	<node custom_icon_id="0" foreground="" is_bold="False" name="Ingles" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1591631253.74" ts_lastsave="1591631284.92" unique_id="1">
-		<rich_text></rich_text>
-		<node custom_icon_id="0" foreground="" is_bold="False" name="TO BE" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1591631284.92" ts_lastsave="1591631601.78" unique_id="2">
-			<rich_text></rich_text>
-			<node custom_icon_id="0" foreground="" is_bold="False" name="Present" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1591631557.69" ts_lastsave="1591657607.22" unique_id="3">
-				<rich_text>I am successuful at everything I do
-You are successuful at everything I do
-He is successuful at everything I do
-She is successuful at everything I do
-It is successuful at everything I do
-we are successuful at everything I do
-you are successuful at everything I do
-they are successuful at everything I do
-
-Soy exitoso en todo lo que hago
-Eres exitoso en todo lo que hago
-Él es exitoso en todo lo que hago
-Ella tiene éxito en todo lo que hago
-Es exitoso en todo lo que hago
-Somos exitosos en todo lo que hago
-Ustedes son exitoso en todo lo que hago
-Ellos son exitosos en todo lo que hago
+  <bookmarks list=""/>
+  <node name="Ingles" unique_id="1" prog_lang="custom-colors" tags="" readonly="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1591631253" ts_lastsave="1647730527">
+    <node name="Pronouns" unique_id="7" prog_lang="custom-colors" tags="" readonly="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1647730527" ts_lastsave="1647733110">
+      <rich_text>
+</rich_text>
+      <table char_offset="0" justification="left" col_min="100" col_max="100" col_widths="0,0,0,0">
+        <row>
+          <cell></cell>
+          <cell></cell>
+          <cell></cell>
+          <cell></cell>
+        </row>
+        <row>
+          <cell></cell>
+          <cell></cell>
+          <cell></cell>
+          <cell></cell>
+        </row>
+        <row>
+          <cell></cell>
+          <cell></cell>
+          <cell></cell>
+          <cell></cell>
+        </row>
+        <row>
+          <cell></cell>
+          <cell></cell>
+          <cell></cell>
+          <cell></cell>
+        </row>
+        <row>
+          <cell></cell>
+          <cell></cell>
+          <cell></cell>
+          <cell></cell>
+        </row>
+        <row>
+          <cell></cell>
+          <cell></cell>
+          <cell></cell>
+          <cell></cell>
+        </row>
+        <row>
+          <cell></cell>
+          <cell></cell>
+          <cell></cell>
+          <cell></cell>
+        </row>
+        <row>
+          <cell></cell>
+          <cell></cell>
+          <cell></cell>
+          <cell></cell>
+        </row>
+      </table>
+    </node>
+    <node name="TO BE" unique_id="2" prog_lang="custom-colors" tags="" readonly="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1591631284" ts_lastsave="1591631601">
+      <node name="Present" unique_id="3" prog_lang="custom-colors" tags="" readonly="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1591631557" ts_lastsave="1647729073">
+        <rich_text scale="h1" foreground="#1e1e9090ffff">Afirmacion:</rich_text>
+        <rich_text foreground="#1e1e9090ffff">
+</rich_text>
+        <rich_text>
+</rich_text>
+        <rich_text justification="left"></rich_text>
+        <rich_text>
 
 </rich_text>
-			</node>
-			<node custom_icon_id="0" foreground="" is_bold="False" name="Past" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1591631564.67" ts_lastsave="1591631564.67" unique_id="4">
-				<rich_text></rich_text>
-			</node>
-			<node custom_icon_id="0" foreground="" is_bold="False" name="future" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1591631595.82" ts_lastsave="1591631595.82" unique_id="5">
-				<rich_text></rich_text>
-			</node>
-			<node custom_icon_id="0" foreground="" is_bold="False" name="Modals" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1591631601.78" ts_lastsave="1591631601.78" unique_id="6">
-				<rich_text></rich_text>
-			</node>
-		</node>
-	</node>
+        <rich_text scale="h1" foreground="#1e1e9090ffff">Negación:</rich_text>
+        <rich_text>
+
+</rich_text>
+        <rich_text justification="left"></rich_text>
+        <rich_text>
+
+</rich_text>
+        <rich_text scale="h1" foreground="#1e1e9090ffff">Contracción:</rich_text>
+        <rich_text>
+
+</rich_text>
+        <rich_text justification="left"></rich_text>
+        <rich_text>
+</rich_text>
+        <table char_offset="13" justification="left" col_min="300" col_max="300" col_widths="0,0">
+          <row>
+            <cell>You are successuful at everything I do</cell>
+            <cell>Eres exitoso en todo lo que haces</cell>
+          </row>
+          <row>
+            <cell>He is successuful at everything I does</cell>
+            <cell>Él es exitoso en todo lo que hace</cell>
+          </row>
+          <row>
+            <cell>She is successuful at everything I does</cell>
+            <cell>Ella tiene éxito en todo lo que hace</cell>
+          </row>
+          <row>
+            <cell>It is successuful at everything I does</cell>
+            <cell>Es exitoso en todo lo que hace</cell>
+          </row>
+          <row>
+            <cell>we are successuful at everything I do</cell>
+            <cell>Somos exitosos en todo lo que hacemos</cell>
+          </row>
+          <row>
+            <cell>you are successuful at everything I do</cell>
+            <cell>Ustedes son exitoso en todo lo que hacen</cell>
+          </row>
+          <row>
+            <cell>they are successuful at everything I do</cell>
+            <cell>Ellos son exitosos en todo lo que hacen</cell>
+          </row>
+          <row>
+            <cell>I am successuful at everything I do</cell>
+            <cell>Soy exitoso en todo lo que hago</cell>
+          </row>
+        </table>
+        <table char_offset="27" justification="left" col_min="300" col_max="300" col_widths="0,0">
+          <row>
+            <cell>You are not successuful at everything I do</cell>
+            <cell>No eres exitoso en todo lo que haces</cell>
+          </row>
+          <row>
+            <cell>He is not successuful at everything I does</cell>
+            <cell>Él no es exitoso en todo lo que hace</cell>
+          </row>
+          <row>
+            <cell>She is not successuful at everything I does</cell>
+            <cell>Ella no tiene éxito en todo lo que hace</cell>
+          </row>
+          <row>
+            <cell>It is not successuful at everything I does</cell>
+            <cell>No es exitoso en todo lo que hace</cell>
+          </row>
+          <row>
+            <cell>we are not successuful at everything I do</cell>
+            <cell>No somos exitosos en todo lo que hacemos</cell>
+          </row>
+          <row>
+            <cell>you are not successuful at everything I do</cell>
+            <cell>Ustedes no son exitoso en todo lo que hacen</cell>
+          </row>
+          <row>
+            <cell>they are not successuful at everything I do</cell>
+            <cell>Ellos no son exitosos en todo lo que hacen</cell>
+          </row>
+          <row>
+            <cell>I am not successuful at everything I do</cell>
+            <cell>No soy exitoso en todo lo que hago</cell>
+          </row>
+        </table>
+        <table char_offset="44" justification="left" col_min="300" col_max="300" col_widths="0,0">
+          <row>
+            <cell>You aren't successuful at everything I do</cell>
+            <cell>No eres exitoso en todo lo que haces</cell>
+          </row>
+          <row>
+            <cell>He isn't successuful at everything I does</cell>
+            <cell>Él no es exitoso en todo lo que hace</cell>
+          </row>
+          <row>
+            <cell>She isn'tsuccessuful at everything I does</cell>
+            <cell>Ella no tiene éxito en todo lo que hace</cell>
+          </row>
+          <row>
+            <cell>It isn'tsuccessuful at everything I does</cell>
+            <cell>No es exitoso en todo lo que hace</cell>
+          </row>
+          <row>
+            <cell>we aren't successuful at everything I do</cell>
+            <cell>No somos exitosos en todo lo que hacemos</cell>
+          </row>
+          <row>
+            <cell>you aren't successuful at everything I do</cell>
+            <cell>Ustedes no son exitoso en todEllos no son</cell>
+          </row>
+          <row>
+            <cell>they aren't successuful at everything I do</cell>
+            <cell>exitosos en todo lo que haceno lo que hacen</cell>
+          </row>
+          <row>
+            <cell>I'm not successuful at everything I do</cell>
+            <cell>No soy exitoso en todo lo que hago</cell>
+          </row>
+        </table>
+      </node>
+      <node name="Past" unique_id="4" prog_lang="custom-colors" tags="" readonly="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1591631564" ts_lastsave="1591631564"/>
+      <node name="future" unique_id="5" prog_lang="custom-colors" tags="" readonly="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1591631595" ts_lastsave="1591631595"/>
+      <node name="Modals" unique_id="6" prog_lang="custom-colors" tags="" readonly="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1591631601" ts_lastsave="1591631601"/>
+    </node>
+  </node>
 </cherrytree>
