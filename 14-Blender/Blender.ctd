@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cherrytree>
+  <bookmarks list=""/>
+  <node name="Introduccion" unique_id="1" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1692107506" ts_lastsave="1715524036">
+    <rich_text>Primero:
+
+</rich_text>
+    <rich_text foreground="#2e2ec2c27e7e">Cambia el tamaño de los botones</rich_text>
+    <rich_text>: Edit -&gt; Preferences -&gt; Interface -&gt; Resoluticion Scale -&gt; Click + arrastrar
+</rich_text>
+    <rich_text foreground="#2e2ec2c27e7e">Quita el auto guardado de las configuraciones</rich_text>
+    <rich_text>: Edit -&gt; Preferences -&gt; Interface -&gt; Icono amburguesa -&gt; desmarcar auto save
+</rich_text>
+    <rich_text foreground="#2e2ec2c27e7e">Configuraciones de inicio</rich_text>
+    <rich_text>: Edit -&gt; Preferences -&gt; kaymap
+</rich_text>
+    <node name="Navegación" unique_id="2" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1715524036" ts_lastsave="1715535239">
+      <rich_text>shift + rueda del mause - Mueve la pantalla en 2D al rededor de un objeto.
+ruta del mause - Mueve la pantalla en 3D al rededor de un objeto.
+Seleccionamos un objeto y en la ventana damos click en algun eje y se cambia la vista a 2D sobre el objeto.
+Con el boton cero (0) del teclado pondemos por la vista de la camara.
+Con los números tambien podemos cambiar de vista. 1,3,7,9 y si usamos ctrl + numero se hara el movimiento inverso.
+Seleccionando un objeto y con la taclas 2,8,4,6 podemos orbitar.
+Con el boton de inicio o home en algunos casos se muestran todos los objetos.
+Alt + ruda - Te acerca al lugar donde clicas
+Alt + ruda precionada y nos movemos a alguna direccion se movera en perpectiva.
+Ctlr + Alt + q - Multiples vistas.
+</rich_text>
+    </node>
+  </node>
+</cherrytree>
