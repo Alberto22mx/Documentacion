@@ -256,7 +256,7 @@ Exites una versión que solo se tiene que ejecutar que viene en la pagina oficia
       <node name="Creación de MV" unique_id="95" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1590104356" ts_lastsave="1590104365"/>
       <node name="Live-USB" unique_id="96" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1590104365" ts_lastsave="1590104365"/>
     </node>
-    <node name="Manejo de kali" unique_id="51" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1590102000" ts_lastsave="1701979228">
+    <node name="Manejo de kali" unique_id="51" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1590102000" ts_lastsave="1603497498">
       <rich_text>Manejo básico del sitema operativo
 
 identificación de principales herrmientas
@@ -535,10 +535,6 @@ for dom in $(cat archivo.txt); do host $dom; done</rich_text>
       <node name="Permisos" unique_id="99" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1590104532" ts_lastsave="1590104559"/>
       <node name="Red e instalación de software" unique_id="100" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1590104559" ts_lastsave="1590104590"/>
       <node name="Sistema y compresión de datos" unique_id="101" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1590104590" ts_lastsave="1590104604"/>
-      <node name="Busqueda de archivos" unique_id="167" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1701979228" ts_lastsave="1701979247">
-        <rich_text>updatedb
-locate nombrearchivo.extencion</rich_text>
-      </node>
     </node>
     <node name="Anonimato en internet" unique_id="52" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1590102022" ts_lastsave="1604002928">
       <node name="Introducción" unique_id="79" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1590103640" ts_lastsave="1596126961">
