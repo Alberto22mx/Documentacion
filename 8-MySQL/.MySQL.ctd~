@@ -322,7 +322,7 @@ Sintaxis a nivel tabla del constraint foreign key:
         
         </rich_text>
       </node>
-      <node name="Scripts" unique_id="31" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1591309212" ts_lastsave="1730299439">
+      <node name="Scripts" unique_id="31" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1591309212" ts_lastsave="1591309249">
         <rich_text>NOTA:on delete no action evita borrar un registro que tenga relación y on delete cascade elimina el registro y todos los registros con relación.
 
 -- borramos la base de datos
@@ -361,7 +361,7 @@ CREATE TABLE IF NOT EXISTS detalleVenta
 (
   id int   not null     unique       auto_increment     ,
   fechaVenta date not null,
-  idClientes int FOREIGN KEY not null,
+  idClientes int not null,
   idProductos int not null,
   cantidadVendida decimal(8,2) not null,
   costo decimal(8,2)      not null    default 0,

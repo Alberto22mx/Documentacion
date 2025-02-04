@@ -322,7 +322,7 @@ Sintaxis a nivel tabla del constraint foreign key:
         
         </rich_text>
       </node>
-      <node name="Scripts" unique_id="31" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1591309212" ts_lastsave="1730299439">
+      <node name="Scripts" unique_id="31" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1591309212" ts_lastsave="1591309249">
         <rich_text>NOTA:on delete no action evita borrar un registro que tenga relación y on delete cascade elimina el registro y todos los registros con relación.
 
 -- borramos la base de datos
@@ -361,7 +361,7 @@ CREATE TABLE IF NOT EXISTS detalleVenta
 (
   id int   not null     unique       auto_increment     ,
   fechaVenta date not null,
-  idClientes int FOREIGN KEY not null,
+  idClientes int not null,
   idProductos int not null,
   cantidadVendida decimal(8,2) not null,
   costo decimal(8,2)      not null    default 0,
@@ -1229,7 +1229,7 @@ from employees
 group by 1, 2
 order by 1, 2;</rich_text>
       </node>
-      <node name="JOIN" unique_id="55" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1592158016" ts_lastsave="1730298350">
+      <node name="JOIN" unique_id="55" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1592158016" ts_lastsave="1730298230">
         <rich_text>Uso de inner join.
 
 Un Join combina las columnas de dos o mas tablas en un mismo resultset basado en las condiciones que se especifiquen. Mostrando así solo los renglones que satisfacen dicha condición.
@@ -1244,7 +1244,7 @@ Sintaxis:
 
 SELECT d.idusuario, d.idusuario, d.idusuario
 FROM user as u
-    RIGTH JOIN direccion as d ON u.IdUser = d.idusuario
+    INNER JOIN direccion as d ON u.IdUser = direccion.idusuario
     [INNER] JOIN table_3 ON join_codition_2
     
     

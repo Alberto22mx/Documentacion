@@ -145,7 +145,7 @@ function update(time, delta) {
     
 }</codebox>
         </node>
-        <node name="Escenas separadas" unique_id="9" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1585850157" ts_lastsave="1738426481">
+        <node name="Escenas separadas" unique_id="9" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1585850157" ts_lastsave="1738418399">
           <rich_text>Para crear multiples escenas es necesario importar desde el main:
 
 
@@ -226,7 +226,7 @@ class Bootloader extends Phaser.Scene {
     }
 }
 export default Bootloader;</codebox>
-          <codebox char_offset="188" justification="left" frame_width="787" frame_height="100" width_in_pixels="1" syntax_highlighting="ts" highlight_brackets="1" show_line_numbers="0">import SceneC from '../scenes/SceneC.js';
+          <codebox char_offset="188" justification="left" frame_width="788" frame_height="100" width_in_pixels="1" syntax_highlighting="ts" highlight_brackets="1" show_line_numbers="0">import SceneC from '../scenes/SceneC.js';
 
 class Bootloader extends Phaser.Scene {
     constructor() {
@@ -263,12 +263,9 @@ class Bootloader extends Phaser.Scene {
 
         // this.scene.moveDown('SceneC');
         // this.scene.moveUp('SceneA');
-        
-		Cambia de posición con otra escena
+
         // this.scene.swapPosition('SceneA', 'SceneC');
-        Se pone aledante de todo
         // this.scene.bringToTop('SceneA');
-        Se intecambia adelante o atras entre esenas
         // this.scene.moveAbove('SceneA', 'SceneC');
         // this.scene.moveBelow('SceneA', 'SceneC');
 
